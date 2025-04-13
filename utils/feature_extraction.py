@@ -128,6 +128,7 @@ def generate_features(protein, ML = False, freq = 0.3):
         num_donors = 0
         num_acceptors = 0
         in_pbs = 0
+        protrusion = point.get_protrusion()
 
         for atom in point.get_atoms(): 
             atom_obj, distance = atom[0], atom[1]
@@ -168,8 +169,12 @@ def generate_features(protein, ML = False, freq = 0.3):
                     print(f"ATOM {atom_type} is not defined for residue {residue} and will be skipped.")
             else:
                 print(f"Residue {residue} in ATOM number {atom[0].get_number()} is not defined and will be skipped.") 
+
         point_in_pbs = int((in_pbs/total_atoms) >= freq)
-        scalar_vector = np.array([total_atoms, atom_density, num_carbon, num_oxigen, num_nitrogen, num_donors, num_acceptors, point_in_pbs])
+        if (ML == True):
+            scalar_vector = np.array([total_atoms, atom_density, num_carbon, num_oxigen, num_nitrogen, num_donors, num_acceptors, protrusion, point_in_pbs])
+        else:
+            scalar_vector = np.array([total_atoms, atom_density, num_carbon, num_oxigen, num_nitrogen, num_donors, num_acceptors, protrusion])
         final_vector = np.concatenate([point_vector, scalar_vector])
         feature_vector.append(final_vector)
     print("Finished generating feature vectors.")
