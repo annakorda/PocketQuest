@@ -1,5 +1,5 @@
-from  utils.classes import *
-import utils.check_files  as cf
+from utils.classes import *
+import utils.check_files as cf
 import subprocess
 import os
 import glob
@@ -8,7 +8,7 @@ import numpy as np
 from scipy.spatial import cKDTree
 
 def read_pbs(protein):
-    print(f"Processing binding sites of {protein.get_name() + ".pdb"}")
+    print(f"Processing binding sites of {protein.get_name()}.pdb")
     protein_dir = protein.get_dir().replace(".pdb", "")
     name = protein_dir + "_bs_*.pdb"
     files = glob.glob(name)
@@ -25,7 +25,7 @@ def read_pbs(protein):
                     coordinates = (x, y, z)
                     atoms.add(coordinates)
         open_file.close()
-    print(f"Finished processing binding sites of {protein.get_name() + ".pdb"}")
+    print(f"Finished processing binding sites of {protein.get_name()}.pdb")
     return atoms
 
 def read_pdb(protein, atom_list = set()):
@@ -55,7 +55,6 @@ def read_pdb(protein, atom_list = set()):
 
 def generate_xyzr(protein):
     print("Generating XYZR coordinates.")
-
     output_dir = "files"
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, protein.get_name() + ".xyzr")
@@ -68,25 +67,23 @@ def generate_xyzr(protein):
         outfile.close()
         print("XYZR coordinates have been generated.")
     except subprocess.CalledProcessError:
-        print (f"XYZR coordinates couldn't be generated")
+        print("XYZR coordinates couldn't be generated")
         sys.exit(1) 
 
 def generate_points(protein):
     print("Generating Connolly Points")
-
     output_dir = "files"
     os.makedirs(output_dir, exist_ok=True)
     xyzr_file = os.path.join(output_dir, protein.get_name() + ".xyzr")
     output_file = os.path.join(output_dir, protein.get_name())
     script_dir = os.path.dirname(__file__)
     msms_path = os.path.join(script_dir, "..", "MSMS", "MSMS")
-
     try:
         subprocess.run([msms_path, "-if", xyzr_file, "-of", output_file, "-probe_radius", str(1.6), "-no_header", "-density", str(0.5)], check=True)
-        print("Finnished generating Connolly points.")
+        print("Finished generating Connolly points.")
     except subprocess.CalledProcessError as e:
-        print(f"Connolly points couldn't be generated: {e}")
-        sys.exit(1) 
+        print(f"Skipping {protein.get_name()} — MSMS error: {e}")
+        return
 
 def map_points_atoms(protein):
     output_dir = "files"
@@ -110,8 +107,8 @@ def map_points_atoms(protein):
                     point.append_atom(atom)
                 protein.append_point(point)
         file.close()
-    except:
-        pass
+    except Exception as e:
+        print(f"Error mapping atoms to points: {e}")
 
 def generate_features(protein, ML = False, freq = 0.3):
     print("Started generating feature vectors.")
@@ -153,32 +150,37 @@ def generate_features(protein, ML = False, freq = 0.3):
                     point_vector += combined_vector
 
                     atom_density += scale
-                    if (element == "C"):
+                    if element == "C":
                         num_carbon += 1
-                    elif (element == "O"):
+                    elif element == "O":
                         num_oxigen += 1
-                    elif (element == "N"):
+                    elif element == "N":
                         num_nitrogen += 1
                     donor = atom_data[5]
                     acceptor = atom_data[4]
                     num_donors += int(donor != 0)
                     num_acceptors += int(acceptor != 0)
-                    if (ML == True):
+                    if ML:
                         in_pbs += int(atom_in_pbs == True)
                 else:
                     print(f"ATOM {atom_type} is not defined for residue {residue} and will be skipped.")
             else:
                 print(f"Residue {residue} in ATOM number {atom[0].get_number()} is not defined and will be skipped.") 
 
-        point_in_pbs = int((in_pbs/total_atoms) >= freq)
+        if total_atoms == 0:
+            continue  # skip this point to avoid division by zero
+
+        point_in_pbs = int((in_pbs / total_atoms) >= freq)
         if (ML == True):
-            scalar_vector = np.array([total_atoms, atom_density, num_carbon, num_oxigen, num_nitrogen, num_donors, num_acceptors, protrusion, point_in_pbs])
+             scalar_vector = np.array([total_atoms, atom_density, num_carbon, num_oxigen, num_nitrogen, num_donors, num_acceptors, protrusion, point_in_pbs])
         else:
-            scalar_vector = np.array([total_atoms, atom_density, num_carbon, num_oxigen, num_nitrogen, num_donors, num_acceptors, protrusion])
+             scalar_vector = np.array([total_atoms, atom_density, num_carbon, num_oxigen, num_nitrogen, num_donors, num_acceptors, protrusion])        
         final_vector = np.concatenate([point_vector, scalar_vector])
         feature_vector.append(final_vector)
+
     print("Finished generating feature vectors.")
     return feature_vector
+
 
 def generate_vector(protein, ML = False):
     atoms_in_pbs = read_pbs(protein)
