@@ -1,0 +1,871 @@
+UniProt_ID,Panther_Protein_Class,Panther_Code
+P06612,DNA metabolism protein(PC00009),PC00009
+P17802,DNA glycosylase(PC00010),PC00010
+P13051,DNA glycosylase(PC00010),PC00010
+P9WHJ3,DNA strand-pairing protein(PC00016),PC00016
+P0A7G6,DNA strand-pairing protein(PC00016),PC00016
+P0AES6,DNA topoisomerase(PC00017),PC00017
+Q9UGP5,DNA-directed DNA polymerase(PC00018),PC00018
+P06766,DNA-directed DNA polymerase(PC00018),PC00018
+P06746,DNA-directed DNA polymerase(PC00018),PC00018
+P74750,DNA-directed DNA polymerase(PC00018),PC00018
+Q7Z2E3,damaged DNA-binding protein(PC00086),PC00086
+O74859,damaged DNA-binding protein(PC00086),PC00086
+P55135,RNA methyltransferase(PC00033),PC00033
+Q86U44,RNA methyltransferase(PC00033),PC00033
+P00669,endoribonuclease(PC00094),PC00094
+P03950,endoribonuclease(PC00094),PC00094
+P07998,endoribonuclease(PC00094),PC00094
+P61823,endoribonuclease(PC00094),PC00094
+P04995,endoribonuclease(PC00094),PC00094
+P9WFB9,endoribonuclease(PC00094),PC00094
+O67069,exoribonuclease(PC00099),PC00099
+P43912,RNA processing factor(PC00147),PC00147
+O14717,RNA processing factor(PC00147),PC00147
+Q16531,RNA processing factor(PC00147),PC00147
+Q08282,RNA processing factor(PC00147),PC00147
+Q9HCE5,RNA processing factor(PC00147),PC00147
+Q57261,RNA processing factor(PC00147),PC00147
+Q96LI5,mRNA polyadenylation factor(PC00146),PC00146
+Q14498,RNA splicing factor(PC00148),PC00148
+P09012,RNA splicing factor(PC00148),PC00148
+Q6P2Q9,RNA splicing factor(PC00148),PC00148
+P63272,general transcription factor(PC00259),PC00259
+P07355,calcium-binding protein(PC00060),PC00060
+Q9VWX8,calmodulin-related(PC00061),PC00061
+P79880,calmodulin-related(PC00061),PC00061
+Q99933,chaperone(PC00072),PC00072
+P62937,chaperone(PC00072),PC00072
+Q5JII1,chaperone(PC00072),PC00072
+P30405,chaperone(PC00072),PC00072
+P18203,chaperone(PC00072),PC00072
+P19120,Hsp70 family chaperone(PC00027),PC00027
+P11142,Hsp70 family chaperone(PC00027),PC00027
+P0DMV8,Hsp70 family chaperone(PC00027),PC00027
+P08238,Hsp90 family chaperone(PC00028),PC00028
+O75182,"chromatin/chromatin-binding, or -regulatory protein(PC00077)",PC00077
+Q86U86,"chromatin/chromatin-binding, or -regulatory protein(PC00077)",PC00077
+Q9UIF8,"chromatin/chromatin-binding, or -regulatory protein(PC00077)",PC00077
+Q9H8M2,"chromatin/chromatin-binding, or -regulatory protein(PC00077)",PC00077
+Q96QT6,"chromatin/chromatin-binding, or -regulatory protein(PC00077)",PC00077
+Q15047,histone modifying enzyme(PC00261),PC00261
+Q8WTS6,histone modifying enzyme(PC00261),PC00261
+Q6B0I6,histone modifying enzyme(PC00261),PC00261
+Q15788,histone modifying enzyme(PC00261),PC00261
+P62326,actin or actin-binding cytoskeletal protein(PC00041),PC00041
+P80428,actin and actin related protein(PC00039),PC00039
+Q12386,actin and actin related protein(PC00039),PC00039
+P60010,actin and actin related protein(PC00039),PC00039
+P06396,non-motor actin binding protein(PC00165),PC00165
+Q8I0P1,non-motor microtubule binding protein(PC00166),PC00166
+Q9ULW0,non-motor microtubule binding protein(PC00166),PC00166
+Q9VYX7,defense/immunity protein(PC00090),PC00090
+P01660,immunoglobulin(PC00123),PC00123
+P01834,immunoglobulin(PC00123),PC00123
+P01724,immunoglobulin(PC00123),PC00123
+O00481,immunoglobulin receptor superfamily(PC00124),PC00124
+P01730,immunoglobulin receptor superfamily(PC00124),PC00124
+P12319,immunoglobulin receptor superfamily(PC00124),PC00124
+P01911,major histocompatibility complex protein(PC00149),PC00149
+Q95460,major histocompatibility complex protein(PC00149),PC00149
+P06126,major histocompatibility complex protein(PC00149),PC00149
+P61769,major histocompatibility complex protein(PC00149),PC00149
+P01903,major histocompatibility complex protein(PC00149),PC00149
+P01887,major histocompatibility complex protein(PC00149),PC00149
+P29017,major histocompatibility complex protein(PC00149),PC00149
+P01901,major histocompatibility complex protein(PC00149),PC00149
+P13489,protein-binding activity modulator(PC00095),PC00095
+P02703,protein-binding activity modulator(PC00095),PC00095
+P84077,G-protein(PC00020),PC00020
+Q9X1F8,G-protein(PC00020),PC00020
+P84080,G-protein(PC00020),PC00020
+P62330,G-protein(PC00020),PC00020
+P10824,heterotrimeric G-protein(PC00117),PC00117
+P62873,heterotrimeric G-protein(PC00117),PC00117
+P62871,heterotrimeric G-protein(PC00117),PC00117
+P04896,heterotrimeric G-protein(PC00117),PC00117
+P59768,heterotrimeric G-protein(PC00117),PC00117
+P54311,heterotrimeric G-protein(PC00117),PC00117
+P63212,heterotrimeric G-protein(PC00117),PC00117
+P63096,heterotrimeric G-protein(PC00117),PC00117
+P01112,small GTPase(PC00208),PC00208
+P20339,small GTPase(PC00208),PC00208
+P62491,small GTPase(PC00208),PC00208
+P62826,small GTPase(PC00208),PC00208
+P01116,small GTPase(PC00208),PC00208
+P20338,small GTPase(PC00208),PC00208
+Q96BY6,guanyl-nucleotide exchange factor(PC00113),PC00113
+Q99418,guanyl-nucleotide exchange factor(PC00113),PC00113
+Q07889,guanyl-nucleotide exchange factor(PC00113),PC00113
+O95714,guanyl-nucleotide exchange factor(PC00113),PC00113
+P47102,guanyl-nucleotide exchange factor(PC00113),PC00113
+P49799,GTPase-activating protein(PC00257),PC00257
+P27986,kinase modulator(PC00140),PC00140
+P67870,kinase modulator(PC00140),PC00140
+O60563,kinase activator(PC00138),PC00138
+P24863,kinase activator(PC00138),PC00138
+Q15078,kinase activator(PC00138),PC00138
+P20248,kinase activator(PC00138),PC00138
+P30274,kinase activator(PC00138),PC00138
+P63248,kinase inhibitor(PC00139),PC00139
+Q3SX13,kinase inhibitor(PC00139),PC00139
+P63249,kinase inhibitor(PC00139),PC00139
+O95271,kinase inhibitor(PC00139),PC00139
+Q9H2K2,kinase inhibitor(PC00139),PC00139
+P61925,kinase inhibitor(PC00139),PC00139
+P98170,protease inhibitor(PC00191),PC00191
+P19883,protease inhibitor(PC00191),PC00191
+P00974,protease inhibitor(PC00191),PC00191
+P01008,protease inhibitor(PC00191),PC00191
+P01011,protease inhibitor(PC00191),PC00191
+P17931,extracellular matrix protein(PC00102),PC00102
+P09382,extracellular matrix protein(PC00102),PC00102
+P84092,membrane traffic protein(PC00150),PC00150
+P50542,membrane trafficking regulatory protein(PC00151),PC00151
+P15379,transmembrane signal receptor(PC00197),PC00197
+P13726,transmembrane signal receptor(PC00197),PC00197
+P54760,transmembrane signal receptor(PC00197),PC00197
+P29320,transmembrane signal receptor(PC00197),PC00197
+P16234,transmembrane signal receptor(PC00197),PC00197
+Q03137,transmembrane signal receptor(PC00197),PC00197
+Q15303,transmembrane signal receptor(PC00197),PC00197
+P19491,transmembrane signal receptor(PC00197),PC00197
+P09619,transmembrane signal receptor(PC00197),PC00197
+Q08345,transmembrane signal receptor(PC00197),PC00197
+P00533,transmembrane signal receptor(PC00197),PC00197
+P10721,transmembrane signal receptor(PC00197),PC00197
+P11362,transmembrane signal receptor(PC00197),PC00197
+P35968,transmembrane signal receptor(PC00197),PC00197
+P29317,transmembrane signal receptor(PC00197),PC00197
+P39086,transmembrane signal receptor(PC00197),PC00197
+P07949,transmembrane signal receptor(PC00197),PC00197
+P21860,transmembrane signal receptor(PC00197),PC00197
+P08581,transmembrane signal receptor(PC00197),PC00197
+P15208,transmembrane signal receptor(PC00197),PC00197
+P07333,transmembrane signal receptor(PC00197),PC00197
+P08483,G-protein coupled receptor(PC00021),PC00021
+P29274,G-protein coupled receptor(PC00021),PC00021
+P20789,G-protein coupled receptor(PC00021),PC00021
+P42866,G-protein coupled receptor(PC00021),PC00021
+P35372,G-protein coupled receptor(PC00021),PC00021
+Q04771,serine/threonine protein kinase receptor(PC00205),PC00205
+P32361,tyrosine protein kinase receptor(PC00233),PC00233
+O75460,tyrosine protein kinase receptor(PC00233),PC00233
+P23222,histidine kinase receptor of two-component system(PC00265),PC00265
+Q9Y275,intercellular signal molecule(PC00207),PC00207
+P01375,intercellular signal molecule(PC00207),PC00207
+P01308,growth factor(PC00112),PC00112
+O08689,growth factor(PC00112),PC00112
+P09038,growth factor(PC00112),PC00112
+P02522,structural protein(PC00211),PC00211
+P02754,transfer/carrier protein(PC00219),PC00219
+P22059,transfer/carrier protein(PC00219),PC00219
+P02689,transfer/carrier protein(PC00219),PC00219
+P24627,transfer/carrier protein(PC00219),PC00219
+P02768,transfer/carrier protein(PC00219),PC00219
+Q01469,transfer/carrier protein(PC00219),PC00219
+P08877,transfer/carrier protein(PC00219),PC00219
+P49638,transfer/carrier protein(PC00219),PC00219
+O31617,transfer/carrier protein(PC00219),PC00219
+P35747,transfer/carrier protein(PC00219),PC00219
+P0A6A8,transfer/carrier protein(PC00219),PC00219
+P29373,transfer/carrier protein(PC00219),PC00219
+P04117,transfer/carrier protein(PC00219),PC00219
+P51161,transfer/carrier protein(PC00219),PC00219
+P68871,globin(PC00107),PC00107
+P69905,globin(PC00107),PC00107
+Q6SZW1,scaffold/adaptor protein(PC00226),PC00226
+Q9Z2X8,scaffold/adaptor protein(PC00226),PC00226
+O75643,scaffold/adaptor protein(PC00226),PC00226
+P61024,scaffold/adaptor protein(PC00226),PC00226
+Q04917,scaffold/adaptor protein(PC00226),PC00226
+P50586,scaffold/adaptor protein(PC00226),PC00226
+P31947,scaffold/adaptor protein(PC00226),PC00226
+O14980,transporter(PC00227),PC00227
+P69681,transporter(PC00227),PC00227
+P0AEX9,primary active transporter(PC00068),PC00068
+O67854,primary active transporter(PC00068),PC00068
+P19483,ATP synthase(PC00002),PC00002
+P15999,ATP synthase(PC00002),PC00002
+P05631,ATP synthase(PC00002),PC00002
+P35435,ATP synthase(PC00002),PC00002
+P10719,ATP synthase(PC00002),PC00002
+P00829,ATP synthase(PC00002),PC00002
+P0AG82,ATP-binding cassette (ABC) transporter(PC00003),PC00003
+Q9NP58,ATP-binding cassette (ABC) transporter(PC00003),PC00003
+Q9UNQ0,ATP-binding cassette (ABC) transporter(PC00003),PC00003
+Q9KLD9,ATP-binding cassette (ABC) transporter(PC00003),PC00003
+P9WGU1,ATP-binding cassette (ABC) transporter(PC00003),PC00003
+P20236,ligand-gated ion channel(PC00141),PC00141
+D4A055,voltage-gated ion channel(PC00241),PC00241
+Q14728,secondary carrier transporter(PC00258),PC00258
+Q15418,protein modifying enzyme(PC00260),PC00260
+P32099,protein modifying enzyme(PC00260),PC00260
+Q8IEG9,protein modifying enzyme(PC00260),PC00260
+O34453,protein modifying enzyme(PC00260),PC00260
+Q8N371,protein modifying enzyme(PC00260),PC00260
+Q13627,protein modifying enzyme(PC00260),PC00260
+Q13093,protein modifying enzyme(PC00260),PC00260
+Q5TCY1,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P49336,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9UQB9,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q92918,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P15735,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P25098,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q8NB16,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9P289,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O14920,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P53779,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q6DE08,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q02750,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P05696,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P49761,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P49841,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9ERK0,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P28482,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P45984,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9Y5S2,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q00535,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P05132,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P53355,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q96NX5,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P15056,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q09013,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O00506,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q13976,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q16566,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O75716,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q04759,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P00517,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9Y6E0,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P50750,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P47811,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9H2G2,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P49759,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O94804,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q6IQ55,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9NWZ3,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q6PHR2,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P49137,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q6XHB2,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P36887,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q14680,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9Y6M4,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q96KB5,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P63086,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q28021,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9WUN2,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q00534,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O94768,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P17612,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q96GD4,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q92772,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O14733,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O14757,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9JLS3,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P11309,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O15530,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q16539,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q96S44,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P48729,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P30291,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9UQM7,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P24941,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q13555,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q16512,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q13464,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q99640,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9NQU5,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O15075,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O96013,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q99683,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q13237,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q9HBH9,non-receptor serine/threonine protein kinase(PC00167),PC00167
+O14965,non-receptor serine/threonine protein kinase(PC00167),PC00167
+P41743,non-receptor serine/threonine protein kinase(PC00167),PC00167
+Q08881,non-receptor tyrosine protein kinase(PC00168),PC00168
+P06241,non-receptor tyrosine protein kinase(PC00168),PC00168
+P43405,non-receptor tyrosine protein kinase(PC00168),PC00168
+P08631,non-receptor tyrosine protein kinase(PC00168),PC00168
+Q13882,non-receptor tyrosine protein kinase(PC00168),PC00168
+P00523,non-receptor tyrosine protein kinase(PC00168),PC00168
+Q14289,non-receptor tyrosine protein kinase(PC00168),PC00168
+P00519,non-receptor tyrosine protein kinase(PC00168),PC00168
+Q06187,non-receptor tyrosine protein kinase(PC00168),PC00168
+Q3ZC95,non-receptor tyrosine protein kinase(PC00168),PC00168
+P43403,non-receptor tyrosine protein kinase(PC00168),PC00168
+P42684,non-receptor tyrosine protein kinase(PC00168),PC00168
+P12931,non-receptor tyrosine protein kinase(PC00168),PC00168
+P00520,non-receptor tyrosine protein kinase(PC00168),PC00168
+P25911,non-receptor tyrosine protein kinase(PC00168),PC00168
+P41240,non-receptor tyrosine protein kinase(PC00168),PC00168
+Q4JIM5,non-receptor tyrosine protein kinase(PC00168),PC00168
+P09769,non-receptor tyrosine protein kinase(PC00168),PC00168
+O60674,non-receptor tyrosine protein kinase(PC00168),PC00168
+P51813,non-receptor tyrosine protein kinase(PC00168),PC00168
+P06239,non-receptor tyrosine protein kinase(PC00168),PC00168
+Q7L266,protease(PC00190),PC00190
+P43773,protease(PC00190),PC00190
+P78536,protease(PC00190),PC00190
+P43094,protease(PC00190),PC00190
+P56817,protease(PC00190),PC00190
+P42574,protease(PC00190),PC00190
+Q93J45,protease(PC00190),PC00190
+P0CY29,protease(PC00190),PC00190
+P55210,protease(PC00190),PC00190
+Q8IM16,aspartic protease(PC00053),PC00053
+P00791,aspartic protease(PC00053),PC00053
+Q8I6V3,aspartic protease(PC00053),PC00053
+Q9UDY8,cysteine protease(PC00081),PC00081
+I6Y9J2,cysteine protease(PC00081),PC00081
+O94782,cysteine protease(PC00081),PC00081
+P54578,cysteine protease(PC00081),PC00081
+O60882,metalloprotease(PC00153),PC00153
+P08254,metalloprotease(PC00153),PC00153
+P39900,metalloprotease(PC00153),PC00153
+P45452,metalloprotease(PC00153),PC00153
+P23004,metalloprotease(PC00153),PC00153
+P09238,metalloprotease(PC00153),PC00153
+P03956,metalloprotease(PC00153),PC00153
+P00730,metalloprotease(PC00153),PC00153
+P43772,metalloprotease(PC00153),PC00153
+P31800,metalloprotease(PC00153),PC00153
+P22894,metalloprotease(PC00153),PC00153
+P03951,serine protease(PC00203),PC00203
+P08709,serine protease(PC00203),PC00203
+P00750,serine protease(PC00203),PC00203
+Q8NBP7,serine protease(PC00203),PC00203
+Q86TI2,serine protease(PC00203),PC00203
+P00742,serine protease(PC00203),PC00203
+P07477,serine protease(PC00203),PC00203
+Q6V1X1,serine protease(PC00203),PC00203
+Q92876,serine protease(PC00203),PC00203
+P05981,serine protease(PC00203),PC00203
+P00803,serine protease(PC00203),PC00203
+P16293,serine protease(PC00203),PC00203
+P00760,serine protease(PC00203),PC00203
+P00749,serine protease(PC00203),PC00203
+P00734,serine protease(PC00203),PC00203
+P03952,serine protease(PC00203),PC00203
+P27487,serine protease(PC00203),PC00203
+P20231,serine protease(PC00203),PC00203
+P14740,serine protease(PC00203),PC00203
+P11064,protein phosphatase(PC00195),PC00195
+P36873,protein phosphatase(PC00195),PC00195
+P18031,protein phosphatase(PC00195),PC00195
+P30305,protein phosphatase(PC00195),PC00195
+Q08209,protein phosphatase(PC00195),PC00195
+Q9ZVN4,protein phosphatase(PC00195),PC00195
+Q12923,protein phosphatase(PC00195),PC00195
+P48452,protein phosphatase(PC00195),PC00195
+P40347,protein phosphatase(PC00195),PC00195
+P94592,protein phosphatase(PC00195),PC00195
+Q97VZ7,protein phosphatase(PC00195),PC00195
+Q8C7D2,ubiquitin-protein ligase(PC00234),PC00234
+Q9C029,ubiquitin-protein ligase(PC00234),PC00234
+P0CF65,ubiquitin-protein ligase(PC00234),PC00234
+Q8T913,ubiquitin-protein ligase(PC00234),PC00234
+Q96SW2,ubiquitin-protein ligase(PC00234),PC00234
+Q8TDB6,ubiquitin-protein ligase(PC00234),PC00234
+P22515,ubiquitin-protein ligase(PC00234),PC00234
+O15553,ubiquitin-protein ligase(PC00234),PC00234
+Q60364,hydrolase(PC00121),PC00121
+P0ADA1,hydrolase(PC00121),PC00121
+P00805,hydrolase(PC00121),PC00121
+P02766,hydrolase(PC00121),PC00121
+Q9U2M7,hydrolase(PC00121),PC00121
+Q4WQS0,hydrolase(PC00121),PC00121
+P29768,hydrolase(PC00121),PC00121
+P00811,hydrolase(PC00121),PC00121
+P62576,hydrolase(PC00121),PC00121
+Q8I384,hydrolase(PC00121),PC00121
+P78540,hydrolase(PC00121),PC00121
+P40709,hydrolase(PC00121),PC00121
+Q6NVY1,hydrolase(PC00121),PC00121
+P06204,hydrolase(PC00121),PC00121
+Q9Y3R4,hydrolase(PC00121),PC00121
+P34913,hydrolase(PC00121),PC00121
+Q96C86,hydrolase(PC00121),PC00121
+P0C6E9,hydrolase(PC00121),PC00121
+P0A6K3,hydrolase(PC00121),PC00121
+P08842,hydrolase(PC00121),PC00121
+Q01401,amylase(PC00048),PC00048
+Q9RX51,amylase(PC00048),PC00048
+O67648,deacetylase(PC00087),PC00087
+O34598,deaminase(PC00088),PC00088
+P23141,esterase(PC00097),PC00097
+Q9D020,esterase(PC00097),PC00097
+P06276,esterase(PC00097),PC00097
+P21836,esterase(PC00097),PC00097
+P22303,esterase(PC00097),PC00097
+P17050,galactosidase(PC00104),PC00104
+Q9WZL1,glucosidase(PC00108),PC00108
+Q86W56,glycosidase(PC00110),PC00110
+E9QRF2,glycosidase(PC00110),PC00110
+Q13231,glycosidase(PC00110),PC00110
+P00591,lipase(PC00143),PC00143
+P00592,phospholipase(PC00186),PC00186
+P32179,phosphatase(PC00181),PC00181
+P05187,phosphatase(PC00181),PC00181
+Q8ZNF5,phosphatase(PC00181),PC00181
+P13686,phosphatase(PC00181),PC00181
+P78330,phosphatase(PC00181),PC00181
+Q9I2Y2,phosphatase(PC00181),PC00181
+P15309,phosphatase(PC00181),PC00181
+Q58989,phosphatase(PC00181),PC00181
+O00092,phosphatase(PC00181),PC00181
+Q13614,phosphatase(PC00181),PC00181
+P29288,phosphatase(PC00181),PC00181
+Q58346,phosphatase(PC00181),PC00181
+P36639,phosphatase(PC00181),PC00181
+P00634,phosphatase(PC00181),PC00181
+P29218,phosphatase(PC00181),PC00181
+Q9Z1N4,phosphatase(PC00181),PC00181
+Q57573,phosphatase(PC00181),PC00181
+P07953,carbohydrate phosphatase(PC00066),PC00066
+Q16875,carbohydrate phosphatase(PC00066),PC00066
+Q8A5V9,carbohydrate phosphatase(PC00066),PC00066
+P25114,carbohydrate phosphatase(PC00066),PC00066
+P16118,carbohydrate phosphatase(PC00066),PC00066
+Q07343,phosphodiesterase(PC00185),PC00185
+P21589,phosphodiesterase(PC00185),PC00185
+O43924,phosphodiesterase(PC00185),PC00185
+Q08499,phosphodiesterase(PC00185),PC00185
+Q9Y233,phosphodiesterase(PC00185),PC00185
+P07024,phosphodiesterase(PC00185),PC00185
+O76074,phosphodiesterase(PC00185),PC00185
+P27815,phosphodiesterase(PC00185),PC00185
+P51160,phosphodiesterase(PC00185),PC00185
+P09543,phosphodiesterase(PC00185),PC00185
+P00817,pyrophosphatase(PC00196),PC00196
+P9WI55,pyrophosphatase(PC00196),PC00196
+Q06121,isomerase(PC00135),PC00135
+P06745,isomerase(PC00135),PC00135
+Q56320,isomerase(PC00135),PC00135
+P0A759,isomerase(PC00135),PC00135
+P00909,isomerase(PC00135),PC00135
+P50740,isomerase(PC00135),PC00135
+P11986,isomerase(PC00135),PC00135
+Q46822,isomerase(PC00135),PC00135
+Q8K4Z3,epimerase/racemase(PC00096),PC00096
+P39840,epimerase/racemase(PC00096),PC00096
+P18669,mutase(PC00160),PC00160
+P0A6F1,ligase(PC00142),PC00142
+P0A7D4,ligase(PC00142),PC00142
+P00968,ligase(PC00142),PC00142
+P53590,ligase(PC00142),PC00142
+Q8ZIE8,ligase(PC00142),PC00142
+P0A6E4,ligase(PC00142),PC00142
+P22188,ligase(PC00142),PC00142
+P0AGE9,ligase(PC00142),PC00142
+Q8ZAR2,ligase(PC00142),PC00142
+P0A836,ligase(PC00142),PC00142
+O19069,ligase(PC00142),PC00142
+P04079,ligase(PC00142),PC00142
+P00929,lyase(PC00144),PC00144
+P37869,lyase(PC00144),PC00144
+P19636,lyase(PC00144),PC00144
+P11447,lyase(PC00144),PC00144
+P16703,lyase(PC00144),PC00144
+P0AEJ6,lyase(PC00144),PC00144
+Q9X0C6,lyase(PC00144),PC00144
+P09104,lyase(PC00144),PC00144
+Q8ZY16,lyase(PC00144),PC00144
+Q9WZD3,lyase(PC00144),PC00144
+Q04760,lyase(PC00144),PC00144
+P00924,lyase(PC00144),PC00144
+P22830,lyase(PC00144),PC00144
+Q9X1P5,aldolase(PC00044),PC00044
+P0AB87,aldolase(PC00044),PC00044
+O66496,aldolase(PC00044),PC00044
+P23522,aldolase(PC00044),PC00044
+P32169,aldolase(PC00044),PC00044
+P0A955,aldolase(PC00044),PC00044
+Q9L7R9,aldolase(PC00044),PC00044
+P14174,decarboxylase(PC00089),PC00089
+P11926,decarboxylase(PC00089),PC00089
+P39304,decarboxylase(PC00089),PC00089
+O07006,decarboxylase(PC00089),PC00089
+P0ABQ0,decarboxylase(PC00089),PC00089
+Q9SWE5,decarboxylase(PC00089),PC00089
+Q9WVT6,dehydratase(PC00091),PC00091
+Q64444,dehydratase(PC00091),PC00091
+Q46915,dehydratase(PC00091),PC00091
+P22748,dehydratase(PC00091),PC00091
+P23589,dehydratase(PC00091),PC00091
+Q9ULX7,dehydratase(PC00091),PC00091
+P00918,dehydratase(PC00091),PC00091
+I6WYY7,dehydratase(PC00091),PC00091
+O43570,dehydratase(PC00091),PC00091
+P00915,dehydratase(PC00091),PC00091
+P9WFK1,dehydratase(PC00091),PC00091
+P43166,dehydratase(PC00091),PC00091
+P0AES2,dehydratase(PC00091),PC00091
+Q39588,dehydratase(PC00091),PC00091
+Q8N1Q1,dehydratase(PC00091),PC00091
+Q4WQ18,dehydratase(PC00091),PC00091
+Q16790,dehydratase(PC00091),PC00091
+P05373,dehydratase(PC00091),PC00091
+P23965,hydratase(PC00120),PC00120
+P29473,oxidoreductase(PC00176),PC00176
+P29477,oxidoreductase(PC00176),PC00176
+P71079,oxidoreductase(PC00176),PC00176
+P09624,oxidoreductase(PC00176),PC00176
+Q62425,oxidoreductase(PC00176),PC00176
+Q06278,oxidoreductase(PC00176),PC00176
+P16083,oxidoreductase(PC00176),PC00176
+P13271,oxidoreductase(PC00176),PC00176
+Q8N4Q0,oxidoreductase(PC00176),PC00176
+P00439,oxidoreductase(PC00176),PC00176
+P00175,oxidoreductase(PC00176),PC00176
+P80457,oxidoreductase(PC00176),PC00176
+P22985,oxidoreductase(PC00176),PC00176
+Q16798,oxidoreductase(PC00176),PC00176
+P10109,oxidoreductase(PC00176),PC00176
+P04036,oxidoreductase(PC00176),PC00176
+Q9WYS2,oxidoreductase(PC00176),PC00176
+P23368,oxidoreductase(PC00176),PC00176
+P09622,oxidoreductase(PC00176),PC00176
+P51553,dehydrogenase(PC00092),PC00092
+P00325,dehydrogenase(PC00092),PC00092
+P00366,dehydrogenase(PC00092),PC00092
+P46844,dehydrogenase(PC00092),PC00092
+I1MYY4,dehydrogenase(PC00092),PC00092
+O75874,dehydrogenase(PC00092),PC00092
+P14061,dehydrogenase(PC00092),PC00092
+Q83BJ0,dehydrogenase(PC00092),PC00092
+Q8DQ00,dehydrogenase(PC00092),PC00092
+Q9HTJ1,dehydrogenase(PC00092),PC00092
+P11766,dehydrogenase(PC00092),PC00092
+P16544,dehydrogenase(PC00092),PC00092
+P28845,dehydrogenase(PC00092),PC00092
+P44801,dehydrogenase(PC00092),PC00092
+G5EGA6,dehydrogenase(PC00092),PC00092
+P0A6D5,dehydrogenase(PC00092),PC00092
+P06988,dehydrogenase(PC00092),PC00092
+P50213,dehydrogenase(PC00092),PC00092
+O31616,dehydrogenase(PC00092),PC00092
+O34899,dehydrogenase(PC00092),PC00092
+P19624,dehydrogenase(PC00092),PC00092
+Q9NVS9,oxidase(PC00175),PC00175
+P27338,oxidase(PC00175),PC00175
+P0AFI7,oxidase(PC00175),PC00175
+P36551,oxidase(PC00175),PC00175
+Q9KZF5,oxygenase(PC00177),PC00177
+Q96323,oxygenase(PC00177),PC00177
+P9WPP7,oxygenase(PC00177),PC00177
+O34926,oxygenase(PC00177),PC00177
+P11511,oxygenase(PC00177),PC00177
+Q16850,oxygenase(PC00177),PC00177
+P08684,oxygenase(PC00177),PC00177
+P04798,oxygenase(PC00177),PC00177
+P72849,oxygenase(PC00177),PC00177
+P10632,oxygenase(PC00177),PC00177
+Q81H03,oxygenase(PC00177),PC00177
+P20815,oxygenase(PC00177),PC00177
+P11509,oxygenase(PC00177),PC00177
+Q05769,oxygenase(PC00177),PC00177
+Q96Q83,oxygenase(PC00177),PC00177
+P9WN25,peroxidase(PC00180),PC00180
+P0A862,peroxidase(PC00180),PC00180
+P80025,peroxidase(PC00180),PC00180
+P17846,reductase(PC00198),PC00198
+A9PFX3,reductase(PC00198),PC00198
+Q91WR5,reductase(PC00198),PC00198
+P29509,reductase(PC00198),PC00198
+Q46857,reductase(PC00198),PC00198
+P00129,reductase(PC00198),PC00198
+O24990,reductase(PC00198),PC00198
+P38489,reductase(PC00198),PC00198
+P00390,reductase(PC00198),PC00198
+P00130,reductase(PC00198),PC00198
+P15121,reductase(PC00198),PC00198
+P0ABQ4,reductase(PC00198),PC00198
+P0AEK4,reductase(PC00198),PC00198
+P69924,reductase(PC00198),PC00198
+P9WGR1,reductase(PC00198),PC00198
+P54616,reductase(PC00198),PC00198
+Q658P3,reductase(PC00198),PC00198
+Q9ZFE4,reductase(PC00198),PC00198
+P00126,reductase(PC00198),PC00198
+P52895,reductase(PC00198),PC00198
+P51857,reductase(PC00198),PC00198
+Q04828,reductase(PC00198),PC00198
+P42330,reductase(PC00198),PC00198
+Q39172,reductase(PC00198),PC00198
+Q81GI3,reductase(PC00198),PC00198
+P0A6D3,transferase(PC00220),PC00220
+P96877,transferase(PC00220),PC00220
+P11998,transferase(PC00220),PC00220
+Q9NXS2,transferase(PC00220),PC00220
+Q16769,transferase(PC00220),PC00220
+O66663,transferase(PC00220),PC00220
+O66529,transferase(PC00220),PC00220
+B7QK46,transferase(PC00220),PC00220
+Q86PD7,transferase(PC00220),PC00220
+P08179,transferase(PC00220),PC00220
+P46422,transferase(PC00220),PC00220
+P9WK11,transferase(PC00220),PC00220
+P0A794,transferase(PC00220),PC00220
+O06543,transferase(PC00220),PC00220
+Q81EJ6,transferase(PC00220),PC00220
+P96108,transferase(PC00220),PC00220
+Q9CYK2,transferase(PC00220),PC00220
+P00488,transferase(PC00220),PC00220
+P9WHM5,transferase(PC00220),PC00220
+Q16772,transferase(PC00220),PC00220
+Q9VRQ9,transferase(PC00220),PC00220
+P69902,transferase(PC00220),PC00220
+Q83E11,transferase(PC00220),PC00220
+Q8A4P9,transferase(PC00220),PC00220
+P08263,transferase(PC00220),PC00220
+P50440,transferase(PC00220),PC00220
+Q8A1E9,transferase(PC00220),PC00220
+Q9UUB1,transferase(PC00220),PC00220
+P09210,transferase(PC00220),PC00220
+P43577,acetyltransferase(PC00038),PC00038
+P9WNG3,acetyltransferase(PC00038),PC00038
+P0A6R0,acetyltransferase(PC00038),PC00038
+O34797,acetyltransferase(PC00038),PC00038
+P11182,acetyltransferase(PC00038),PC00038
+Q04631,acyltransferase(PC00042),PC00042
+Q02293,acyltransferase(PC00042),PC00042
+P0CD76,acyltransferase(PC00042),PC00042
+P60472,acyltransferase(PC00042),PC00042
+O53585,glycosyltransferase(PC00111),PC00111
+P9WFX5,glycosyltransferase(PC00111),PC00111
+P06737,glycosyltransferase(PC00111),PC00111
+P00490,glycosyltransferase(PC00111),PC00111
+Q10471,glycosyltransferase(PC00111),PC00111
+Q9X0D2,glycosyltransferase(PC00111),PC00111
+Q9LNE6,glycosyltransferase(PC00111),PC00111
+P39683,glycosyltransferase(PC00111),PC00111
+A8BB85,kinase(PC00137),PC00137
+P26281,kinase(PC00137),PC00137
+P48736,kinase(PC00137),PC00137
+P9WJH7,kinase(PC00137),PC00137
+Q93YN9,kinase(PC00137),PC00137
+Q8NFU5,kinase(PC00137),PC00137
+P42336,kinase(PC00137),PC00137
+P14618,kinase(PC00137),PC00137
+Q9X278,kinase(PC00137),PC00137
+Q8A2B2,kinase(PC00137),PC00137
+P21599,kinase(PC00137),PC00137
+O00764,kinase(PC00137),PC00137
+P22887,kinase(PC00137),PC00137
+O67883,kinase(PC00137),PC00137
+P19367,kinase(PC00137),PC00137
+P77150,kinase(PC00137),PC00137
+P63411,kinase(PC00137),PC00137
+O02697,kinase(PC00137),PC00137
+P15531,kinase(PC00137),PC00137
+P11009,amino acid kinase(PC00045),PC00045
+Q7SIB7,carbohydrate kinase(PC00065),PC00065
+P50053,carbohydrate kinase(PC00065),PC00065
+P0A6F3,carbohydrate kinase(PC00065),PC00065
+P0A9J6,carbohydrate kinase(PC00065),PC00065
+Q8Y8D7,nucleotide kinase(PC00172),PC00172
+P27707,nucleotide kinase(PC00172),PC00172
+P9WKE1,nucleotide kinase(PC00172),PC00172
+P50389,nucleotide kinase(PC00172),PC00172
+P00491,nucleotide kinase(PC00172),PC00172
+P12758,nucleotide kinase(PC00172),PC00172
+P9WP01,nucleotide kinase(PC00172),PC00172
+Q9BZX2,nucleotide kinase(PC00172),PC00172
+Q13126,nucleotide kinase(PC00172),PC00172
+P0ABP8,nucleotide kinase(PC00172),PC00172
+P07170,nucleotide kinase(PC00172),PC00172
+P55859,nucleotide kinase(PC00172),PC00172
+Q79FX8,methyltransferase(PC00155),PC00155
+Q22993,methyltransferase(PC00155),PC00155
+P25924,methyltransferase(PC00155),PC00155
+P04818,methyltransferase(PC00155),PC00155
+Q9QXF8,methyltransferase(PC00155),PC00155
+P0A884,methyltransferase(PC00155),PC00155
+P11086,methyltransferase(PC00155),PC00155
+Q04081,methyltransferase(PC00155),PC00155
+P13255,methyltransferase(PC00155),PC00155
+Q14749,methyltransferase(PC00155),PC00155
+Q06YR3,methyltransferase(PC00155),PC00155
+P06132,methyltransferase(PC00155),PC00155
+Q13394,nucleotidyltransferase(PC00174),PC00174
+P0A817,nucleotidyltransferase(PC00174),PC00174
+O66914,nucleotidyltransferase(PC00174),PC00174
+Q05603,nucleotidyltransferase(PC00174),PC00174
+P08536,nucleotidyltransferase(PC00174),PC00174
+Q9HU22,nucleotidyltransferase(PC00174),PC00174
+P0A752,nucleotidyltransferase(PC00174),PC00174
+P13444,nucleotidyltransferase(PC00174),PC00174
+P21549,transaminase(PC00216),PC00216
+P74921,transaminase(PC00216),PC00216
+P00508,transaminase(PC00216),PC00216
+P05202,transaminase(PC00216),PC00216
+P97084,transaminase(PC00216),PC00216
+Q9X0D0,transaminase(PC00216),PC00216
+P96060,transaminase(PC00216),PC00216
+Q9SIE1,transaminase(PC00216),PC00216
+P54577,translational protein(PC00263),PC00263
+P00957,aminoacyl-tRNA synthetase(PC00047),PC00047
+Q9X0D3,aminoacyl-tRNA synthetase(PC00047),PC00047
+Q8IDK7,aminoacyl-tRNA synthetase(PC00047),PC00047
+O95363,aminoacyl-tRNA synthetase(PC00047),PC00047
+P60906,aminoacyl-tRNA synthetase(PC00047),PC00047
+P62913,ribosomal protein(PC00202),PC00202
+P0CE47,translation elongation factor(PC00222),PC00222
+Q980A5,translation initiation factor(PC00224),PC00224
+P25852,DNA-binding transcription factor(PC00218),PC00218
+O67198,DNA-binding transcription factor(PC00218),PC00218
+P40969,DNA-binding transcription factor(PC00218),PC00218
+P35869,basic helix-loop-helix transcription factor(PC00055),PC00055
+P53762,basic helix-loop-helix transcription factor(PC00055),PC00055
+P97481,basic helix-loop-helix transcription factor(PC00055),PC00055
+Q9XI47,homeodomain transcription factor(PC00119),PC00119
+P0ACP7,Lambda repressor-like transcription factor(PC00245),PC00245
+Q14653,winged helix/forkhead transcription factor(PC00246),PC00246
+P0ACS5,winged helix/forkhead transcription factor(PC00246),PC00246
+P39075,winged helix/forkhead transcription factor(PC00246),PC00246
+P55201,zinc finger transcription factor(PC00244),PC00244
+O95696,zinc finger transcription factor(PC00244),PC00244
+P10275,C4 zinc finger nuclear receptor(PC00169),PC00169
+P37231,C4 zinc finger nuclear receptor(PC00169),PC00169
+P19793,C4 zinc finger nuclear receptor(PC00169),PC00169
+P03372,C4 zinc finger nuclear receptor(PC00169),PC00169
+Q9UJQ4,C2H2 zinc finger transcription factor(PC00248),PC00248
+Q6P988,,
+P68400,,
+P62987,,
+Q9K0T5,,
+P74645,,
+Q9WZW1,,
+P55263,,
+Q48255,,
+Q9X1H9,,
+Q02169,,
+Q66K64,,
+Q8ZQM7,,
+P25440,,
+P28523,,
+P00004,,
+P0AFV4,,
+P05041,,
+P44542,,
+Q9HB21,,
+Q9X1F0,,
+P15538,,
+Q9I4K6,,
+Q9SIY3,,
+P13272,,
+P20068,,
+Q00987,,
+P00431,,
+Q39054,,
+P31335,,
+Q99497,,
+Q13185,,
+Q57834,,
+Q8WWQ0,,
+P09960,,
+P38207,,
+O25896,,
+Q8WUI4,,
+Q9WYT0,,
+Q03555,,
+P13000,,
+Q9D0J4,,
+Q58987,,
+P49366,,
+P04925,,
+P00125,,
+A0A2U2GZL1,,
+P9WFX1,,
+P39432,,
+Q7KZF4,,
+Q9NVI1,,
+F1NPG5,,
+Q97VS8,,
+Q62230,,
+Q8A5J2,,
+O00267,,
+P9WPX7,,
+P15474,,
+Q2M2I8,,
+Q5JII0,,
+Q96RR4,,
+P05759,,
+P06971,,
+P50830,,
+Q9V535,,
+Q99551,,
+O31618,,
+Q05599,,
+O97428,,
+Q9BXW9,,
+O13024,,
+P0DJH6,,
+P9WIL5,,
+P00157,,
+P00455,,
+Q9BW61,,
+O88273,,
+P0CG48,,
+P37330,,
+Q92769,,
+Q9BY41,,
+P61964,,
+Q9NQS7,,
+Q9Y3C4,,
+P9WNM5,,
+Q8ZPQ1,,
+P69249,,
+Q9BYN0,,
+Q8IXJ6,,
+O43043,,
+P63099,,
+O60885,,
+P38051,,
+Q8TAF3,,
+P49028,,
+Q8TTZ5,,
+Q813T3,,
+F8W4B7,,
+P9WIV1,,
+P63098,,
+P19099,,
+P19784,,
+F1QCV2,,
+O67135,,
+P24182,,
+P0A2K1,,
+P53115,,
+Q96QZ7,,
+P00044,,
+O75208,,
+Q9Y4U1,,
+Q8Y6D1,,
+Q4QFJ7,,
+Q816R0,,
+Q9Y376,,
+P19652,,
+Q96EB6,,
+Q7SA19,,
+P26718,,
+P49327,,
+Q5AU62,,
+P74325,,
+Q9UN19,,
+Q9QZ85,,
+Q8ZVF7,,
+O33833,,
+P22102,,
+P29029,,
+P0CG47,,
+P35755,,
+O25323,,
+Q9X0C8,,
+Q9NPB1,,
+Q05871,,
+Q8N6T7,,
+Q8ZAX1,,
+P0AC13,,
+P33644,,
+Q9X286,,

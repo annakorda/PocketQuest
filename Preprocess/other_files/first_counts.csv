@@ -1,0 +1,923 @@
+Function,Count,PDB_Codes
+Retroviral aspartyl protease (RVP),286,1AAQ; 1AJV; 1AJX; 1B6J; 1B6K; 1B6L; 1B6M; 1B6P; 1BV7; 1BV9; 1BVE; 1BVG; 1BWA; 1BWB; 1C6Y; 1C6Z; 1D4H; 1D4I; 1D4J; 1D4S; 1D4Y; 1DIF; 1DMP; 1EBK; 1EBW; 1EBY; 1EBZ; 1EC0; 1EC1; 1EC2; 1EC3; 1FB7; 1FFF; 1FG8; 1FQX; 1G2K; 1G35; 1HIH; 1HII; 1HPO; 1HPV; 1HPX; 1HSG; 1HSH; 1HTF; 1HVC; 1HVH; 1HVI; 1HVJ; 1HVK; 1HVL; 1HVR; 1HVS; 1HWR; 1HXB; 1HXW; 1IIQ; 1JLD; 1K2C; 1K6C; 1KZK; 1LZQ; 1M0B; 1MER; 1MES; 1MET; 1MEU; 1MRW; 1MRX; 1MSM; 1MSN; 1MTR; 1MUI; 1N49; 1NH0; 1NPV; 1NPW; 1ODW; 1ODX; 1OHR; 1PRO; 1QBR; 1QBS; 1QBT; 1RL8; 1RQ9; 1RV7; 1SDT; 1SDU; 1SDV; 1SGU; 1SH9; 1SIV; 1T3R; 1T7I; 1T7J; 1W5V; 1W5W; 1W5X; 1W5Y; 1WBM; 1XL5; 1YT9; 1Z1H; 1Z1R; 1ZJ7; 1ZLF; 1ZSR; 2AOE; 2AQU; 2AVO; 2AVS; 2AVV; 2B60; 2B7Z; 2BBB; 2BPX; 2F80; 2F81; 2F8G; 2FDD; 2FDE; 2FXD; 2FXE; 2HB3; 2HS1; 2HS2; 2I0A; 2I0D; 2I4U; 2I4V; 2IDW; 2IEN; 2IEO; 2NMY; 2NMZ; 2NNK; 2NNP; 2O4K; 2O4L; 2O4N; 2O4P; 2O4S; 2PYM; 2PYN; 2Q5K; 2Q63; 2Q64; 2QAK; 2QHC; 2R5P; 2R5Q; 2RKF; 2RKG; 2UPJ; 2Z54; 2ZYE; 3BVA; 3BVB; 3CYW; 3CYX; 3D1X; 3D1Y; 3D1Z; 3D20; 3EBZ; 3EC0; 3EKQ; 3EKT; 3EKW; 3EKY; 3EL1; 3EL4; 3EL9; 3EM4; 3EM6; 3FX5; 3GGU; 3GI4; 3GI5; 3GI6; 3I7E; 3JVW; 3JVY; 3JW2; 3K4V; 3KF0; 3KFN; 3KFP; 3KFR; 3KFS; 3LZS; 3LZU; 3LZV; 3MWS; 3N3I; 3NDT; 3NDU; 3NDW; 3NDX; 3OGP; 3OXC; 3OXW; 3OXX; 3OY4; 3PWM; 3PWR; 3S53; 3S54; 3S56; 3SO9; 3SPK; 3T11; 3T3C; 3TKG; 3TKW; 3TL9; 3TTP; 3U7S; 3UCB; 3UFN; 3UPJ; 3WSJ; 4DQB; 4DQC; 4DQE; 4DQF; 4DQH; 4E43; 4EP3; 4EPJ; 4EQ0; 4EYR; 4HLA; 4K4Q; 4LL3; 4NJT; 4NJU; 4NJV; 4NPT; 4Q1W; 4Q1X; 4Q1Y; 4Q5M; 4QGI; 4TVH; 4U7V; 4UPJ; 4YOA; 5E5J; 5E5K; 5KQX; 5KQY; 5KR1; 5KR2; 5T2Z; 5UPJ; 6DGX; 6DH0; 6DH3; 6DH6; 6DIF; 6DIL; 6OOS; 6OOT; 6OOU; 6OPS; 6OPT; 6OPU; 6OPV; 6OPW; 6OPX; 6OPY; 6OPZ; 6P9A; 6W6Q; 7DT9; 7LDY; 7M9Z; 7MAP; 7MAQ; 7MAR; 7MAS; 7UPJ; 9HVP
+Protein kinase domain (Pkinase),243,1A9U; 1AQ1; 1BX6; 1CMK; 1DI8; 1F0Q; 1GIH; 1GII; 1I09; 1J91; 1JWH; 1KV2; 1M2P; 1M2Q; 1M2R; 1MQ4; 1NVR; 1NXK; 1OKY; 1OM1; 1P5E; 1PF8; 1PME; 1PXO; 1Q3D; 1Q3W; 1Q41; 1Q4L; 1Q8T; 1Q8U; 1Q8W; 1RDQ; 1STC; 1SVE; 1SVG; 1SVH; 1UNG; 1UNH; 1UNL; 1UU7; 1UU8; 1UU9; 1UV5; 1UVR; 1VEB; 1W7H; 1W82; 1W83; 1W84; 1WBN; 1WBS; 1WBT; 1WBV; 1WBW; 1WVY; 1XH4; 1XH5; 1XH6; 1XH7; 1XH8; 1XH9; 1XHA; 1XJD; 1XO2; 1XWS; 1Y8Y; 1Y91; 1YHS; 1YI3; 1YWV; 1YXS; 1YXU; 1YXV; 1YXX; 1ZRZ; 2A4L; 2AYP; 2B1P; 2BIK; 2BIL; 2BUJ; 2C68; 2C6I; 2C6K; 2C6L; 2C6M; 2C6T; 2CHL; 2CLQ; 2ERZ; 2ESM; 2ETK; 2ETR; 2EWA; 2F2U; 2GCD; 2GNF; 2GNH; 2GNI; 2GNJ; 2GNL; 2H9V; 2HOG; 2HW7; 2J51; 2JAM; 2JFL; 2O3P; 2O63; 2O64; 2O65; 2QKR; 2V7O; 2VD5; 2VRX; 2W4O; 2WEV; 2WU6; 2XIK; 2Y7J; 2YWP; 2ZJW; 3AMA; 3AMB; 3AMY; 3BLR; 3BQC; 3C13; 3D9V; 3DDQ; 3E5A; 3EQF; 3H30; 3HEC; 3LFA; 3LJ0; 3LM5; 3MY1; 3MY5; 3NPC; 3OHT; 3PY0; 3PY1; 3PZH; 3Q9W; 3Q9X; 3QYZ; 3SOA; 3TI1; 3TKU; 4AAA; 4AF3; 4AZT; 4B8M; 4BTK; 4DGM; 4DGN; 4EWQ; 4F7S; 4F9W; 4F9Y; 4FZF; 4JBQ; 4KIK; 4KS8; 4LMU; 4N0S; 4NZW; 4OTH; 4QMN; 4QMP; 4QMS; 4QMU; 4QMX; 4QMZ; 4WSQ; 4ZTH; 5AJQ; 5AUU; 5AUV; 5AUW; 5AUX; 5AV2; 5AV3; 5DPV; 5DR6; 5DR9; 5DT0; 5FQD; 5HGI; 5J0A; 5LCP; 5M6V; 5MOV; 5N66; 5NW8; 5O0E; 5OBR; 5OK3; 5OWR; 5TS8; 5VC3; 5VC5; 5VCV; 5VCX; 5VCY; 5VD3; 5VEF; 5WNM; 5YVC; 6EKD; 6EM2; 6EMH; 6EQ9; 6ERW; 6FDY; 6GR9; 6GTT; 6GUC; 6I2A; 6I2C; 6KYQ; 6KYR; 6NFY; 6NFZ; 6NG0; 6QS5; 6S1I; 6T41; 6TLL; 6U0K; 6VZK; 6YG4; 6YNA; 6ZGC; 6ZLN; 7AXW; 7O9Y; 7QGE; 7X4H; 7XYH
+Trypsin (Trypsin),167,1BCU; 1C1N; 1C1S; 1C5N; 1C5O; 1C5P; 1C5Q; 1C5R; 1C5S; 1C5T; 1C5U; 1C5W; 1C5X; 1C5Y; 1C5Z; 1EZQ; 1F0R; 1F0S; 1F0T; 1F0U; 1F5K; 1GHV; 1GHY; 1GHZ; 1GI2; 1GI4; 1GI5; 1GI6; 1GI7; 1GI9; 1GJ4; 1GJ5; 1GJ6; 1GJ7; 1GJ9; 1GJA; 1GJB; 1GJC; 1GJD; 1HJ8; 1LPG; 1LPZ; 1LQD; 1LQE; 1NFU; 1NFW; 1NFX; 1NFY; 1NU7; 1NU9; 1O2G; 1O2H; 1O2I; 1O2J; 1O2K; 1O2L; 1O2M; 1O2N; 1O2O; 1O2P; 1O2Q; 1O2R; 1O2T; 1O2U; 1O2V; 1O2W; 1O2X; 1O2Y; 1O2Z; 1O30; 1O31; 1O32; 1O33; 1O34; 1O35; 1O36; 1O37; 1O38; 1O39; 1O3A; 1O3B; 1O3C; 1O3D; 1O3E; 1O3F; 1O3G; 1O3H; 1O3I; 1O3J; 1O3K; 1O3L; 1O3M; 1O3N; 1O3O; 1O3P; 1O5A; 1O5B; 1O5C; 1O5D; 1O5E; 1O5F; 1O5G; 1PQ8; 1QCP; 1RD3; 1RTF; 1SGE; 1SGN; 1TIO; 1TRN; 1W0Y; 1W2K; 1W7X; 1W8B; 1X7A; 1Y59; 1Y5A; 1Y5B; 1Y5U; 1Z6E; 1ZOM; 2ANW; 2ANY; 2BMG; 2BOH; 2BQ6; 2BQ7; 2BQW; 2BY5; 2BY6; 2BY7; 2BY8; 2BY9; 2BYA; 2BZ6; 2C8X; 2C8Y; 2C8Z; 2C90; 2C93; 2CJI; 2F9B; 2FS8; 2FS9; 2FXR; 2FZZ; 2G00; 2J2U; 2J34; 2J38; 2J4I; 2W26; 3M35; 3M36; 4JZD; 4X6P; 5E8E; 5MNG; 5MNH; 5MO0; 5MOQ; 5PAR; 5PB1; 5VOF; 5XG4; 6QHC; 7V18
+Eukaryotic-type carbonic anhydrase (Carb_anhydrase),131,1AZM; 1BN1; 1BN3; 1BN4; 1BNM; 1BNN; 1BNQ; 1BNT; 1BNU; 1BNV; 1BNW; 1BZM; 1CIL; 1EOU; 1G1D; 1G45; 1G46; 1G48; 1G4J; 1G4O; 1G52; 1G53; 1G54; 1I8Z; 1I91; 1I9L; 1I9M; 1I9N; 1I9O; 1I9P; 1I9Q; 1JD0; 1KWQ; 1KWR; 1OQ5; 1RJ6; 1TTM; 1XPZ; 1XQ0; 1YDA; 1YDB; 1YDD; 1ZE8; 1ZFQ; 1ZGE; 1ZSB; 2AW1; 2EZ7; 2GD8; 2H15; 2H4N; 2HD6; 2HNC; 2HOC; 2NNG; 2POU; 2POV; 2POW; 2QO8; 2WEJ; 3CAJ; 3CZV; 3D8W; 3D9Z; 3DAZ; 3DBU; 3DC3; 3DCC; 3DCS; 3DCW; 3DD0; 3FW3; 3HKU; 3HS4; 3IAI; 3L14; 3LXE; 3MDZ; 3ML5; 3T5U; 3V2J; 3V2M; 3W6H; 3ZNC; 4COQ; 4G0C; 4JSA; 4JSZ; 4K0S; 4K0T; 4K0Z; 4K13; 4KV0; 4LU3; 4M2R; 4M2U; 4M2V; 4M2W; 4UOV; 4X5S; 4XIW; 4YGF; 4YHA; 4YX4; 4YXI; 4YYT; 5C8I; 5JN8; 5JN9; 5JNA; 5JNC; 5KU6; 5LLN; 5NYA; 5TT3; 5TUO; 6BBS; 6BC9; 6BCC; 6GDC; 6GM9; 6I3E; 6IM3; 6QL2; 6RFH; 6RG5; 6RL9; 6YMA; 6YRI; 7OYP; 8DYQ
+Protein tyrosine and serine/threonine kinase (PK_Tyr_Ser-Thr),119,1BYG; 1FGI; 1IEP; 1M17; 1M52; 1OPJ; 1QPD; 1QPJ; 1R0P; 1SM2; 1SNU; 1T46; 1U59; 1XBB; 1XBC; 1XKK; 1Y6A; 1Y6B; 1YWN; 2DQ7; 2F4J; 2FGI; 2G2H; 2GQG; 2HCK; 2HWP; 2HYY; 2HZI; 2ITO; 2ITQ; 2ITU; 2ITW; 2ITY; 2ITZ; 2IVU; 2J5F; 2NRY; 2OIC; 2OIQ; 2PL0; 2QLQ; 2QO7; 2QOB; 2QOC; 2QQ7; 2VWU; 2X2M; 2XYN; 2Y6O; 2ZVA; 3BBT; 3FZS; 3G0E; 3G0F; 3G5D; 3GVU; 3HMI; 3K54; 3K5V; 3LOK; 3MIY; 3MS9; 3MSS; 3OCS; 3OCT; 3OEZ; 3PYY; 3QLG; 3SXR; 3UE4; 4AGD; 4BKJ; 4F1T; 4HJO; 4JVG; 4LQM; 4LUE; 4MXO; 4MXX; 4MXY; 4MXZ; 4R7I; 4TWN; 4XLI; 4Y95; 4ZOG; 5AMN; 5BVW; 5EW3; 5H2U; 5I9X; 5I9Y; 5IA3; 5KNJ; 5USY; 5USZ; 5WIN; 5XGM; 5XGN; 5ZJ6; 6BRJ; 6BSD; 6DRW; 6FNM; 6HD4; 6HD6; 6JOK; 6JOL; 6NPE; 6NPU; 6NPV; 6O5Z; 6OP9; 7N9G; 7T4J; 7UY0; 8B99; 8DKS
+PAS fold (PAS),79,1D7E; 1F98; 1F9I; 1GSV; 1GSW; 1GSX; 1KOU; 1NWZ; 1ODV; 1OT6; 1OT9; 1OTA; 1OTB; 1OTE; 1OTI; 1S1Y; 1S1Z; 1S4R; 1S4S; 1T18; 1T19; 1T1A; 1T1B; 1T1C; 1TS0; 1TS6; 1TS7; 1TS8; 1UGU; 1UWN; 1UWP; 1XFN; 2D01; 2D02; 2I9V; 2PHY; 2PYP; 2PYR; 2QJ5; 2QJ7; 2QWS; 2ZOH; 2ZOI; 3PHY; 3PYP; 3UMD; 3UME; 3VE3; 3VE4; 4B9O; 4BBT; 4BBU; 4BBV; 4HY8; 4I38; 4I39; 4I3A; 4I3I; 4I3J; 4WL9; 4WLA; 4ZPH; 5GX9; 6MKT; 6MMD; 6UMY; 6UN2; 7SJJ; 7SPV; 7SPW; 7SPX; 8DZU; 8DZX; 8DZY; 8E02; 8E03; 8E09; 8E1K; 8E1L
+Neuraminidase (Neur),78,1A4G; 1A4Q; 1B9S; 1BJI; 1F8B; 1IVE; 1IVF; 1L7F; 1L7G; 1L7H; 1NNB; 1NNC; 1NSD; 1XOE; 2CML; 2HT7; 2HT8; 2HTQ; 2HTR; 2HTU; 2HTW; 2HU0; 2HU4; 2QWC; 2QWE; 2QWF; 2QWG; 2QWH; 2QWI; 2QWJ; 2QWK; 3B7E; 3CKZ; 3CL0; 3CL2; 3K3A; 3SAN; 3TI5; 3TI6; 3TIC; 4B7J; 4B7N; 4B7Q; 4B7R; 4CPM; 4CPN; 4CPY; 4CPZ; 4GZP; 4GZT; 4HZX; 4HZZ; 4I00; 4K1I; 4K1J; 4K1K; 4MWQ; 4MWR; 4MWW; 4MWX; 4QN7; 4WA4; 4WA5; 5L15; 5L17; 5NWE; 5NZ4; 5NZE; 5NZF; 5NZN; 6HCX; 6HEB; 6HFY; 6HG5; 7CM1; 7FGC; 7FGD; 7U4G
+Phage lysozyme (Phage_lysozyme),57,148L; 1L83; 1L84; 1LGW; 1LGX; 1LI2; 1LI3; 1LI6; 1LWG; 1OV5; 1OV7; 1OVH; 1OVJ; 1OVK; 1P2L; 1PQM; 1T6H; 1T8G; 1XEP; 1XJT; 220L; 223L; 227L; 2F32; 2F47; 3DKE; 3DMV; 3DN8; 3DNA; 3HUA; 3HUK; 3HUQ; 4E97; 4EKP; 4EKQ; 4EKR; 4EKS; 5LWO; 5ZHP; 7L37; 7L38; 7L39; 7L3B; 7L3C; 7L3D; 7L3E; 7L3G; 7L3H; 7L3J; 7L3K; 7LOA; 7LOC; 7LOD; 7LOE; 7LOG; 7LXA; 8F11
+Enoyl-(Acyl carrier protein) reductase (adh_short_C2),46,1C14; 1D7O; 1D8A; 1I2Z; 1I30; 1LX6; 1LXC; 1MFP; 1NHG; 1P45; 1QG6; 1QSG; 1UH5; 1VL8; 2B35; 2O2S; 2O2Y; 2PD3; 2QIO; 2WYW; 3A28; 3AM3; 3AM5; 3F4B; 3GN1; 3GR6; 3NRC; 3OID; 3OIF; 3OIG; 3OJF; 3PJD; 3PJE; 3PJF; 3QWH; 4ALI; 4ALL; 4FJ2; 4JP3; 4M89; 4NR0; 5IFL; 5OJI; 5YCS; 6AH9
+Protein-tyrosine phosphatase (Y_phosphatase),40,1G7F; 1G7G; 1LYV; 1NL9; 1NNY; 1NO6; 1ONY; 1ONZ; 1Q1M; 1Q6J; 1Q6M; 1Q6N; 1Q6P; 1Q6S; 1Q6T; 1QXK; 1WCH; 1XBO; 2AZR; 2B07; 2CM7; 2CM8; 2CMA; 2CMB; 2CMC; 2CNE; 2CNF; 2CNG; 2CNH; 2F6T; 2F6W; 2F6Z; 2F70; 2F71; 2FJM; 2FJN; 2H4G; 2H4K; 2HB1; 5QEK
+Phosphorylase superfamily (PNP_UDP_1),39,1A9O; 1A9P; 1B8N; 1B8O; 1C3X; 1FXU; 1G2O; 1I80; 1JDS; 1JE0; 1K27; 1K9S; 1OTX; 1OTY; 1OU4; 1OUM; 1OV6; 1OVG; 1PK7; 1PK9; 1PKE; 1PR0; 1PR1; 1PR2; 1PR4; 1PR5; 1PR6; 1PW7; 1QE5; 1RR6; 1RXC; 1RXS; 1RXU; 1TCU; 1U1C; 1U1D; 1U1E; 1U1F; 1WTA
+Carboxylesterase family (COesterase),34,1ACJ; 1CLE; 1DX6; 1E3Q; 1E66; 1EVE; 1GPK; 1GPN; 1GQR; 1GQS; 1H22; 1H23; 1HBJ; 1MAA; 1MX1; 1ODC; 1QTI; 1UT6; 1VOT; 1W4L; 1W6R; 1W76; 2BAG; 2CEK; 2CKM; 2CMF; 4EY6; 4EY7; 5EI5; 6O4W; 6O50; 6O52; 7E3H; 7XN1
+Dioxygenase (Dioxygenase_C),34,3LKT; 3LMX; 3LXV; 3MFL; 3PCA; 3PCB; 3PCC; 3PCE; 3PCF; 3PCG; 3PCH; 3PCI; 3PCJ; 3PCK; 3PCN; 3T63; 4WHO; 4WHP; 4WHQ; 4WHR; 4WHS
+Coagulation Factor Xa inhibitory site (FXa_inhibition),33,1EZQ; 1F0R; 1F0S; 1LPG; 1LPZ; 1LQD; 1NFU; 1NFW; 1NFX; 1NFY; 1W7X; 1W8B; 1Z6E; 2BMG; 2BOH; 2BQ6; 2BQ7; 2BQW; 2BZ6; 2CJI; 2F9B; 2FZZ; 2G00; 2J2U; 2J34; 2J38; 2J4I; 2W26; 3M36; 4JZD; 5PAR; 5PB1; 5VOF
+cAMP-dependent protein kinase inhibitor,33,1Q8T; 1Q8U; 1Q8W; 1STC; 1SVE; 1SVG; 1SVH; 1VEB; 1XH4; 1XH5; 1XH6; 1XH7; 1XH8; 1XH9; 1XHA; 2ERZ; 2GNF; 2GNH; 2GNI; 2GNJ; 2GNL; 3AMA; 3AMB; 5LCP; 5M6V; 5NW8; 5O0E; 5OK3; 6ERW; 6I2A; 6I2C; 6YNA; 7AXW
+Cytochrome P450 (p450),28,1EUP; 1F4U; 1NR6; 1PHD; 1PQ2; 2DKK; 2FDU; 2FDV; 2FDW; 2H7Q; 2Z3T; 3EQM; 3LD6; 3NC6; 3NXU; 4FDH; 4UBS; 5LI8; 5VC0; 5VCE; 5VEU; 6AYB; 6DWN; 6M7X; 7CP8; 7D0T; 7NQM; 8FKB
+Globin (Globin),28,1AJ9; 1BVC; 1GLI; 1HHO; 1IRC; 1J3F; 1LJW; 1MBI; 1MKO; 1RVW; 1U7R; 1UFJ; 1V9Q; 1X9F; 2D6C; 2EVP; 3VHB; 4MBA; 5K1L
+Eukaryotic aspartyl protease (Asp),25,1IZE; 1LS5; 1M43; 1SME; 1W6H; 1W6I; 1XDH; 2ANL; 2H6T; 2OHK; 2OHL; 2QZX; 3EMY; 3PCZ; 3PRS; 3PVK; 3PWW; 3Q70; 3TNE; 4Y4D; 5APR; 6XCY; 6XCZ; 6XD2; 7VE0
+Beta-lactamase (Beta-lactamase),25,1FSW; 1FSY; 1GA9; 1IEL; 1IEM; 1KDW; 1KE0; 1KE3; 1KE4; 1KVL; 1KVM; 1L0F; 1L0G; 1M40; 1MXO; 1MY8; 1NYM; 1PI4; 1PI5; 2WK0; 4A5R; 4XUZ; 5EOE; 5EOO; 7TB7
+Photosynthetic reaction centre protein (Photo_RC),24,1E6D; 1F6N; 1FNP; 1FNQ; 1MPS; 1PCR; 1RGN; 1RVJ; 1RY5; 1RZH; 1UMX; 7Q7M
+Immunoglobulin C1-set domain (C1-set),22,1FZJ; 1FZK; 1FZM; 1FZO; 1HEZ; 1KPV; 1LEG; 1LEK; 1LK2; 1R5I; 5U1R; 6C15; 6NUX
+Matrixin (Peptidase_M10),21,1GO8; 1JIZ; 1Q3A; 1RMZ; 1YCM; 1Z3J; 1ZS0; 1ZVX; 2JNP; 2JSD; 2W0D; 3AYK; 3LK8; 3OHL; 3OHO; 4AYK; 4DPE; 4G9L; 4JA1; 5LAB; 830C
+"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase (HATPase_c)",20,5Z4H; 5Z4O; 5Z9B; 5Z9E; 5Z9F; 5Z9L; 5Z9P; 5Z9Q; 7DOR; 7DPR; 7DPS; 7DQF; 7DQH; 7DQI; 7DQJ; 7DQL; 7DQM; 7DQS; 7DQU; 7DQW
+BNR repeat-like domain (BNR_2),20,1EUS; 1SLI; 1VCU; 1W8N; 1WCQ; 2F0Z; 2F10; 2F25; 2F27; 2F29; 2VVZ; 2VW1; 2YA6; 2YA7; 2YA8; 4M4V; 4XOG; 7A54; 7LBV; 8AXI
+CULT domain,20,4V2Y; 4V30; 4V32; 5AMH; 5AMI; 5AMJ; 5AMK; 5OH1; 5OH8; 6R0S; 6R0U; 6R12; 6R13; 6R18; 6R19; 6R1A; 6R1C; 6R1W; 7PSO; 8BC7
+Ras family (Ras),19,1N6H; 1N6I; 1N6K; 1N6L; 1N6N; 1N6O; 1N6R; 1NVU; 1NVV; 1NVW; 1NVX; 1OIX; 1XD2; 2BME; 4DSU; 6GQT; 7B51
+Thymidylate synthase (Thymidylat_synt),19,1AN5; 1AOB; 1BDU; 1DDU; 1HVY; 1JU6; 1TDU; 1TSD; 1TSL; 1TSM; 1TSN; 2A9W; 2RD8; 3V8H; 4DPH; 7DP4; 7DP5; 7DP6
+Carbohydrate phosphorylase (Phosphorylase),19,1AXR; 1C8K; 1C8L; 1E1Y; 1GFZ; 1L5Q; 1L5W; 1L6I; 1L7X; 1NOI; 1NOJ; 1P4H; 3DD1; 3DDS; 3DDW; 3EBO; 3EBP; 4MRA; 4YUA
+Actin/actin-like conserved site,18,1ESV; 1IJJ; 1RDW; 1RFQ; 1SQK; 2A5X; 2Q1N; 2Q31; 3BUZ; 3SJH; 4GY2; 4H03; 4H0T; 4H0V; 4H0X; 4H0Y; 5NBN
+Peroxidase (peroxidase),18,1AEG; 1AEJ; 1AES; 1CCG; 1DS4; 1DSE; 1DSG; 1DSO; 1DSP; 1KXM; 1RYC; 1U74; 1U75; 4JPT; 4JQJ; 4NVE; 4XV5; 4XVA
+3'5'-cyclic nucleotide phosphodiesterase (PDEase_I),18,1OYN; 1Q9M; 1RO6; 1T9R; 1TBB; 1TBF; 1UDT; 1XMY; 1XN0; 1XOS; 2CHM; 2FM0; 2FM5; 2H42; 3G4K; 3JWQ; 3TVX
+Aldo/keto reductase family (Aldo_ket_red),17,1MRQ; 1MZR; 1US0; 1XF0; 1XJB; 2HE5; 2HE8; 2HEJ; 2IPF; 2IPJ; 2IQD; 2PF8; 2PFH; 3CAQ; 3CAS; 3CAV; 3CV6
+Nitrophorin (Nitrophorin),17,1IKE; 1IKJ; 1NP1; 1PEE; 1PM1; 1SXU; 1SXW; 1SXX; 1SY1; 1SY3; 1U17; 1U18; 1X8O; 2AL0; 2ASN; 2AT3; 4HPB
+Alkaline phosphatase (Alk_phosphatase),17,1ALH; 1ALI; 1ALJ; 1ALK; 1ANI; 1ANJ; 1ED8; 1ELX; 1ELY; 1ELZ; 1EW2; 1EW8; 1KH4; 1KHL; 1SHN; 1URA; 1URB
+Reverse transcriptase thumb domain (RVT_thumb),16,1FKP; 1LW2; 1LWC; 1LWF; 1RT1; 1RT4; 1RT5; 1RT7; 1RTI; 1TKT; 1VRT; 2HND; 2HNY
+"Kringle, conserved site",16,1C5W; 1C5X; 1C5Y; 1C5Z; 1GI7; 1GI9; 1GJ7; 1GJ9; 1GJA; 1GJB; 1GJC; 1GJD; 1O3P; 1O5A; 1O5B; 1O5C
+Dihydrofolate reductase (DHFR_1),16,1IA1; 1RA3; 1RX2; 1RX3; 1RX4; 1RX6; 1RX8; 1RX9; 1VDR; 3QYO; 4NX6; 4NX7; 4X5I; 4X5J; 5UIH; 5UIO
+Bromodomain (Bromodomain),16,4CFK; 4CUS; 4O71; 4O7A; 5FG4; 5FG5; 5FG6; 5II2; 5MYG; 5PBB; 5S8M; 5TCK; 6G0D; 6V0X; 7VRK; 7VRM
+Peptidase family M28 (Peptidase_M28),16,1XJO; 2AFW; 2AFX; 2AFZ; 3PB7; 3PB9; 3PBB; 3SI2; 4F9U; 4F9V; 4FAI; 4FBE; 4MHY; 4MHZ; 4YWY; 7D1D
+Histone deacetylase domain (Hist_deacetyl),16,1C3S; 1T69; 1ZZ1; 3C0Z; 3EW8; 3EZP; 3F06; 4BZ6; 4LXZ; 4QA0; 4QA2; 5EEI; 7JVU; 7SGG; 7ZZS; 8BPC
+Flavin containing amine oxidoreductase (Amino_oxidase),15,1F8R; 1OJA; 1REO; 1S2Y; 1S3B; 1S3E; 2BK3; 2BK5; 2C67; 2C72; 2C73; 2C75; 2C76; 2XFP; 3PO7
+Common central domain of tyrosinase (Tyrosinase),15,2ZWE; 2ZWF; 2ZWG; 4P6S; 5Z0F; 5Z0G; 5Z0H; 5Z0I; 5Z0J; 5Z0K; 5Z0L; 5Z0M; 5ZRD; 6JU4; 6JU9
+Galactoside-binding lectin (Gal-bind_lectin),14,1W6M; 1W6N; 1W6O; 1W6P; 1W6Q; 3AYC; 4Q1P; 5MWT; 5MWX
+RNase H (RNase_H),14,1LW0; 1LWE; 1LWF; 1RT4; 1RT5; 1RT7; 1RTI; 1S1X; 1TKT; 1TKZ; 1VRT; 2HND; 2HNY; 3HVT
+Hirudin/antistatin,14,1BCU; 1C5N; 1C5O; 1GHV; 1GHY; 1GJ4; 1GJ5; 1O2G; 1O5G; 2C8X; 2C8Y; 2C8Z; 2C90; 2C93
+"6,7-dimethyl-8-ribityllumazine synthase (DMRL_synthase)",13,1DI0; 1KYV; 1KYX; 1KYY; 1KZ4; 1KZ6; 1KZ9; 1NQU; 1NQV; 1NQX; 1RVV; 1T13; 1XN1
+"Protocatechuate 3,4-dioxygenase beta subunit N terminal (PCDO_beta_N)",12,3LMX; 3LXV; 3MFL; 3PCE; 3PCF; 3PCG; 3PCH; 3PCI; 3PCK; 3PCN; 4WHS
+"ATP synthase alpha/beta family, nucleotide-binding domain (ATP-synt_ab)",12,1E1Q; 1MAB; 1NBM; 1W0J; 1W0K; 2JJ2
+Glycosyl hydrolases family 18 (Glyco_hydro_18),12,1C8X; 1W9U; 1W9V; 1WAW; 1WB0; 2A3A; 2A3B; 2A3C; 2UY4; 2XTK; 3ARU; 3G6M
+PRC-barrel domain (PRC),12,1E6D; 1F6N; 1FNP; 1FNQ; 1MPS; 1PCR; 1RGN; 1RVJ; 1RY5; 1RZH; 1UMX; 7Q7M
+3-deoxy-8-phosphooctulonate synthase,12,1FWN; 1FWS; 1FWT; 1FWW; 1FXP; 1FY6; 1JCY; 1LRO; 1LRQ; 1PCK; 1T8X; 1T96
+Reverse transcriptase (RNA-dependent DNA polymerase) (RVT_1),12,1JLB; 1JLF; 1LW0; 1LWC; 1LWE; 1RT6; 1S1X; 1TKZ; 3HVT
+Bacterial extracellular solute-binding protein (SBP_bac_1),12,1D9V; 1D9Y; 1MRP; 1PC3; 1QVS; 7CY5; 7F6E; 7F6F; 7F6K; 7F6N; 7F6O; 7F6P
+ATP-NAD kinase N-terminal domain (NAD_kinase),11,3V80; 3V8M; 3V8N; 3V8P; 3V8Q; 3V8R; 5DHP; 5DHQ; 5DHS; 5DHT; 6RG8
+Lipocalin / cytosolic fatty-acid binding protein family (Lipocalin),11,1CBQ; 1G74; 1G7N; 3APX; 4LKT; 5NUJ; 5NUK; 5NUM; 5NUN; 6XVQ; 6XVY
+NNMT/PNMT/TEMT family (NNMT_PNMT_TEMT),11,1HNN; 1N7I; 1N7J; 1YZ3; 2G71; 2G8N; 2OBF; 3KPU; 3KPW; 3KQS; 3KQT
+HIUase/Transthyretin family (Transthyretin),11,1DVX; 3CFQ; 4DER; 4DES; 4DET; 4DEW; 4QXV; 4QYA; 4WNJ; 4WO0; 7ERK
+Copper chaperone GriE/MELC1 superfamily,11,2ZWE; 2ZWF; 2ZWG; 5Z0F; 5Z0G; 5Z0H; 5Z0I; 5Z0J; 5Z0K; 5Z0L; 5Z0M
+SH2 domain (SH2),11,1F2F; 1O4C; 1O4L; 1OPK; 1SHA; 1SHB; 1SPR; 2FO0; 2H8H; 4XEY; 5SWG
+Caspase domain (Peptidase_C14),10,1GFW; 1RE1; 1RHJ; 1RHM; 1RHR; 1RHU; 3DEH; 3DEI; 3H1P; 4I1R
+short chain dehydrogenase (adh_short),10,1GEG; 1QYX; 2IRW; 2RH4; 2RHC; 2RHR; 3BZU; 3CSD; 3RI3; 8DT1
+"WD domain, G-beta repeat (WD40)",10,3KRW; 3KRX; 6DDE; 6DDF; 7AXP; 7AXQ; 7AXS; 7AXX; 8A9K; 8EFQ
+"Zinc finger, nuclear hormone receptor-type",10,3CBO; 3CBP; 3NSQ; 3SZ1; 4OJ4; 4XTA; 6KTN; 7OPW; 7OQ7; 7OQ8
+haloacid dehalogenase-like hydrolase (Hydrolase),10,1F5S; 1J97; 1L7M; 1L7P; 1L8O; 1NRW; 1RKV; 1VJ5; 4UMD; 4YGS
+Phospholipase A2 (Phospholip_A2_1),10,1FXF; 1L8S; 1S6B; 1SV9; 2B17; 4QEM; 4YU7; 5VFJ; 5VFM
+Thrombin light chain (Thrombin_light),10,1C5N; 1C5O; 1GHV; 1GHY; 1GJ5; 1NU7; 1O2G; 1O5G; 1RD3; 5E8E
+Pancreatic ribonuclease (RnaseA),10,1BZQ; 1H53; 1HBY; 1KM8; 1KM9; 1R3M; 1RCA; 1SSC; 2Q4G; 7PNJ
+Hepatitis C virus NS3 protease (Peptidase_S29),10,2A4G; 2A4Q; 2A4R; 2F9U; 2FM2; 2OBO; 2OC0; 2OC8; 3LON; 3LOX
+"Cyclin, N-terminal domain (Cyclin_N)",9,1P5E; 1XO2; 2C6T; 2WEV; 3BLR; 3MY1; 3MY5; 4F7S; 6T41
+Aminotransferase class I and II (Aminotran_1_2),9,1AKA; 1B5O; 1B5P; 1BJW; 1LKC; 1UU0; 3PDB; 6F5V
+pfkB family carbohydrate kinase (PfkB),9,1RKD; 1RKS; 2I6A; 2I6B; 3NC2; 5WBO; 5WBR; 5WBZ; 6W0N
+Arginase family (Arginase),9,4HZE; 4I06; 4IE2; 4IE3; 4IU4; 4IXU; 4IXV; 6Q37; 6Q39
+Calcineurin-like phosphoesterase (Metallophos),9,1II7; 1MF8; 1QFC; 1S3L; 1TCO; 1UTE; 1WAR; 4J6O; 7PBB
+Formyl transferase (Formyl_trans_N),9,1CDD; 1GRC; 1MEJ; 1MEO; 1NJS; 1RBM; 1RBQ; 1RC1; 3DA8
+Prolyl oligopeptidase family (Peptidase_S9),9,1RWQ; 1X70; 2BUB; 2HHA; 3BJM; 3G0D; 4FFW; 6EOR; 6TRX
+FAD dependent oxidoreductase (DAO),9,1EL5; 1EL7; 1EL8; 1EL9; 1ELI; 1L9C; 1L9E; 1NG3; 1NG4
+KNTase C-terminal domain (KNTase_C),8,6NMK; 6NML; 6NMM; 6NMN; 6P04; 6P06; 6P08; 6UN8
+Pyridoxal-phosphate dependent enzyme (PALP),8,1O58; 2V03; 4HPX; 6X0C; 7KXC; 7KYT; 7LGX; 7MT6
+ATP synthase (ATP-synt),8,1E1Q; 1E1R; 1H8H; 1MAB; 1NBM; 1W0J; 1W0K; 2JJ2
+FAD binding domain (FAD_binding_3),8,4GF7; 4H2N; 4H2P; 4H2Q; 4H2R; 4JY2; 4JY3; 5HXI
+Hsp70 protein (HSP70),8,1ATR; 1BA0; 1HPM; 1NGB; 1NGC; 1NGD; 1S3X; 5AQS
+Green fluorescent protein (GFP),8,1XA9; 1XAE; 1XMZ; 2A46; 2A47; 2A48; 2AH8; 5FHV
+Reverse transcriptase connection domain (RVT_connect),8,1S1T; 1S1U; 1TL1; 1TL3
+Phosphate-binding protein PstS,8,1A40; 1IXG; 1IXH; 1PBP; 1QUI; 1QUJ; 1QUK; 1QUL
+Histidine phosphatase superfamily (branch 1) (His_Phos_1),8,1BIF; 1C7Z; 1C80; 1FBT; 1H2E; 1H2F; 1YFK; 5ZKK
+Inositol monophosphatase family (Inositol_P),8,1DK4; 1G0I; 1IMD; 1JP4; 1K9Y; 1KA1; 1LBY; 1QGX
+Alcohol dehydrogenase GroES-like domain (ADH_N),8,1E3J; 1HSZ; 1M6H; 1M6W; 1MC5; 1MP0; 1U3V; 2WEK
+"Yippee zinc-binding/DNA-binding /Mis18, centromere assembly (Yippee-Mis18)",8,4CI1; 4CI2; 4TZC; 5FQD; 5YIZ; 5YJ0; 5YJ1; 7BQU
+Oxidoreductase NAD-binding domain (NAD_binding_1),7,1BX0; 1BX1; 1FNB; 1FRN; 1FRQ; 1SM4; 3OZW
+EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase) (EPSP_synthase),7,1DLG; 1EJC; 1EJD; 1G6T; 1RYW; 3SLH; 4ZND
+7 transmembrane receptor (rhodopsin family) (7tm_1),7,3RFM; 4XES; 5MZJ; 5OLG; 6DDE; 6DDF; 8EFQ
+Isocitrate/isopropylmalate dehydrogenase (Iso_dh),7,6L57; 6L59; 6O2Y; 7PJN
+EGF-like domain (EGF),7,1O5D; 1PXX; 1W0Y; 1W2K; 1X7A; 3LN1; 5JW1
+Tryptophan synthase alpha chain (Trp_syntA),7,1UJP; 4HPX; 6X0C; 7KXC; 7KYT; 7LGX; 7MT6
+Thrombin light chain,7,1BCU; 1GJ4; 2C8X; 2C8Y; 2C8Z; 2C90; 2C93
+2Fe-2S iron-sulfur cluster binding domain (Fer2),7,1N5W; 1N60; 1N62; 1N63; 3NVY; 5AUI; 7M8I
+Serum albumin family (Serum_albumin),7,4Z69; 4ZBQ; 4ZBR; 5DBY; 6HN0; 6HN1; 8BSG
+Haemagglutinin-neuraminidase (HN),7,1E8V; 1USR; 1USX; 1V2I; 1V3D; 1V3E; 5KV8
+ADP-ribosyltransferase exoenzyme (ADPrib_exo_Tox),7,3BUZ; 4GY2; 4H03; 4H0T; 4H0V; 4H0X; 4H0Y
+"Glu/Leu/Phe/Val dehydrogenase, dimerisation domain (ELFV_dehydrog_N)",6,1BW9; 1BXG; 1HWY; 5XVV
+Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily (Glyoxalase),6,1LQK; 1LQO; 1QIP; 1ZSW; 6ON3; 7WSZ
+C2HE / C2H2 / C2HC zinc-binding finger (zf-C2HE),6,3SZQ; 4NDF; 4NDI; 6CVO; 6CVQ; 6CVS
+Cyclic nucleotide-binding domain (cNMP_binding),6,2FMY; 5J48; 5JAX; 5JD7; 5JIX; 5JIZ
+CO dehydrogenase flavoprotein C-terminal domain (CO_deh_flav_C),6,1N5W; 1N60; 1N61; 1N62; 3NVY; 4UHX
+Flavodoxin-like fold (Flavodoxin_2),6,2QWX; 2QX4; 2QX6; 3FW1; 4QOG; 4QOI
+Polyprenyl synthetase (polyprenyl_synt),6,2J1P; 2OGD; 2P1C; 3DYF; 3DYG; 6SF9
+DNA topoisomerase (Topoisom_bac),6,1CY1; 1CY2; 1CY4; 1CY6; 1CY7; 1CY8
+EF-hand domain pair (EF-hand_7),6,1MF8; 1TCO; 2R2I; 3HZT; 3NYV; 5JMS
+Zinc-binding dehydrogenase (ADH_zinc_N),6,1MA0; 1P0C; 1U3U; 4W9N; 7ZEJ
+Caspase-like domain superfamily,6,1GFW; 1RE1; 1RHJ; 1RHM; 1RHR; 1RHU
+Deoxyhypusine synthase (DS),6,6XXH; 6XXI; 6XXJ; 6XXK; 6XXL; 7A6T
+"Oxidoreductase family, NAD-binding Rossmann fold (GFO_IDH_MocA)",6,1LC0; 1LC3; 1RYD; 1RYE; 6Z3B
+"Terpene synthase family 2, C-terminal metal binding (Terpene_syn_C_2)",6,1DGP; 2E4O; 2OA6; 3BNX; 3BNY; 3CKE
+Inorganic pyrophosphatase (Pyrophosphatase),6,117E; 1E6A; 1E9G; 1M38; 1WCF; 1WGJ
+Cupin (Cupin_1),6,1DGR; 1DGW; 6V7G
+Enoyl-CoA hydratase/isomerase (ECH_1),6,1JXZ; 1K39; 1NZY; 2W3P; 4OMR
+Cytochrome c (Cytochrom_C),6,1FI7; 1FI9; 1NMI; 1NML; 1U74; 1U75
+Poly(ADP-ribose) polymerase catalytic domain (PARP),5,4HKK; 4HKN; 6NRF; 6NRI; 6QXU
+Ubiquitin family (ubiquitin),5,5KHY; 6ZQH; 7ZH4; 8A9K
+Serpin (serine protease inhibitor) (Serpin),5,1E04; 1E05; 1M93; 4R9I; 5OM6
+"Sialidase, N-terminal domain (Sialidase)",5,4YW1; 4YW3; 4YW5; 4YZ3; 4YZ5
+Transaldolase/Fructose-6-phosphate aldolase (TAL_FSA),5,6ZWF; 6ZX4; 7ODO; 7ODP; 7ODQ
+Sir2 family (SIR2),5,4KXQ; 5YQL; 5YQM; 6QCD; 6QCN
+Serine hydroxymethyltransferase (SHMT),5,1RV3; 1RV4; 1RVU; 1RVY; 3PGY
+DJ-1/PfpI family (DJ-1_PfpI),5,6AF5; 6AF9; 6AFA; 6AFB; 6AFG
+Dehydroquinase class II (DHquinase_II),5,1D0I; 1H0R; 2C4V; 2C4W; 3LWZ
+DNA photolyase (DNA_photolyase),5,1IQR; 1IQU; 1OWL; 1OWN; 1OWO
+Macro domain (Macro),5,5RSM; 5RTL; 5RU8; 5RVP; 7KXB
+Pathogenesis-related protein Bet v 1 family (Bet_v_1),5,5I8F; 5MXB; 5MXW; 6AWU; 6B1D
+"Trans-sialidase, C-terminal domain (TS_C)",5,1MS0; 1MS1; 1MS8; 1MZ6; 1N1T
+"Nitric oxide synthase, oxygenase domain (NO_synthase)",5,1NOC; 1NOS; 2NOS; 4D33; 5G65
+RNA recognition motif (RRM_1),5,1OO0; 6Q0W; 6SJ7; 6UD7; 7LHX
+Pyridine nucleotide-disulphide oxidoreductase (Pyr_redox),5,1DNC; 1GRB; 1GRE; 1GRF; 3ITJ
+Pyridoxine 5'-phosphate oxidase C-terminal dimerisation region (PNP_phzG_C),5,1DNL; 1G77; 1G78; 1NRG; 1WV4
+CPSF A subunit region (CPSF_A),5,4CI2; 5FQD; 6Q0W; 6SJ7; 6UD7
+Hepatitis C virus non-structural protein NS4a (HCV_NS4a),5,2A4R; 2FM2; 2OBO; 2OC0; 2OC8
+"Colicin/Pyocin-S2, DNase domain (Col-Pyo_DNase)",5,1BXI; 1FR2; 1FSJ; 1M08; 1MZ8
+UDP-glucoronosyl and UDP-glucosyl transferase (UDPGT),5,2C1Z; 2C9Z; 4REL; 6IJD; 7VEJ
+tRNA synthetases class I (W and Y) (tRNA-synt_1b),5,1Q11; 1ZH6; 3D6U; 3D6V; 3P0H
+Phosphomethylpyrimidine kinase (Phos_pyr_kin),5,1VI9; 1YGJ; 1YGK; 1YHJ; 4EOH
+"Malic enzyme, NAD binding domain (Malic_M)",5,6W29; 6W2N; 7XDG; 8EYN; 8EYO
+PMP-22/EMP/MP20/Claudin tight junction (Claudin_2),5,5GJV; 6JP5; 6JP8; 6JPA; 6JPB
+Ammonium Transporter Family (Ammonium_transp),5,2NOP; 2NPC; 2NPD; 2NPJ; 2NPK
+Nucleoside diphosphate kinase (NDK),5,1B4S; 1F3F; 1S5Z; 1UCN; 4ANE
+Guanylate kinase (Guanylate_kin),4,5GJV; 6JP5; 6JPA; 6JPB
+Uracil phosphoribosyltransferase (UPRTase),4,1BD4; 1JLR; 1JLS; 1UPU
+Haemagglutinin-neuraminidase,4,1Z4V; 1Z4W; 1Z4Z; 1Z50
+Animal haem peroxidase (An_peroxidase),4,3KK6; 3N8Y; 3UBA
+Sulfatase (Sulfatase),4,1P49; 5YLE; 6VAT; 6VC7
+Class II Aldolase and Adducin N-terminal domain (Aldolase_II),4,1E47; 1E48; 1OJR; 4FUA
+"Glutathione S-transferase, N-terminal domain (GST_N)",4,1GSE; 2CAI; 2CAQ; 2VCT
+Cytochrome c-like domain superfamily,4,1CXA; 1MG2; 1MG3; 5XDH
+Voltage gated calcium channel subunit beta domain 4Aa N terminal (VGCC_beta4Aa_N),4,5GJV; 6JP8; 6JPA; 6JPB
+Glutamate/Leucine/Phenylalanine/Valine dehydrogenase (ELFV_dehydrog),4,1C1D; 1C1X
+CoA-ligase (Ligase_CoA),4,1CQJ; 1EUC
+Plant Biomass Hydrolyzing Esterase,4,3WL5; 3WL6; 3WL7; 3WL8
+GFO/IDH/MocA C-terminal domain (GFO_IDH_MocA_C3),4,2O48; 2O4U; 2POQ; 4MKZ
+14-3-3 protein (14-3-3),4,2C74; 7OPW; 7OQ7; 7OQ8
+Pyridine nucleotide-disulphide oxidoreductase (Pyr_redox_2),4,1V59; 2X8H; 3RNM; 5V36
+Low molecular weight phosphotyrosine protein phosphatase (LMWPc),4,1C0E; 1D1Q; 1D2A; 1PNT
+PH domain (PH),4,1EAZ; 1FB8; 3KRX; 6TSE
+Glycosyl hydrolases family 15 (Glyco_hydro_15),4,5Z3A; 5Z3B; 5Z3D; 5Z3F
+Pectinacetylesterase/NOTUM,4,6TR5; 6TUZ; 6TV4; 7BMD
+Aromatic amino acid lyase (Lyase_aromatic),4,2O7B; 2O7D; 2O7F; 2YII
+Pyridoxal phosphate biosynthesis protein PdxJ (PdxJ),4,1HO4; 1IXP; 1IXQ; 1M5W
+G-protein alpha subunit (G-alpha),4,1AGR; 6DDE; 6DDF; 8EFQ
+O-methyltransferase domain (Methyltransf_2),4,2QYO; 5I2H; 6I72; 7WH9
+Cytidylyltransferase-like (CTP_transf_like),4,1K4M; 1O6B; 3MMX; 5H16
+"Glutathione S-transferase, C-terminal domain (GST_C)",4,1YY7; 2VCV; 5A4V; 7EBV
+Immunoglobulin V-set domain (V-set),4,1J05; 1OAU; 1URL
+Pex14 N-terminal domain (Pex14_N),4,5OML; 6RT2; 6SPT; 6ZFW
+"Ribonucleotide reductase, small chain (Ribonuc_red_sm)",4,1RNR; 6EBP; 6EBZ; 6GP2
+Bacterial lipoate protein ligase C-terminus (Lip_prot_lig_C),4,1X2H; 5IBY; 5IJ6; 5T8U
+Annexin (Annexin),4,6TWQ; 6TWU; 6TWX; 6TWY
+"Interferon-alpha/beta receptor, fibronectin type III (Interfer-bind)",4,1O5D; 1W0Y; 1W2K; 2F9B
+Galactose-binding domain-like (GalBD_like),4,5A56; 5A57; 5A59; 5A5A
+Viral coat protein subunit,4,4IZJ; 7OOK
+"TonB dependent receptor-like, beta-barrel (TonB_dep_Rec_b-barrel)",4,1FCP; 1FI1; 1QJQ; 1QKC
+Probable molybdopterin binding domain (MoCF_biosynth),4,1UUX; 1UUY; 1Y5E; 8BVE
+Amidohydrolase family (Amidohydro_1),4,2GWN; 2OGJ; 3JZE; 4GY7
+SET domain (SET),4,3CBM; 3CBO; 3CBP; 4E47
+Subtilase family (Peptidase_S8),4,1TO1; 1TO2; 6XIC; 7S5G
+FabA-like domain (FabA),4,3CF8; 3CF9; 3ED0; 4ZJB
+Acetyltransferase (GNAT) family (Acetyltransf_1),4,1I12; 1I1D; 3NE7; 7CS1
+"5' nucleotidase, deoxy (Pyrimidine), cytosolic type C protein (NT5C) (NT5C)",4,1MH9; 1Q91; 6G2L; 6G2M
+Adenylosuccinate synthetase (Adenylsucc_synt),4,1QF4; 1QF5; 1SON; 1SOO
+Periplasmic binding protein (Peripla_BP_6),4,4EYO; 4EYQ; 4F8J; 4FB4
+Aldehyde dehydrogenase family (Aldedh),4,2WME; 4JBE; 5U0M
+Leucine carboxyl methyltransferase (LCM),3,1RJD; 1RJE; 1RJF
+Triosephosphate isomerase (TIM),3,1AG1; 1W0M; 3UWU
+Colicin immunity protein / pyocin immunity protein (Colicin_Pyocin),3,1BXI; 1FR2; 1MZ8
+Peptidase family M1 domain (Peptidase_M1),3,1GW6; 1HS6; 4R7L
+Glutamine amidotransferase class-I (GATase),3,1GPW; 1KXJ; 1T36
+HhH-GPD superfamily base excision DNA repair protein (HhH-GPD),3,1PU6; 1PU7; 1PU8
+Paramyxovirus nucleocapsid protein,3,1FZK; 1FZO; 1KPV
+"S-adenosylmethionine synthetase, central domain (S-AdoMet_synt_M)",3,1MXA; 1MXB; 1O9T
+Bacterial-like globin (Bac_globin),3,1IDR; 1S56; 1S61
+Ankyrin repeat,3,6M11; 6M12; 6M13
+RasGEF N-terminal motif (RasGEF_N),3,1NVU; 1NVW; 1XD2
+Aminotransferase class-III (Aminotran_3),3,4NOG; 5EQC; 5Z8K
+NADPH-dependent FMN reductase (FMN_red),3,7D38; 7D3A; 7D3B
+NUDIX domain (NUDIX),3,1HX3; 3OGA; 6EQ5
+G-protein gamma-like domain superfamily,3,3KRW; 3KRX; 8EFQ
+alpha/beta hydrolase fold (Abhydrolase_1),3,2PSD; 2PSE; 3C6Y
+Sodium:neurotransmitter symporter family (SNF),3,2Q6H; 2QEI; 4MMA
+Phosphoinositide 3-kinase C2 (PI3K_C2),3,1E7V; 1E8W; 1E8Z
+BNR repeat-like domain (BNR_3),3,1N1V; 2VK6; 7QY9
+Methyltransferase domain (Methyltransf_31),3,1R8X; 4HTF
+Phosphotransferase enzyme family (APH),3,2B0Q; 4DFU; 5IQE
+CoA binding domain (CoA_binding),3,1CQI; 1JKJ; 1JLL
+Hemopexin (Hemopexin),3,1HXN; 1QHU; 1QJS
+ATP-grasp domain (ATP-grasp_2),3,1CQI; 1JKJ; 1JLL
+ADP-ribosylation factor family (Arf),3,1E0S; 1R8S; 1RE0
+"DDB1-and CUL4-substrate receptor 15, WD repeat (DCAF15_WD40)",3,6Q0W; 6SJ7; 6UD7
+Peptidase inhibitor I9 (Inhibitor_I9),3,6XIC; 7S5G; 7S5H
+SWIB/MDM2 domain (SWIB),3,1RV1; 3IUX; 7NA1
+Pyridoxamine 5'-phosphate oxidase (PNPOx_N),3,1G76; 1G79; 1JNW
+Dipeptidyl peptidase IV (DPP IV) N-terminal region (DPPIV_N),3,2GBI; 2IIT; 2IIV
+"Pyruvate kinase, barrel domain (PK)",3,1T5A; 6K0K; 6SU1
+"Mur ligase family, catalytic domain (Mur_ligase)",3,4HV4; 7B61; 7B6K
+Molybdopterin cofactor-binding domain (MoCoBD_2),3,1N5W; 1N60; 1WYG
+Metallo-peptidase family M12 (Reprolysin_5),3,2DDF; 3E8R; 3EDZ
+"Immunodeficiency lentiviral matrix, N-terminal",3,4EP3; 4EPJ; 4EQ0
+Putative undecaprenyl diphosphate synthase (Prenyltransf),3,1X06; 1X07; 6ACS
+Aminotransferase class-V (Aminotran_5),3,1IUG; 1M32; 4KYO
+"Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain (Gp_dh_C)",3,1A7K; 1GYP; 7BEX
+"Voltage-dependent L-type calcium channel, IQ-associated (GPHH)",3,5GJV; 6JP8; 6JPB
+Haemagglutinin (Hemagglutinin),3,1RD8; 1RV0
+E6 superfamily,3,6TWQ; 6TWU; 6TWX
+Methyltransferase domain (Methyltransf_25),3,1R74; 3CGG; 3THS
+Serine-threonine protein phosphatase N-terminal domain (STPPase_N),3,1FJM; 1JK7; 1U32
+"Vibrio cholerae sialidase, lectin insertion (Sial-lect-inser)",3,1W0O; 6EKS; 6EKU
+Phosphoenolpyruvate carboxykinase (PEPCK_ATP),3,1J3B; 1XKV; 1YLH
+Cyclin-dependent kinase 5 activator,3,1UNG; 1UNH; 1UNL
+Phosphoglucose isomerase (PGI),3,1U0E; 1U0F; 1U0G
+SAM domain (Sterile alpha motif) (SAM_2),3,6QWV; 6ZG0; 6ZG1
+Anticodon binding domain (HGTP_anticodon),3,1KMN; 7F9S; 7F9V
+Histidine phosphatase superfamily (branch 2) (His_Phos_2),3,1ND6; 1SK8; 1SK9
+"Bacterial extracellular solute-binding protein, family 7 (DctP)",3,2CEX; 4MEV; 4UAB
+"Alpha amylase, catalytic domain (Alpha-amylase)",3,1GJW; 2BY0; 2BY1
+Inositol polyphosphate kinase (IPK),3,6M89; 6M8A; 6M8B
+Phosphoribosyltransferase (DBI_PRT),3,1D0S; 1L5F; 1L5N
+SPRY-associated domain (PRY),3,4CG4; 6UMB
+Helicase conserved C-terminal domain (Helicase_C),3,1WP9; 4F92; 4F93
+"Class I Histocompatibility antigen, domains alpha 1 and 2 (MHC_I)",3,1FZK; 1LEG; 1LEK
+Dipeptidyl peptidase IV (DPP IV) low complexity region (DPPIV_rep),3,2BUA; 2BUC; 2I3Z
+CoA-transferase family III (CoA_transf_3),3,1PT7; 1X74; 5YX6
+Phosphopantetheine attachment site (PP-binding),3,1T8K; 3GZM; 4ZJB
+tRNA synthetases class II (A) (tRNA-synt_2c),3,3HXU; 3HXV; 3HXY
+"S-adenosylmethionine synthetase, C-terminal domain (S-AdoMet_synt_C)",3,1MXC; 1O90; 1O92
+Pyrimidine 5'-nucleotidase (UMPH-1) (UMPH-1),3,4FE3; 4KX3; 4KX5
+Ligand-binding domain of nuclear hormone receptor (Hormone_recep),3,1GS4; 5JMM
+Rieske [2Fe-2S] domain (Rieske),3,1PP9; 6ICN; 6ICP
+VWA N-terminal (VWA_N),3,5GJV; 6JP5; 6JP8
+"Guanine nucleotide binding protein (G-protein), alpha subunit",3,1AS2; 1AZT; 1GIT
+"Serpin, conserved site",3,1M93; 5OM6
+Tetrapyrrole (Corrin/Porphyrin) Methylases (TP_methylase),3,1CBF; 1PJS; 1PJT
+Domain of unknown function (DUF3459) (DUF3459),3,2BXZ; 2BY2; 2BY3
+Hexokinase (Hexokinase_1),3,1HKC; 4F9O; 4FOI
+Methyltransferase domain (Methyltransf_23),3,1JQD; 2AOW; 2AOX
+Aminoglycoside 3-N-acetyltransferase (Antibiotic_NAT),3,6MB5; 6MB9; 7Q1X
+ABC transporter (ABC_tran),3,3NH9; 3NHA; 3NHB
+"Thiamine pyrophosphate enzyme, N-terminal TPP binding domain (TPP_enzyme_N)",3,1OZG; 5ESO; 5ESU
+Glucosamine-6-phosphate isomerases/6-phosphogluconolactonase (Glucosamine_iso),3,1DEA; 1HOR; 1HOT
+Elongation-Factor P (EF-P) rhamnosyltransferase EarP (EarP),3,5WXI; 5WXJ; 5WXK
+3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III (ACP_syn_III),3,1HNJ; 1MZS; 2QNZ
+Histidine biosynthesis protein (His_biosynth),3,1GPW; 1H5Y; 1THF
+Glycosyl hydrolase family 10 (Glyco_hydro_10),3,1OD8; 1V0M; 1V0N
+"Serine aminopeptidase, S33 (Hydrolase_4)",2,3FNB; 3S2Z
+Iron-sulfur binding domain of endonuclease III (EndIII_4Fe-2S),2,1MUN; 1MUY
+Kazal-type serine protease inhibitor domain (Kazal_1),2,1SGE; 1SGN
+FMN-dependent dehydrogenase (FMN_dh),2,1KBI; 1P0K
+Actin (Actin),2,1LCU; 5NBN
+Beta-lactamase enzyme family (Beta-lactamase2),2,1NY0; 3RXW
+FKBP-type peptidyl-prolyl cis-trans isomerase (FKBP_C),2,1TCO; 7ZUB
+ATP-NAD kinase C-terminal domain (NAD_kinase_C),2,5DHU; 8A9V
+Insulinase (Peptidase family M16) (Peptidase_M16),2,1PPJ
+Cytochrome C1 family (Cytochrom_C1),2,1PP9; 1PPJ
+Glycosyl hydrolases family 2 (Glyco_hydro_2),2,6D89; 7SF2
+UcrQ family (UcrQ),2,1PP9; 1PPJ
+Ubiquinol-cytochrome C reductase hinge protein (UCR_hinge),2,1PP9; 1PPJ
+Rieske [2Fe-2S] iron-sulphur domain superfamily,2,1PP9; 1PPJ
+"Ubiquinol-cytochrome C reductase, UQCRX/QCR9 like (UCR_UQCRX_QCR9)",2,1PP9; 1PPJ
+Shikimate kinase (SKI),2,1E6C; 3VAA
+"Cyclin, C-terminal domain (Cyclin_C)",2,3DDQ; 6GUC
+Phage integrase family (Phage_integrase),2,1CRX
+SH3 domain (SH3_1),2,1OPL; 3VS3
+RasGEF domain (RasGEF),2,1NVV; 1NVX
+Inhibitor of Apoptosis domain (BIR),2,1TFQ; 1TFT
+"Methylamine dehydrogenase, L chain (Me-amine-dh_L)",2,1MG2; 1MG3
+Molybdopterin cofactor-binding domain (MoCoBD_1),2,1N61; 1N63
+recA bacterial DNA recombination protein (RecA),2,1G19; 1U99
+ADP-ribosylation factor-like protein 2,2,1KSH; 1KSJ
+ATP phosphoribosyltransferase (HisG),2,1USY
+Histidyl-tRNA synthetase (tRNA-synt_His),2,1USY
+jmjN domain (JmjN),2,5PH6; 5PH7
+DeoC/LacD family aldolase (DeoC),2,1TO3; 3R12
+Ligand-gated ion channel (Lig_chan),2,3IJX; 3IK6
+Histidinol dehydrogenase (Histidinol_dh),2,1KAE; 1KAR
+Tick histamine binding protein (His_binding),2,1QFT; 1QFV
+"Bacteriophage PBS2, uracil-glycosylase inhibitor",2,1UGI; 2UGI
+Biotin carboxylase C-terminal domain (Biotin_carb_C),2,1BNC; 2V58
+Ligated ion channel L-glutamate- and glycine-binding site (Lig_chan-Glu_bd),2,2ZNT; 2ZNU
+"Early transcription elongation factor of RNA pol II, NGN section (Spt5-NGN)",2,3H7H; 3P8B
+Spt4/RpoE2 zinc finger (Spt4),2,3H7H; 3P8B
+Transferrin (Transferrin),2,3IB0; 4FIM
+"ATP synthase alpha/beta chain, C terminal domain (ATP-synt_ab_C)",2,1E1R; 1W0K
+Histone-fold,2,3B0C; 3B0D
+Small ribosomal subunit protein bTHX/bTHXc/bTHXm,2,4LF6; 4LFB
+Small ribosomal subunit protein bS20 superfamily,2,4LF6; 4LFB
+"GMP-PDE, delta subunit (GMP_PDE_delta)",2,1KSH; 1KSJ
+Beta-eliminating lyase (Beta_elim_lyase),2,4UP2; 7FJK
+Acetylcholinesterase-related enzymes,2,4BDS; 6EQP
+Ricin-type beta-trefoil lectin domain (Ricin_B_lectin),2,1ONK; 5NDF
+Metal-binding blue pigment complex,2,2VH3
+Auxiliary Activity family 9 (formerly GH61) (AA9),2,4EIS
+Enolase C-terminal domain-like (MR_MLE_C),2,4GYP
+"ATP:guanido phosphotransferase, C-terminal catalytic domain (ATP-gua_Ptrans)",2,4BG4
+"Pyridine nucleotide-disulphide oxidoreductase, dimerisation domain (Pyr_redox_dim)",2,1GRG; 1GSN
+SAICAR synthetase (SAICAR_synt),2,2Z02; 3NUA
+Elongation factor Tu domain 2 (GTP_EFTU_D2),2,1HA3; 5MI8
+Luciferase-like monooxygenase (Bac_luciferase),2,1BRL
+TrwC relaxase (TrwC),2,2A0I; 3L6T
+Hexokinase (Hexokinase_2),2,1DGK; 4FOE
+"QacR-like protein, C-terminal region (TetR_C_5)",2,1QVT; 1QVU
+Polypeptide deformylase (Pep_deformylase),2,1BSJ; 1BSK
+"Enolase, N-terminal domain (Enolase_N)",2,1TE6; 4A3R
+DET1- and DDB1-associated protein 1 domain,2,6SJ7; 6UD7
+Ethanolamine ammonia-lyase light chain (EutC) (EutC),2,3ABO; 3ABS
+Ethanolamine ammonia lyase large subunit (EutB) (EutB),2,3ABO; 3ABS
+Proteins of 100 residues with WXG (WXG100),2,4I0X
+Ribosomal protein S19 (Ribosomal_S19),2,4LF6; 4LFB
+Ribosomal protein S18 (Ribosomal_S18),2,4LF6; 4LFB
+Ribosomal protein S16 (Ribosomal_S16),2,4LF6; 4LFB
+"Semialdehyde dehydrogenase, dimerisation domain (Semialdhyde_dhC)",2,1NX6; 3Q1L
+Rhabdovirus nucleoprotein-like,2,1FZJ; 1FZM
+Lipoyl protein ligase A/B catalytic domain (LplA-B_cat),2,2ART; 2C8M
+"Mur ligase, glutamate ligase domain (Mur_ligase_C)",2,7B6I; 7B6P
+TNF(Tumour Necrosis Factor) family (TNF),2,1KXG; 6X83
+Nitroreductase family (Nitroreductase),2,1BKJ; 8OG3
+TOBE domain (TOBE),2,1H9J; 1H9K
+Sec63 Brl domain (Sec63),2,8BC9; 8BCB
+Neurotransmitter-gated ion-channel ligand binding domain (Neur_chan_LBD),2,2PH9; 5LG3
+Haloacid dehalogenase-like hydrolase (HAD_2),2,3QU2; 7OCU
+NADH:flavin oxidoreductase / NADH oxidase family (Oxidored_FMN),2,1H62; 6S32
+Ankyrin repeat-containing domain superfamily,2,4HKK; 4HKN
+AAA domain (AAA_33),2,4GP7; 4MDF
+SPRY domain (SPRY),2,4N7I; 5HM7
+"L,D-transpeptidase catalytic domain (YkuD)",2,3U1Q; 5DUJ
+"Inner centromere protein, ARK binding region (INCENP_ARK-bind)",2,2VRX; 4B8M
+Myo-inositol-1-phosphate synthase (Inos-1-P_synth),2,1P1J; 1U1I
+Staphylococcus aureus coagulase (Coagulase),2,1NU7; 1NU9
+Apical membrane antigen 1 (AMA-1),2,1W81; 1W8K
+Peptidase M10 serralysin C terminal (Peptidase_M10_C),2,1GO7; 1K7G
+Ribosomal protein S15 (Ribosomal_S15),2,4LF6; 4LFB
+"Aromatic-ring hydroxylase, C-terminal (Rng_hyd_C)",2,2R0P; 4EIP
+Ribosomal protein S13/S18 (Ribosomal_S13),2,4LF6; 4LFB
+Ribosomal protein S12/S23 (Ribosom_S12_S23),2,4LF6; 4LFB
+Ribosomal protein S11 (Ribosomal_S11),2,4LF6; 4LFB
+Ribosomal protein S10p/S20e (Ribosomal_S10),2,4LF6; 4LFB
+Ribosomal protein S9/S16 (Ribosomal_S9),2,4LF6; 4LFB
+"Small ribosomal subunit protein uS7, conserved site",2,4LF6; 4LFB
+Ribosomal protein S6 (Ribosomal_S6),2,4LF6; 4LFB
+Ribosomal protein S2 (Ribosomal_S2),2,4LF6; 4LFB
+FAD binding domain of DNA photolyase (FAD_binding_7),2,1OWM; 1OWP
+Multi-copper polyphenol oxidoreductase laccase (Cu-oxidase_4),2,1XFJ; 1Z9T
+Peptidase M16 inactive domain (Peptidase_M16_C),2,1PP9
+"Copper binding proteins, plastocyanin/azurin family (Copper-bind)",2,1MG2; 1MG3
+"Aspartate/ornithine carbamoyltransferase, carbamoyl-P binding domain (OTCace_N)",2,1JS1; 1VLV
+Methylamine dehydrogenase heavy chain (MADH) (Me-amine-dh_H),2,1MG2; 1MG3
+Phytanoyl-CoA dioxygenase (PhyH) (PhyH),2,6S0V; 7CL6
+"Haemagglutinin, influenzavirus A/B",2,1R5I; 1RV0
+Prion/Doppel alpha-helical domain (Prion),2,1UW3; 4MA8
+6-phosphofructo-2-kinase (6PF2K),2,1K6M; 6IBY
+Cytochrome b-c1 complex subunit 7,2,1PP9; 1PPJ
+RSE1/DDB1/CPSF1 first beta-propeller (Beta-prop_RSE1_1st),2,4CI1; 4TZ4
+TonB-dependent Receptor Plug Domain (Plug),2,1QFF; 1QFG
+Arginosuccinate synthase C-terminal domain (Arginosuc_syn_C),2,1KP2; 1KP3
+Myotubularin-like phosphatase domain (Myotub-related),2,1LW3; 1M7R
+Phosphoglycerate kinase (PGK),2,13PK; 1VJD
+"ATP synthase alpha/beta family, beta-barrel domain (ATP-synt_ab_N)",2,1H8H
+NADH-ubiquinone reductase complex 1 MLRQ subunit,2,1LEG; 1LEK
+picornavirus capsid protein (Rhv),2,1MEC
+AAA domain (Cdc48 subfamily) (AAA_2),2,1OFH; 1OFI
+Rho-activating domain of cytotoxic necrotizing factor (CNF1),2,1HQ0; 1HZG
+Ricin-type beta-trefoil lectin domain-like (RicinB_lectin_2),2,4IZX; 4J2S
+chorismate binding enzyme (Chorismate_bind),2,2G5F; 3BZM
+Calycin,2,4ALB; 5L8N
+Peptidase M1 N-terminal domain (Peptidase_M1_N),2,1SQM; 3FTY
+"Bacterial regulatory proteins, tetR family (TetR_N)",2,2V57; 4JNN
+Endonuclease/Exonuclease/phosphatase family (Exo_endo_phos),2,5DV4; 7N3Y
+Aldose 1-epimerase (Aldose_epim),2,4BZE; 4BZF
+NusB family (NusB),2,1EYV; 1TZX
+NAD dependent epimerase/dehydratase family (Epimerase),2,3BXX; 5LC1
+5-formyltetrahydrofolate cyclo-ligase family (5-FTHF_cyc-lig),2,1U3F; 1U3G
+Phosphatidic acid phosphatase type 2/haloperoxidase superfamily,2,1QHB; 1UP8
+"Polysaccharide lyase family 8, C-terminal beta-sandwich domain (Lyase_8_C)",2,1RW9; 1RWH
+N-(5'phosphoribosyl)anthranilate (PRA) isomerase (PRAI),2,1NSJ; 1PII
+Metallo-beta-lactamase superfamily (Lactamase_B),2,5N0I; 6TTA
+Cupin domain (Cupin_2),2,5FLI; 5FLJ
+HPr(Ser) kinase/phosphorylase,2,1JB1; 1KKM
+Carbonic anhydrase (Pro_CA),2,3UCJ; 7COJ
+Prenyltransferase alpha-alpha toroid domain (Prenyltrans),2,1FPP; 3E32
+Ubiquitin specific protease domain,2,7ZH4; 8A9K
+Protein prenyltransferase alpha subunit repeat (PPTA),2,1FPP; 3E32
+"MAATS-type transcriptional repressor, C-terminal region (TetR_C_2)",2,2UXH; 3P9T
+"Aldehyde oxidase and xanthine dehydrogenase, a/b hammerhead domain (Ald_Xan_dh_C)",2,1N62; 3NVY
+MGS-like domain (MGS),2,1A9X; 1JDB
+Thymosin beta-4 family (Thymosin),2,1SQK; 3SJH
+G-protein gamma-like domain,2,6DDE; 6DDF
+Cytidylyltransferase (CTP_transf_3),2,2Y6P; 6CKL
+Acetokinase family (Acetate_kinase),2,1X9J; 3SK3
+Regulator of chromosome condensation (RCC1) repeat (RCC1),2,7Q40; 7Q43
+Phosphoribosyl transferase domain (Pribosyltran),2,1MZV; 3O7M
+MT-A70 (MT-A70),2,5TEY
+Regulator of G protein signaling domain (RGS),2,1AGR; 3KRW
+"Inner centromere protein, ARK-binding domain",2,4AF3; 6GR9
+Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD (Pro_isomerase),2,1MF8; 3R4G
+FAD binding domain (FAD_binding_2),2,4C3Y; 7P18
+Kelch motif (Kelch_1),2,2ZZK; 5FZN
+"Polysaccharide lyase family 8, N terminal alpha-helical domain (Lyase_8_N)",2,1RWC; 1RWF
+DNA polymerase beta palm (DNA_pol_B_palm),2,1BPD; 1TV9
+Protein of unknown function (DUF1461) (DUF1461),2,7B0Q; 7B0R
+HD/PDEase domain,2,5SGO
+SnoaL-like domain (SnoaL_2),2,1OH0; 1W6Y
+Coronavirus endopeptidase C30 (Peptidase_C30),2,2GZ7; 2GZ8
+FtsJ-like methyltransferase (FtsJ),2,7V1B; 7V1G
+Uracil DNA glycosylase superfamily (UDG),2,1Q3F; 5H9I
+"Carbamoyl-phosphate synthase small chain, CPSase domain (CPSase_sm_chain)",2,1A9X; 1JDB
+Macrophage migration inhibitory factor (MIF) (MIF),2,3HOF; 3L5U
+"Nuclear receptor coactivator, DUF1518",2,5JMM; 6KTN
+Mab-21 protein nucleotidyltransferase domain (Mab-21),2,5EOG; 5EOM
+BNR/Asp-box repeat (BNR),2,3H73; 4YZ2
+"Anthrax toxin lethal factor, N- and C-terminal domain (ATLF)",2,1YQY; 4WF6
+"Hepsin, SRCR domain (Hepsin-SRCR)",2,1O5E; 1O5F
+Proteasome subunit (Proteasome),2,1OFH; 1OFI
+YgbB family (YgbB),2,6MWI; 6MWJ
+Scavenger mRNA decapping enzyme C-term binding (DcpS_C),2,1XML; 1XMM
+Snake toxin cobra-type (Toxin_cobra-type),2,1CDT; 1XT3
+Potato inhibitor I family (potato_inhibit),2,1TO1; 1TO2
+RmlC-like cupin domain superfamily,2,1H1I; 1H1M
+PAS fold,1,1DP9
+Squalene-hopene cyclase C-terminal domain (SQHop_cyclase_C),1,6SBF
+WD40-repeat-containing domain superfamily,1,4YHC
+Asparaginase (Asparaginase_2),1,4ZM9
+Alpha/Beta hydrolase fold,1,5JAD
+"Peroxidase, family 2 (Peroxidase_2)",1,7O1X
+Glycosyl hydrolases family 32 N-terminal domain (Glyco_hydro_32N),1,1UYP
+"Phosphotransferase system, EIIC (PTS_EIIC)",1,3QNQ
+Bet v I type allergen,1,6AWS
+Ribosomal RNA methyltransferase (FmrO) (FmrO),1,6CN0
+"Enolase, C-terminal TIM barrel domain (Enolase_C)",1,1NEL
+Glycine/inosamine-phosphate amidinotransferase,1,1JDW
+Helix-hairpin-helix motif (HHH),1,1WEG
+"Alpha amylase, C-terminal all-beta domain (Alpha-amylase_C)",1,3AML
+Cobalamin adenosyltransferase (Cob_adeno_trans),1,1RTY
+"Glucose-6-phosphate dehydrogenase, C-terminal domain (G6PD_C)",1,1DPG
+"Dihydrodipicolinate reductase, N-terminus (DapB_N)",1,1ARZ
+Peptidyl-tRNA hydrolase (Pept_tRNA_hydro),1,7BRD
+Leucine Rich repeat (LRR_6),1,2Q4G
+Beta barrel domain of bacteriophage endosialidase (End_beta_barrel),1,1V0F
+Ferredoxin-fold anticodon binding domain (FDX-ACB),1,3TEG
+"Heavy-metal-associated, conserved site",1,3FRY
+Neuronal voltage-dependent calcium channel alpha 2acd (VGCC_alpha2),1,6JPB
+PAN domain (PAN_1),1,6I44
+ribonuclease (Ribonuclease),1,1RN4
+DEAD/DEAH box helicase (DEAD),1,6ZNP
+Thymidylate synthase complementing protein (Thy1),1,1O2B
+"mRNA capping enzyme, C-terminal domain (mRNA_cap_C)",1,1P16
+Domain of unknown function (DUF1923) (DUF1923),1,1GJU
+"Citrate synthase, C-terminal domain (Citrate_synt)",1,1AJ8
+"NADPH-dependent reductive aminase-like, C-terminal domain (RedAm-like_C)",1,5G6S
+"Ribosomal protein L9, N-terminal domain (Ribosomal_L9_N)",1,2HVF
+Flavivirus DEAD domain (Flavi_DEAD),1,1CU1
+Amidohydrolase (Amidohydro_2),1,7K12
+Bacteriocin class IId cyclical uberolysin-like (Bacteriocin_IId),1,1O83
+LysR substrate binding domain (LysR_substrate),1,3FXQ
+Tetratricopeptide repeat (TPR_8),1,4KYO
+"Thiamine pyrophosphate enzyme, C-terminal TPP binding domain (TPP_enzyme_C)",1,1OZH
+Riboflavin kinase (Flavokinase),1,1MRZ
+Chemotaxis phosphatase CheX (CheX),1,3H4Y
+haloacid dehalogenase-like hydrolase (Hydrolase_3),1,1WZC
+Transferrin,1,4FIM
+SIS domain (SIS),1,3HBA
+Cytochrome c-550 domain (Cytochrom_C550),1,1MZ4
+"Hepatitis C virus, Core protein, N-terminal",1,2A4G
+ThiS family (ThiS),1,1TYG
+UDP-3-O-acyl N-acetylglycosamine deacetylase (LpxC),1,2GO3
+Duffy binding domain (Duffy_binding),1,2Y8D
+Amino acid kinase family (AA_kinase),1,4OLC
+Thiazole biosynthesis protein ThiG (ThiG),1,1TYG
+Oxysterol-binding protein (Oxysterol_BP),1,7V62
+Periplasmic binding protein-like domain (Peripla_BP_3),1,1JH9
+ApaG domain (DUF525),1,1XQ4
+Enoyl-CoA hydratase/isomerase,1,1XX4
+ZinT (YodA) periplasmic lipocalin-like zinc-recruitment (ZinT),1,5YXC
+F5/8 type C domain (F5_F8_type_C),1,4A44
+"Ribulose bisphosphate carboxylase, small chain (RuBisCO_small)",1,1EJ7
+"Ribulose bisphosphate carboxylase large chain, catalytic domain (RuBisCO_large)",1,1EJ7
+DAN domain (DAN),1,4JPH
+Centromere protein W,1,3B0C
+3-Deoxy-D-manno-octulosonic-acid transferase (kdotransferase) (Glycos_transf_N),1,2XCU
+"Zinc finger, C2H2 type (zf-C2H2)",1,7BQU
+"Malate synthase, TIM barrel domain (MS_TIM-barrel)",1,7YQN
+"Copper amine oxidase, enzyme domain (Cu_amine_oxid)",1,1W7C
+Phospholipase/Carboxylesterase (Abhydrolase_2),1,4H0C
+"Poly (ADP-ribose) glycohydrolase (PARG), Macro domain fold (PARG_cat_C)",1,5A7R
+5'(3')-deoxyribonucleotidase,1,6G22
+Methyltransferase domain (Methyltransf_11),1,4INE
+"S-adenosylmethionine synthetase, N-terminal domain (S-AdoMet_synt_N)",1,1O93
+"DPUP/SUD, C-terminal, betacoronavirus",1,7NT4
+PAS fold (PAS_3),1,7ZUB
+HAD-hyrolase-like (Hydrolase_like),1,2FPU
+"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase (HATPase_c_3)",1,7ZUB
+Kinase-like (Kinase-like),1,4LV5
+Birnavirus VP4 protein (Birna_VP4),1,3P06
+Interferon-inducible GTPase (IIGP) (IIGP),1,4LV5
+"Carbamoyl-phosphate synthetase large chain, oligomerisation domain (CPSase_L_D3)",1,1T36
+"Betacoronavirus spike glycoprotein S1, receptor binding (bCoV_S1_RBD)",1,7URQ
+Somatomedin B domain (Somatomedin_B),1,7CBA
+ATP-sulfurylase (ATP-sulfurylase),1,1J70
+Adaptor complexes medium subunit family (Adap_comp_sub),1,7OFP
+Thaumatin family (Thaumatin),1,6E0D
+"CRAL/TRIO, N-terminal domain (CRAL_TRIO_N)",1,5MUG
+cAMP-dependent protein kinase inhibitor (PKI),1,1CMK
+PHD-finger (PHD),1,8BPC
+Maf-like protein (Maf),1,1EX2
+C-terminal domain of Sin3a protein (Sin3a_C),1,8BPC
+Fingers domain of DNA polymerase lambda (DNA_pol_lambd_f),1,4X5V
+Zinc carboxypeptidase (Peptidase_M14),1,3KGQ
+"6-phosphogluconate dehydrogenase, C-terminal domain (6PGD)",1,7CB2
+NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus (NAD_Gly3P_dh_C),1,3K96
+Nudix hydrolase domain-containing protein,1,1KTG
+Indole-3-glycerol phosphate synthase (IGPS),1,1JCM
+Delta-aminolevulinic acid dehydratase (ALAD),1,1OHL
+Papain family cysteine protease (Peptidase_C1),1,3BCN
+PROCT (NUC072) domain (PROCT),1,8BCB
+"Beta-galactosidase, domain 2 (BetaGal_dom2)",1,1XC6
+"3' exoribonuclease family, domain 2 (RNase_PH_C)",1,1UDS
+"Asparaginase, N-terminal (Asparaginase)",1,6WZ8
+GyrI-like small molecule binding domain (GyrI-like),1,3Q1M
+N-terminal domain of BNR-repeat neuraminidase (BNR_assoc_N),1,6MRV
+Influenza RNA-dependent RNA polymerase subunit PA,1,6YA5
+Urease beta subunit (Urease_beta),1,1IE7
+"Urease, gamma subunit (Urease_gamma)",1,1IE7
+Beta/Gamma crystallin (Crystall),1,2BB2
+Cupin-like domain (Cupin_8),1,4GJZ
+Chromo shadow domain (Chromo_shadow),1,6HW2
+Guanylate kinase/L-type calcium channel beta subunit,1,6HW2
+Ferrochelatase (Ferrochelatase),1,2HRC
+Glycosyl hydrolases family 16 (Glyco_hydro_16),1,1AJK
+Inositol-pentakisphosphate 2-kinase (Ins_P5_2-kin),1,4AXD
+Protein of unknown function DUF84 (NTPase_I-T),1,1U14
+"Carbonic anhydrase, alpha-class, conserved site",1,1DMY
+"Flavivirus RNA-directed RNA polymerase, thumb domain (Flavi_NS5_thumb)",1,6LD3
+Coronavirus papain-like peptidase (CoV_peptidase),1,7D7L
+Helix-turn-helix domain (HTH_37),1,2A6C
+Phytase (Phytase),1,1H6L
+Glycosyltransferase family 20 (Glyco_transf_20),1,1GZ5
+Trehalose-phosphatase (Trehalose_PPase),1,5DX9
+"Ssol_1539-like, second domain (Ssol_1539-like_2nd)",1,5K5D
+TANK-binding kinase 1 coiled-coil domain 1 (TBK1_CCD1),1,4JLC
+"Ribosomal protein S5, C-terminal domain (Ribosomal_S5_C)",1,4LF6
+S4 domain (S4),1,4LF6
+"Ribosomal protein S3, C-terminal domain (Ribosomal_S3_C)",1,4LF6
+Amino-transferase class IV (Aminotran_4),1,3CSW
+Bacterial transferase hexapeptide (six repeats) (Hexapep),1,2IU9
+Avidin family (Avidin),1,3X00
+Endonuclease-reverse transcriptase (Exo_endo_phos_2),1,1WDU
+"Anthrax toxin lethal factor, middle domain (Anthrax-tox_M)",1,1ZXV
+C-5 cytosine-specific DNA methylase (DNA_methylase),1,1G55
+"Prephenate dehydrogenase, nucleotide-binding domain (PDH_N)",1,5WHX
+SAWADEE domain (SAWADEE),1,4IUP
+"Urease alpha-subunit, N-terminal domain (Urease_alpha)",1,1IE7
+C-terminal domain of 1-Cys peroxiredoxin (1-cysPrx_C),1,7C87
+"Poly (ADP-ribose) glycohydrolase (PARG), helical domain (PARG_cat_N)",1,4B1H
+Type III secretion chaperone domain (Chaperone_III),1,1K3S
+Glycerol-3-phosphate responsive antiterminator (G3P_antiterm),1,1VKF
+Follistatin/Osteonectin-like EGF domain (FOLN),1,3HH2
+Transforming growth factor beta like domain (TGF_beta),1,3HH2
+Elongation factor P (EF-P) KOW-like domain (EFP_N),1,5WXK
+"JmjC domain, hydroxylase (JmjC)",1,5PHK
+NmrA-like family (NmrA),1,1XGK
+"lactate/malate dehydrogenase, alpha/beta C-terminal domain (Ldh_1_C)",1,4BGV
+HMGL-like (HMGL-like),1,6NDS
+CRAL/TRIO domain (CRAL_TRIO),1,5MUE
+"Dual specificity phosphatase, catalytic domain (DSPc)",1,3CM3
+"Phosphoribosylglycinamide synthetase, N domain (GARS_N)",1,3MJF
+Arylmalonate decarboxylase (Amdase),1,2VLB
+Transcriptional regulator PadR-like family (PadR),1,5Y8T
+CDI immunity protein (CdiI),1,2GKP
+"Initiation factor eIF2 gamma, C terminal (eIF2_C)",1,3SJZ
+MerR family regulatory protein (MerR),1,1R8E
+"Acid phosphatase, class B-like",1,1RMY
+GMC oxidoreductase (GMC_oxred_C),1,1N4U
+Glycine cleavage H-protein (GCV_H),1,1HPC
+tRNA (Uracil-5-)-methyltransferase (tRNA_U5-meth_tr),1,1UWV
+Pyridoxal phosphate biosynthetic protein PdxA (PdxA),1,1PTM
+Armadillo-type fold,1,4NZW
+Pterin binding enzyme (Pterin_bind),1,1AJ0
+AICARFT/IMPCHase bienzyme (AICARFT_IMPCHas),1,1OZ0
+MarR family (MarR),1,2RDP
+DNA polymerase family A (DNA_pol_A),1,2XY5
+Thymidylate kinase (Thymidylate_kin),1,6YT1
+"2',3'-cyclic nucleotide 3'-phosphodiesterase (CNP or CNPase) (CNPase)",1,1WOJ
+Green fluorescent protein-related,1,1XMZ
+"Coronavirus replicase NSP15, N-terminal oligomerisation (CoV_NSP15_N)",1,6W01
+Ribosome inactivating protein (RIP),1,1ONK
+Cyclin-dependent kinase regulatory subunit (CKS),1,1DKS
+Uroporphyrinogen decarboxylase (URO-D) (URO-D),1,1R3V
+Sulfiredoxin,1,1XW3
+OB-fold nucleic acid binding domain (tRNA_anti-codon),1,1X55
+Vps4 C terminal oligomerisation domain (Vps4_C),1,6P10
+"Maternal embryonic leucine zipper kinase, UBA domain (UBA_MELK)",1,5M5A
+"Pyruvate kinase, alpha/beta domain (PK_C)",1,3MA8
+Rad51 (Rad51),1,1PZN
+Aurora-A binding,1,3E5A
+2OG-Fe(II) oxygenase superfamily (2OG-FeII_Oxy),1,1GP6
+"Polysaccharide lyase family 8, super-sandwich domain (Lyase_8)",1,1RWG
+Gig2-like (Gig2-like),1,2CSG
+Orotidine 5'-phosphate decarboxylase / HUMPS family (OMPdecase),1,1KV8
+"Chalcone and stilbene synthases, C-terminal domain (Chal_sti_synt_C)",1,3A5R
+Apoptosis preventing protein (P35),1,1P35
+C-terminal domain of V and A type ATP synthase (ATP-synt_VA_C),1,1E1R
+Chloramphenicol acetyltransferase (CAT),1,1NOC
+"AAA domain, putative AbiEii toxin, Type IV TA system (AAA_21)",1,1II8
+Adenylate kinase (ADK),1,1AKY
+AAA domain (AAA_23),1,1II8
+Alpha galactosidase A (Melibiase_2),1,3H55
+HMG (high mobility group) box (HMG_box),1,1HSM
+KaiB domain (KaiB),1,1WWJ
+Protein kinase domain,1,6TWY
+"Anthranilate synthase component I, N terminal region (Anth_synt_I_N)",1,1K0G
+HPr Serine kinase N terminus (Hpr_kinase_N),1,1KO7
+Proline racemase (Pro_racemase),1,4JBD
+SpoU rRNA Methylase family (SpoU_methylase),1,3ONP
+ATPase family associated with various cellular activities (AAA) (AAA),1,6P11
+Dimerisation domain of Zinc Transporter (ZT_dimer),1,6HAN
+Guanine-specific ribonuclease N1-like,1,1AQZ
+von Willebrand factor type A domain (VWA),1,6JPA
+Ion transport protein (Ion_trans),1,6JPA
+"Tyrosine-protein kinase, active site",1,1LK2
+ABC-2 type transporter (ABC2_membrane_7),1,6VXH
+Histidine kinase/HSP90-like ATPase domain,1,3CIT
+Shikimate dehydrogenase substrate binding domain (Shikimate_dh_N),1,1O9B
+Biotin/lipoate A/B protein ligase family (BPL_LplA_LipB),1,1X01
+2OG-Fe(II) oxygenase superfamily (2OG-FeII_Oxy_3),1,5IAX
+"Citrate lyase, alpha subunit (CitF) (CitF)",1,2HJ0
+e3 binding domain (E3_binding),1,3RNM
+NikR C terminal nickel binding domain (NikR_C),1,2WVE
+Indole-3-glycerol phosphate synthase domain,1,1IGS
+Zn-finger in Ran binding protein and others (Zn_ribbon_RanBP),1,4XXB
+ribosomal L5P family C-terminus (Ribosomal_L5_C),1,4XXB
+N-acetylmuramoyl-L-alanine amidase (Amidase_2),1,1S2J
+Immunoglobulin I-set domain (I-set),1,1BIH
+Sec7 domain (Sec7),1,1RE0
+[2Fe-2S] binding domain (Fer2_2),1,1N61
+non-haem dioxygenase in morphine synthesis N-terminal (DIOX_N),1,1WA6
+Adenylylsulphate kinase (APS_kinase),1,4BZQ
+Det1 complexing ubiquitin ligase (DDA1),1,6Q0W
+PAS domain superfamily,1,1OTD
+DDB1- and CUL4-associated factor 15,1,6Q0W
+ParB/Sulfiredoxin domain (ParBc),1,1VK1
+Polysaccharide deacetylase (Polysacc_deac_1),1,3CL8
+Neurotensin/neuromedin N,1,4XES
+"SpoU, rRNA methylase, C-terminal (SpoU_methylas_C)",1,1V2X
+Lyase (Lyase_1),1,1TJ7
+Ubiquitin-activating enzyme E1 FCCH domain (E1_FCCH),1,6ZQH
+Deltex C-terminal domain (DTC),1,3PG6
+Spermine/spermidine synthase domain (Spermine_synth),1,3BWC
+"Glutathione S-transferase, C-terminal domain (GST_C_3)",1,6RWD
+Mannitol dehydrogenase C-terminal domain (Mannitol_dh_C),1,7OCS
+tRNA pseudouridine synthase D (TruD) (TruD),1,1SB7
+Haem-NO-binding (HNOB),1,5IXX
+Possible lysine decarboxylase (Lysine_decarbox),1,1WEK
+Penicillin binding protein transpeptidase domain (Transpeptidase),1,1XA1
+Deoxynucleoside kinase (dNK),1,5MQT
+Protein-glutamine gamma-glutamyltransferase (TGL),1,4PA5
+"Colipase, N-terminal domain (Colipase)",1,1ETH
+"Uncharacterised protein, DegV family COG1307 (DegV)",1,1VPV
+FAD binding domain in molybdopterin dehydrogenase (FAD_binding_5),1,1N63
+TENA/THI-4/PQQC family (TENA_THI-4),1,1RTW
+C2 domain (C2),1,1DSY
+ATP-dependent protease La (LON) substrate-binding domain (LON_substr_bdg),1,4TZ4
+Peptidase S26,1,1B12
+Phosphoribulokinase / Uridine kinase family (PRK),1,1UEJ
+TcdA/TcdB catalytic glycosyltransferase domain (TcdA_TcdB),1,5UQT
+Pleckstrin homology domain,1,1R8S
+Trimeric LpxA-like superfamily,1,7UUN
+Integrase Zinc binding domain (Integrase_Zn),1,1K6Y
+Casein kinase II regulatory subunit (CK_II_beta),1,1JWH
+Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily (Glyoxalase_4),1,3GM5
+Cytochrome D1 heme domain (Cytochrom_D1),1,1NIR
+"UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase, LpxD (LpxD)",1,2IU8
+CRM1 / Exportin repeat 3 (CRM1_repeat_3),1,7B51
+"Ubiquinone biosynthesis protein COQ9, N-terminal domain (COQ9_N)",1,6DEW
+Ubiquinol cytochrome reductase transmembrane region (UCR_TM),1,1PPJ
+Cytochrome b(C-terminal)/b6/petD (Cytochrom_B_C),1,1PPJ
+Sucrose-6F-phosphate phosphohydrolase (S6PP),1,1TJ5
+Hydrogenase formation hypA family (HypD),1,3VYR
+"Hydrogenase assembly chaperone, conserved site",1,3VYR
+Phosphodiesterase 4 upstream conserved regions (UCR) (PDE4_UCR),1,4X0F
+DAHP synthetase I family (DAHP_synth_1),1,1PE1
+FANCI solenoid 3 (FANCI_S3),1,8A9K
+"Chitinase A, N-terminal domain (ChitinaseA_N)",1,3ARR
+"N-sulphoglucosamine sulphohydrolase, C-terminal (SGSH_C)",1,7SNJ
+PLAT/LH2 domain (PLAT),1,1ETH
+Anticodon-binding domain of tRNA ligase (Anticodon_1),1,7WPM
+DNA / pantothenate metabolism flavoprotein C-terminal (DFP),1,1U80
+Eukaryotic phosphomannomutase (PMM),1,2I54
+Glycine radical (Gly_radical),1,1H7B
+Fe-S metabolism associated domain (SufE),1,3G0M
+Periplasmic binding protein domain (Peripla_BP_4),1,4RU1
+EF hand domain (EF-hand_1),1,5G08
+Coproporphyrinogen III oxidase (Coprogen_oxidas),1,2AEX
+CamS sex pheromone cAM373 precursor (CamS),1,4HN3
+Plant O-methyltransferase dimerisation domain (Dimerisation),1,3P9I
+Fibroblast growth factor (FGF),1,1BFF
+HpcH/HpaI aldolase/citrate lyase (HpcH_HpaI),1,1DXE
+"Glutathione S-transferase, C-terminal domain (GST_C_2)",1,4KDY
+Dephospho-CoA kinase (CoaE),1,1UF9
+"7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase (HPPK) (HPPK)",1,1EQM
+NlpC/P60 family (NLPC_P60),1,7V6T
+Voltage gated calcium channel IQ domain (Ca_chan_IQ),1,6JP5
+"Proprotein convertase subtilisin/kexin type 9, C-terminal domain 2",1,7S5H
+Antirestriction protein (Antirestrict),1,2WJ9
+"Tyrosine-protein kinase, receptor class III, conserved site",1,1SHA
+Protein of unknown function (DUF3237) (DUF3237),1,6JJT
+Extracellular link domain (Xlink),1,4MRF
+Uncharacterised protein family UPF0047 (UPF0047),1,1VPH
+PTS HPr component phosphorylation site (PTS-HPr),1,1KKM
+T3SS EscN ATPase C-terminal domain (T3SS_ATPase_C),1,2OBL
+"Polymorphic toxin system, DSP-PTPase phosphatase (Tc-R-P)",1,2I6O
+FANCL UBC-like domain 3 (FANCL_d3),1,3K1L
+"Phytochrome, central region",1,1MZU
+Peptide methionine sulfoxide reductase (PMSR),1,2J89
+GDSL-like Lipase/Acylhydrolase (Lipase_GDSL),1,1V2G
+"Signal-peptide peptidase, presenilin aspartyl protease (SPP)",1,4Y6K
+Fanconi anaemia protein FANCD2,1,8A9K
+Vanillate O-demethylase oxygenase C-terminal domain (VanA_C),1,6ICO
+MobA-like NTP transferase domain (NTP_transf_3),1,5VMK
+Membrane dipeptidase (Peptidase family M19) (Peptidase_M19),1,3ITC
+Arylesterase (Arylesterase),1,1V04
+LysX preATP-grasp domain (LysX_preATP_grasp),1,3VPD
+MarR family (MarR_2),1,4RGR
+Ubiquitin carboxyl-terminal hydrolase (UCH),1,6LVS
+"FGGY family of carbohydrate kinases, N-terminal domain (FGGY_N)",1,1GLF
+N-terminal domain of oxidoreductase (ADH_N_2),1,2J3J
+Thioesterase domain (Thioesterase),1,5UGZ
+Alphavirus E1 glycoprotein (Alpha_E1_glycop),1,1RER
+50S ribosome-binding GTPase (MMR_HSR1),1,1MKY
+"tRNA synthetases class I (E and Q), anti-codon binding domain (tRNA-synt_1c_C)",1,7WAJ
+DegT/DnrJ/EryC1/StrS aminotransferase family (DegT_DnrJ_EryC1),1,4LC3
+Opacity family porin protein (Opacity),1,1P4T
+Kunitz/Bovine pancreatic trypsin inhibitor domain (Kunitz_BPTI),1,1BPI
+"SNF2, N-terminal",1,5NBN
+"Dedicator of cytokinesis, C-terminal, lobe C",1,7Q43
+"Myristoyl-CoA:protein N-myristoyltransferase, N-terminal domain (NMT)",1,6NXG
+"Aspartate dehydrogenase, C-terminal (Asp_DH_C)",1,2DC1
+CYTH domain (CYTH),1,3V85
+"Pyridoxal-dependent decarboxylase, C-terminal sheet domain (Orn_DAP_Arg_deC)",1,7S3G
+"Adenylate kinase, active site lid (ADK_lid)",1,3AKY
+"Hepatitis C virus, Non-structural protein NS4a",1,2A4Q
+Cobinamide kinase / cobinamide phosphate guanyltransferase (CobU),1,1C9K
+Cytochrome c554 and c-prime (Cytochrome_C554),1,1BVB
+Nucleotidyl transferase (NTP_transferase),1,1G1L
+Phenylalanyl tRNA synthetase beta chain CLM domain (tRNA_synthFbeta),1,3TEH
+tRNA synthetases class II core domain (F) (tRNA-synt_2d),1,3TEH
+Exonuclease C-terminal (Exonuc_X-T_C),1,1FXX
+Pyridoxal phosphate-dependent transferase,1,1O69
+Lipopolysaccharide kinase (Kdo/WaaP) family (Kdo),1,7SZA
+"Tetracyclin repressor-like, C-terminal domain (TetR_C_31)",1,3HTH
+"tRNA synthetase class II core domain (G, H, P, S and T) (tRNA-synt_2b)",1,7VC3
+Viral RNA dependent RNA polymerase (RdRP_3),1,3FRZ
+Redoxin (Redoxin),1,3HVS
+Biopterin-dependent aromatic amino acid hydroxylase (Biopterin_H),1,6PAH
+Cupin 1,1,1DGW
+Cloacin immunity protein (Cloacin_immun),1,2B5U
+S-type Pyocin (Pyocin_S),1,2B5U
+Methylmalonic aciduria and homocystinuria type C family (MMACHC),1,3SOM
+AGAO-like N2 domain (AGAO-like_N2),1,1IVV
+Penicillin amidase (Penicil_amidase),1,1GK0
+"Penicillin amidase type, N-terminal domain, B-knob",1,1GK0
+Rubrerythrin (Rubrerythrin),1,2OH3
+MoeA C-terminal region (domain IV) (MoeA_C),1,4TK1
+Kinase binding protein CGI-121 (CGI-121),1,7SZA
+"Gamma-aminobutyric-acid A receptor, alpha subunit",1,4TK1
+Ribonuclease A-domain,1,1SSC
+"MerR, DNA binding (MerR-DNA-bind)",1,1Q08
+GIY-YIG catalytic domain (GIY-YIG),1,1MK0
+"FAS1-like, dehydratase domain region (FAS1_DH_region)",1,4RLT
+MaoC like domain (MaoC_dehydratas),1,4RLT
+"Flavivirus NS3 helicase, C-terminal helical domain (Flav_NS3-hel_C)",1,2JLS
+Bacterial cell wall metabolism enzyme,1,6KV1
+Lectin C-type domain (Lectin_C),1,1MPU
+C-terminus of bacterial fibrinogen-binding adhesin (SdrG_C_C),1,4MBO
+"Clostridium neurotoxin, C-terminal receptor binding (Toxin_R_bind_C)",1,1FV2
+Carbohydrate binding module 65 domain 1 (CBM65_1),1,5AFE
+"Leukotriene A4 hydrolase, C-terminal (Leuk-A4-hydro_C)",1,1H19
+Thiamine-monophosphate kinase-like,1,1VQV
+Sialidase,1,2SIM
+MrfA Zn-binding domain (MZB),1,6ZNQ
+PAS domain (PAS_11),1,4ZPH
+Parvovirus non-structural protein 1 (PV_NSP1),1,4PP4
+Response regulator receiver domain (Response_reg),1,1NY5
+Enoyl-CoA hydratase/isomerase (ECH_2),1,3BPT
+BAG domain (BAG),1,5AQS
+"Semialdehyde dehydrogenase, NAD binding domain (Semialdhyde_dh)",1,1PQP
+GMP synthase C terminal domain (GMP_synt_C),1,1GPM
+Cytochrome b/b6/petB (Cytochrome_B),1,1PP9
+Virulence activator alpha C-term (Vir_act_alpha_C),1,5X13
+"E2 (early) protein, C terminal (PPV_E2_C)",1,1R8H
+GHMP kinases C terminal (GHMP_kinases_C),1,1PIE
+Glutaminase/Asparaginase C-terminal domain (Asparaginase_C),1,6PAB
+"Envelope glycoprotein GP2-like, HR1-HR2 (Ebola-like_HR1-HR2)",1,6G9I
+Filovirus glycoprotein (Filo_glycop),1,6G9I
+Glycoside hydrolase superfamily,1,6S0E
+Major capsid protein VP16-like (VP16-like),1,3ZN4
+"Alanine racemase, C-terminal domain (Ala_racemase_C)",1,3OO2
+Gelsolin repeat (Gelsolin),1,1ESV
+Poxvirus P35 protein (Pox_P35),1,5EJ0
+Mycoplasma arthritidis-derived mitogen (MA-Mit),1,1R5I
+"Class II histocompatibility antigen, alpha domain (MHC_II_alpha)",1,1R5I
+Cys/Met metabolism PLP-dependent enzyme (Cys_Met_Meta_PP),1,4IXZ
+Tyrosine phosphatase family (Y_phosphatase2),1,7MOK
+"ATP:guanido phosphotransferase, N-terminal domain (ATP-gua_PtransN)",1,1CRK
+Flavoprotein (Flavoprotein),1,1E20
+Major royal jelly protein (MRJP),1,3Q6K
+Tub family (Tub),1,1C8Z
+Glycosyl hydrolase 101 beta sandwich domain (Glyco_hyd_101C),1,5A58
+SinI restriction endonuclease (RE_SinI),1,6S48
+Phosphatidylinositol 3- and 4-kinase (PI3_PI4_kinase),1,5SWG
+"3-hydroxyacyl-CoA dehydrogenase, NAD binding domain (3HCDH_N)",1,4OM8
+SelR domain (SelR),1,3HCH
+S-adenosyl-L-methionine-dependent methyltransferase superfamily,1,7Q2F
+TCP-1/cpn60 chaperonin family (Cpn60_TCP1),1,1ASS
+"2-hydroxyglutaryl-CoA dehydratase, D-component (HGD-D)",1,6ENO
+CENP-W protein (CENP-W),1,3B0D
+"Bacterial regulatory proteins, lacI family (LacI)",1,1JFT
+gag gene protein p17 (matrix protein) (Gag_p17),1,7TBP
+Nicotinate phosphoribosyltransferase (NAPRTase) N-terminal domain (NAPRTase_N),1,1VLP
+"Copper amine oxidase, N2 domain (Cu_amine_oxidN2)",1,1RKY
+Mo25-like (Mo25),1,4FZF
+Immunoglobulin C2-set domain (C2-set),1,4P9H
+"Human immunodeficiency virus 1, envelope glycoprotein Gp120",1,4P9H
+Thioesterase superfamily (4HBT),1,1VPM
+"Glycosyl transferase family, helical bundle domain (Glycos_trans_3N)",1,1ZVW
+DNA primase small subunit (DNA_primase_S),1,1V33
+Adenosine specific kinase (Adenosine_kin),1,1WVQ
+"Ribosomal protein S5, N-terminal domain (Ribosomal_S5)",1,4LFB
+Ribosomal protein S4/S9 N-terminal domain (Ribosomal_S4),1,4LFB
+KH domain (KH_2),1,4LFB
+Concanavalin A-like lectin/glucanase domain superfamily,1,1LEN
+Legume lectin domain (Lectin_legB),1,1LEN
+3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III C terminal (ACP_syn_III_C),1,2QNY
+Bacterial extracellular solute-binding protein (SBP_bac_11),1,3K6V
+RyR domain (RyR),1,6UG4
+Domain of unknown function (DUF5604) (DUF5604),1,6AU2
+Cytokine IL1/FGF,1,1FGA
+Centromere DNA-binding protein complex CBF3 subunit B (Cep3),1,2VEQ
+Pyrimidine nucleoside phosphorylase C-terminal domain (PYNP_C),1,1BRW
+Spermidine synthase tetramerisation domain (Spermine_synt_N),1,4YUY
+Mite allergen Blo t 5 (Blo-t-5),1,5YNX
+"Carbamoyl-phosphate synthase L chain, ATP binding domain (CPSase_L_D2)",1,1DV1
+Insulin/IGF/Relaxin family (Insulin),1,6TC2
+Cellulose biosynthesis protein BcsG (CBP_BcsG),1,5OLT
+Family 4 glycosyl hydrolase (Glyco_hydro_4),1,6KCX
+Sirtuin family,1,4KXQ
+Heme oxygenase (Heme_oxygenase),1,1WE1
+2OG-Fe(II) oxygenase superfamily (2OG-FeII_Oxy_2),1,2IUW
+JAB1/Mov34/MPN/PAD-1 ubiquitin protease (JAB),1,8BC9
+PLD-like domain (PLDc_2),1,1F0I
+PIN domain (PIN),1,3H87
+"Ribbon-helix-helix protein, copG family (RHH_1)",1,3H87
+"Bacterial regulatory protein, Fis family (HTH_8)",1,1OJL
+Rep protein catalytic domain like (Rep_N),1,7SZY
+Interferon-regulatory factor 3 (IRF-3),1,1QWT
+"3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP_synthase)",1,1PVW
+KDPG and KHG aldolase (Aldolase),1,1WBH
+Mago nashi protein (Mago_nashi),1,1OO0
+YjeF-related protein N-terminus (YjeF_N),1,3ROX
+NADP oxidoreductase coenzyme F420-dependent (F420_oxidored),1,2VQ3
+Coronavirus RNA synthesis protein NSP10 (CoV_NSP10),1,7ORU
+Nitrite/Sulfite reductase ferredoxin-like half domain (NIR_SIR_ferr),1,1AOP
+Transglutaminase family (Transglut_N),1,1EX0
+"Clostridium neurotoxin, N-terminal receptor binding (Toxin_R_bind_N)",1,1FV3
+Ribonuclease 2-5A (Ribonuc_2-5A),1,3LJ1
+Protein L b1 domain (B1),1,1HEZ
+Hint domain superfamily,1,5OL1
+Fibronectin type III-like domain (Fn3-like),1,5Z87
+Major Facilitator Superfamily (MFS_1),1,6S4M
+CobQ/CobB/MinD/ParA nucleotide binding domain (CbiA),1,1DAK
+Double-stranded RNA binding motif (dsrm),1,8B02
+Tyrosinase C-terminal domain (Tyrosinase_C),1,6JU5
+Pantoate-beta-alanine ligase (Pantoate_ligase),1,1N3I
+Scorpion toxin-like domain (Toxin_3),1,1T7E
+Cytidine and deoxycytidylate deaminase zinc-binding region (dCMP_cyt_deam_1),1,1WKQ
+Levansucrase/Invertase (Glyco_hydro_68),1,3OM2
+Glycosyl hydrolase family 3 C-terminal domain (Glyco_hydro_3_C),1,7MS2
+TiaS FLD domain (TiaS_FLD),1,3U02
+Picornavirus coat protein (Rhv_5),1,1MEC
+AIR carboxylase (AIRC),1,1U11
+YqaJ-like viral recombinase domain (YqaJ),1,1AVQ
+"5'-nucleotidase, C-terminal domain (5_nucleotid_C)",1,1HO5
+"Capsid protein VP4, Picornavirus",1,1MEC
+tRNA (Guanine-1)-methyltransferase (tRNA_m1G_MT),1,1UAM
+"Thiamine pyrophosphate enzyme, central domain (TPP_enzyme_M)",1,1OZF
+Elongation factor Tu GTP binding domain (GTP_EFTU),1,4M53
+Outer surface lipoprotein domain superfamily,1,2G8C
+AMP-binding enzyme (AMP-binding),1,2Y27
+Ureohydrolase domain superfamily,1,3MMR
+"Glycoside hydrolase/deacetylase, beta/alpha-barrel",1,5NEK
+Cytochrome b562 (Cytochrom_B562),1,5MZP
+Jacalin-like lectin domain (Jacalin),1,1OUW
+(2R)-phospho-3-sulfolactate synthase (ComA) (ComA),1,1U83
+"Transcription termination factor, mitochondrial/chloroplastic",1,3N7Q
+Beta-galactosidase second all-beta domain (BetaGal_ABD2),1,1TG7
+"Galactofuranosyltransferase-2, domain 3 (GlfT2_domain3)",1,4FIX
+Immunoglobulin domain (Ig_2),1,1RPQ
+Tudor domain (TUDOR),1,3BDL
+Rhodanese-like domain (Rhodanese),1,1CWS
+PBP superfamily domain (PBP_like),1,1TWY

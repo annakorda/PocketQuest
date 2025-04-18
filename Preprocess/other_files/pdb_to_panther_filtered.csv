@@ -1,0 +1,1082 @@
+PDB_ID,Panther_Protein_Class,Panther_Code
+2F27,hydrolase,PC00121
+7DQF,DNA topoisomerase,PC00017
+5QEK,protein phosphatase,PC00195
+2G00,serine protease,PC00203
+2J51,non-receptor serine/threonine protein kinase,PC00167
+1O3O,serine protease,PC00203
+4WO0,hydrolase,PC00121
+1AKY,nucleotide kinase,PC00172
+4LUE,non-receptor tyrosine protein kinase,PC00168
+1I91,dehydratase,PC00091
+1HVY,methyltransferase,PC00155
+2HW7,non-receptor serine/threonine protein kinase,PC00167
+2HE5,reductase,PC00198
+1NG4,dehydrogenase,PC00092
+3NPC,non-receptor serine/threonine protein kinase,PC00167
+1A9P,nucleotide kinase,PC00172
+5JIZ,non-receptor serine/threonine protein kinase,PC00167
+1ALH,phosphatase,PC00181
+1T96,aldolase,PC00044
+2G8N,methyltransferase,PC00155
+1X70,serine protease,PC00203
+1LPG,serine protease,PC00203
+5VCX,non-receptor serine/threonine protein kinase,PC00167
+1GII,non-receptor serine/threonine protein kinase,PC00167
+5MUG,transfer/carrier protein,PC00219
+3HOF,decarboxylase,PC00089
+5WIN,non-receptor tyrosine protein kinase,PC00168
+5G65,protein modifying enzyme,PC00260
+1KE4,hydrolase,PC00121
+3RI3,dehydrogenase,PC00092
+1TRN,serine protease,PC00203
+1BIF,carbohydrate phosphatase,PC00066
+3DAZ,dehydratase,PC00091
+1ANI,phosphatase,PC00181
+7DQU,DNA topoisomerase,PC00017
+1S3B,oxidase,PC00175
+3H73,hydrolase,PC00121
+4KX3,esterase,PC00097
+4LU3,dehydratase,PC00091
+1BNV,dehydratase,PC00091
+1VCU,hydrolase,PC00121
+3CSD,dehydrogenase,PC00092
+1SM2,non-receptor tyrosine protein kinase,PC00168
+1I9N,dehydratase,PC00091
+1XPZ,dehydratase,PC00091
+6BC9,dehydratase,PC00091
+3DC3,dehydratase,PC00091
+4EY7,esterase,PC00097
+1PME,non-receptor serine/threonine protein kinase,PC00167
+1LKC,transaminase,PC00216
+2NPD,transporter,PC00227
+1O3I,serine protease,PC00203
+1IEL,hydrolase,PC00121
+5EW3,transmembrane signal receptor,PC00197
+4I1R,cysteine protease,PC00081
+2SIM,hydrolase,PC00121
+5FZN,scaffold/adaptor protein,PC00226
+2CNE,protein phosphatase,PC00195
+2H4N,dehydratase,PC00091
+3OCS,non-receptor tyrosine protein kinase,PC00168
+1CY6,DNA metabolism protein,PC00009
+1L7X,glycosyltransferase,PC00111
+1O5F,serine protease,PC00203
+1SK9,phosphatase,PC00181
+2ETR,non-receptor serine/threonine protein kinase,PC00167
+1U59,non-receptor tyrosine protein kinase,PC00168
+5MQT,nucleotide kinase,PC00172
+1HX3,isomerase,PC00135
+3CAV,reductase,PC00198
+1O2J,serine protease,PC00203
+4ALB,decarboxylase,PC00089
+6KYQ,non-receptor serine/threonine protein kinase,PC00167
+3CFQ,hydrolase,PC00121
+6EQ5,phosphatase,PC00181
+2BIL,non-receptor serine/threonine protein kinase,PC00167
+1AKA,transaminase,PC00216
+1N6K,small GTPase,PC00208
+7E3H,esterase,PC00097
+2F0Z,hydrolase,PC00121
+6M8B,kinase,PC00137
+2BY0,amylase,PC00048
+1RDQ,non-receptor serine/threonine protein kinase,PC00167
+2J2U,serine protease,PC00203
+3OHO,metalloprotease,PC00153
+2C76,oxidase,PC00175
+3L14,dehydratase,PC00091
+1K9Y,phosphatase,PC00181
+1NSJ,isomerase,PC00135
+2RH4,dehydrogenase,PC00092
+1GJC,serine protease,PC00203
+1N7I,methyltransferase,PC00155
+1PQP,dehydrogenase,PC00092
+6HD4,non-receptor tyrosine protein kinase,PC00168
+2NOP,transporter,PC00227
+2H15,dehydratase,PC00091
+1O33,serine protease,PC00203
+1R74,methyltransferase,PC00155
+1IXG,ATP-binding cassette (ABC) transporter,PC00003
+3NVY,oxidoreductase,PC00176
+1TSD,methyltransferase,PC00155
+4BZE,epimerase/racemase,PC00096
+1KP2,ligase,PC00142
+3V2J,dehydratase,PC00091
+1H5Y,lyase,PC00144
+2QNZ,acetyltransferase,PC00038
+1WKQ,deaminase,PC00088
+6M8A,kinase,PC00137
+2CMA,protein phosphatase,PC00195
+2NPC,transporter,PC00227
+1RX4,reductase,PC00198
+5VCE,oxygenase,PC00177
+4FAI,transferase,PC00220
+1GI9,serine protease,PC00203
+1O2X,serine protease,PC00203
+5NEK,transferase,PC00220
+5J48,non-receptor serine/threonine protein kinase,PC00167
+5VC3,non-receptor serine/threonine protein kinase,PC00167
+1RPQ,immunoglobulin receptor superfamily,PC00124
+1G2O,nucleotide kinase,PC00172
+4IXV,hydrolase,PC00121
+2C6M,non-receptor serine/threonine protein kinase,PC00167
+5JW1,oxygenase,PC00177
+1O92,nucleotidyltransferase,PC00174
+2CM7,protein phosphatase,PC00195
+4G9L,metalloprotease,PC00153
+1OJL,DNA-binding transcription factor,PC00218
+4M2R,dehydratase,PC00091
+3QYZ,non-receptor serine/threonine protein kinase,PC00167
+1WV4,oxidase,PC00175
+1QWT,winged helix/forkhead transcription factor,PC00246
+4QOG,oxidoreductase,PC00176
+1PVW,hydrolase,PC00121
+2ANW,serine protease,PC00203
+1N6O,small GTPase,PC00208
+5SGO,phosphodiesterase,PC00185
+2RHC,dehydrogenase,PC00092
+1BPD,DNA-directed DNA polymerase,PC00018
+1WCH,protein phosphatase,PC00195
+2Y7J,non-receptor serine/threonine protein kinase,PC00167
+3DCS,dehydratase,PC00091
+1G0I,phosphatase,PC00181
+5OBR,non-receptor serine/threonine protein kinase,PC00167
+3TVX,phosphodiesterase,PC00185
+1RJD,methyltransferase,PC00155
+4AAA,non-receptor serine/threonine protein kinase,PC00167
+1Q3D,non-receptor serine/threonine protein kinase,PC00167
+6V0X,"chromatin/chromatin-binding, or -regulatory protein",PC00077
+1WGJ,pyrophosphatase,PC00196
+3K5V,non-receptor tyrosine protein kinase,PC00168
+3EDZ,protease,PC00190
+2VQ3,reductase,PC00198
+1CDD,transferase,PC00220
+1C80,carbohydrate phosphatase,PC00066
+1VJD,carbohydrate kinase,PC00065
+1EQM,kinase,PC00137
+1E8Z,kinase,PC00137
+2PF8,reductase,PC00198
+1AN5,methyltransferase,PC00155
+1BNN,dehydratase,PC00091
+2F2U,non-receptor serine/threonine protein kinase,PC00167
+1OJR,aldolase,PC00044
+2C72,oxidase,PC00175
+1O3H,serine protease,PC00203
+1DK4,phosphatase,PC00181
+6IJD,glycosyltransferase,PC00111
+5WNM,non-receptor serine/threonine protein kinase,PC00167
+1BA0,Hsp70 family chaperone,PC00027
+1DNL,oxidase,PC00175
+1Z6E,serine protease,PC00203
+1B12,serine protease,PC00203
+3QLG,non-receptor tyrosine protein kinase,PC00168
+5PAR,serine protease,PC00203
+2J4I,serine protease,PC00203
+1NFW,serine protease,PC00203
+1N6N,small GTPase,PC00208
+1MZR,reductase,PC00198
+1PCK,aldolase,PC00044
+2W26,serine protease,PC00203
+1Y6B,transmembrane signal receptor,PC00197
+6CVQ,damaged DNA-binding protein,PC00086
+3LXE,dehydratase,PC00091
+4TWN,transmembrane signal receptor,PC00197
+1PNT,protein phosphatase,PC00195
+1A40,ATP-binding cassette (ABC) transporter,PC00003
+1FXP,aldolase,PC00044
+4F9V,transferase,PC00220
+1LW3,phosphatase,PC00181
+1LC0,dehydrogenase,PC00092
+1XN0,phosphodiesterase,PC00185
+2IU8,acyltransferase,PC00042
+3NHA,ATP-binding cassette (ABC) transporter,PC00003
+3G4K,phosphodiesterase,PC00185
+1QG6,reductase,PC00198
+4ANE,kinase,PC00137
+2HHA,serine protease,PC00203
+5Z9Q,DNA topoisomerase,PC00017
+1HPM,Hsp70 family chaperone,PC00027
+1LX6,reductase,PC00198
+5Z4H,DNA topoisomerase,PC00017
+2QQ7,non-receptor tyrosine protein kinase,PC00168
+6QXU,kinase inhibitor,PC00139
+1PE1,aldolase,PC00044
+2GD8,dehydratase,PC00091
+6PAH,oxidoreductase,PC00176
+3DCC,dehydratase,PC00091
+1C5U,serine protease,PC00203
+6EKD,non-receptor serine/threonine protein kinase,PC00167
+1TTM,dehydratase,PC00091
+2ETK,non-receptor serine/threonine protein kinase,PC00167
+1O3J,serine protease,PC00203
+1O2U,serine protease,PC00203
+2V03,lyase,PC00144
+1WBT,non-receptor serine/threonine protein kinase,PC00167
+7DQI,DNA topoisomerase,PC00017
+3LJ0,tyrosine protein kinase receptor,PC00233
+2OHK,protease,PC00190
+6CVO,damaged DNA-binding protein,PC00086
+1O5A,serine protease,PC00203
+3KPU,methyltransferase,PC00155
+1GI4,serine protease,PC00203
+2BK3,oxidase,PC00175
+1O2T,serine protease,PC00203
+2NNG,dehydratase,PC00091
+1O2Y,serine protease,PC00203
+6NPV,non-receptor tyrosine protein kinase,PC00168
+2C68,non-receptor serine/threonine protein kinase,PC00167
+7NQM,oxygenase,PC00177
+1DI8,non-receptor serine/threonine protein kinase,PC00167
+5ESU,transferase,PC00220
+6DWN,oxygenase,PC00177
+3D8W,dehydratase,PC00091
+2HZI,non-receptor tyrosine protein kinase,PC00168
+5IA3,transmembrane signal receptor,PC00197
+2QWX,oxidoreductase,PC00176
+6NPU,non-receptor tyrosine protein kinase,PC00168
+1UU0,transaminase,PC00216
+7DQS,DNA topoisomerase,PC00017
+1XMM,hydrolase,PC00121
+3W6H,dehydratase,PC00091
+4M2U,dehydratase,PC00091
+4LQM,transmembrane signal receptor,PC00197
+1MC5,dehydrogenase,PC00092
+1M17,transmembrane signal receptor,PC00197
+2HB1,protein phosphatase,PC00195
+7S3G,decarboxylase,PC00089
+1X07,acyltransferase,PC00042
+1ZE8,dehydratase,PC00091
+6HD6,non-receptor tyrosine protein kinase,PC00168
+1NNY,protein phosphatase,PC00195
+1Q3F,DNA glycosylase,PC00010
+1Q4L,non-receptor serine/threonine protein kinase,PC00167
+1O5B,serine protease,PC00203
+2CNH,protein phosphatase,PC00195
+1VLV,transferase,PC00220
+4QYA,hydrolase,PC00121
+1WEG,DNA glycosylase,PC00010
+6IBY,carbohydrate phosphatase,PC00066
+3NH9,ATP-binding cassette (ABC) transporter,PC00003
+1RCA,endoribonuclease,PC00094
+1KYX,transferase,PC00220
+1JK7,protein phosphatase,PC00195
+3M35,serine protease,PC00203
+8DKS,non-receptor serine/threonine protein kinase,PC00167
+1GJ9,serine protease,PC00203
+4ZTH,non-receptor serine/threonine protein kinase,PC00167
+1BNU,dehydratase,PC00091
+3AKY,nucleotide kinase,PC00172
+1RTF,serine protease,PC00203
+3PB9,transferase,PC00220
+4EWQ,non-receptor serine/threonine protein kinase,PC00167
+1O2Q,serine protease,PC00203
+4JVG,non-receptor serine/threonine protein kinase,PC00167
+1KH4,phosphatase,PC00181
+3D9Z,dehydratase,PC00091
+1O3E,serine protease,PC00203
+1UU7,non-receptor serine/threonine protein kinase,PC00167
+1BPI,protease inhibitor,PC00191
+1G45,dehydratase,PC00091
+1RHM,protease,PC00190
+1JNW,oxidase,PC00175
+6O52,esterase,PC00097
+1O58,lyase,PC00144
+1MXC,nucleotidyltransferase,PC00174
+1QUL,ATP-binding cassette (ABC) transporter,PC00003
+2AFZ,transferase,PC00220
+1HWY,dehydrogenase,PC00092
+1G46,dehydratase,PC00091
+1GRF,reductase,PC00198
+2NPJ,transporter,PC00227
+5C8I,dehydratase,PC00091
+5J0A,non-receptor serine/threonine protein kinase,PC00167
+2FS8,serine protease,PC00203
+1QF5,ligase,PC00142
+1G52,dehydratase,PC00091
+2POW,dehydratase,PC00091
+7N9G,non-receptor tyrosine protein kinase,PC00168
+1EOU,dehydratase,PC00091
+3ITC,protease,PC00190
+1BDU,methyltransferase,PC00155
+2VD5,non-receptor serine/threonine protein kinase,PC00167
+1P0K,isomerase,PC00135
+5A4V,transferase,PC00220
+6NG0,non-receptor serine/threonine protein kinase,PC00167
+5DPV,non-receptor serine/threonine protein kinase,PC00167
+1FWW,aldolase,PC00044
+3FZS,non-receptor tyrosine protein kinase,PC00168
+1GRE,reductase,PC00198
+5N66,non-receptor serine/threonine protein kinase,PC00167
+4I06,hydrolase,PC00121
+1Q6M,protein phosphatase,PC00195
+1Q08,winged helix/forkhead transcription factor,PC00246
+1SSC,endoribonuclease,PC00094
+1BNQ,dehydratase,PC00091
+1TFQ,protease inhibitor,PC00191
+1W0O,hydrolase,PC00121
+2AYP,non-receptor serine/threonine protein kinase,PC00167
+1N6H,small GTPase,PC00208
+1GJ6,serine protease,PC00203
+1KMN,aminoacyl-tRNA synthetase,PC00047
+1KHL,phosphatase,PC00181
+1RX3,reductase,PC00198
+1W7H,non-receptor serine/threonine protein kinase,PC00167
+1RMZ,metalloprotease,PC00153
+6ZG0,scaffold/adaptor protein,PC00226
+3CZV,dehydratase,PC00091
+1RJE,methyltransferase,PC00155
+1GIH,non-receptor serine/threonine protein kinase,PC00167
+3OIF,reductase,PC00198
+3ZNC,dehydratase,PC00091
+4K0T,dehydratase,PC00091
+1YFK,mutase,PC00160
+2WEK,oxidoreductase,PC00176
+3SOA,non-receptor serine/threonine protein kinase,PC00167
+1X7A,serine protease,PC00203
+3DD1,glycosyltransferase,PC00111
+1N6L,small GTPase,PC00208
+4X0F,phosphodiesterase,PC00185
+3PO7,oxidase,PC00175
+1U1D,nucleotide kinase,PC00172
+2XFP,oxidase,PC00175
+1L8S,phospholipase,PC00186
+1GJD,serine protease,PC00203
+1G1D,dehydratase,PC00091
+2H4K,protein phosphatase,PC00195
+1GI5,serine protease,PC00203
+4M2V,dehydratase,PC00091
+3ITJ,reductase,PC00198
+4K0Z,dehydratase,PC00091
+3UBA,peroxidase,PC00180
+1UV5,non-receptor serine/threonine protein kinase,PC00167
+1PII,isomerase,PC00135
+1C5S,serine protease,PC00203
+1O34,serine protease,PC00203
+1KV2,non-receptor serine/threonine protein kinase,PC00167
+4IXU,hydrolase,PC00121
+5JIX,non-receptor serine/threonine protein kinase,PC00167
+2C6I,non-receptor serine/threonine protein kinase,PC00167
+1XF0,reductase,PC00198
+1ZSW,oxygenase,PC00177
+1ELZ,phosphatase,PC00181
+1JP4,phosphatase,PC00181
+4BTK,non-receptor serine/threonine protein kinase,PC00167
+1RWQ,serine protease,PC00203
+2G71,methyltransferase,PC00155
+4NR0,reductase,PC00198
+1W7X,serine protease,PC00203
+6XIC,serine protease,PC00203
+3VS3,non-receptor tyrosine protein kinase,PC00168
+5AUV,non-receptor serine/threonine protein kinase,PC00167
+2B1P,non-receptor serine/threonine protein kinase,PC00167
+2CJI,serine protease,PC00203
+1XQ0,dehydratase,PC00091
+1JIZ,metalloprotease,PC00153
+1FBT,carbohydrate phosphatase,PC00066
+4DPE,metalloprotease,PC00153
+1US0,reductase,PC00198
+2I6O,protein phosphatase,PC00195
+7V18,serine protease,PC00203
+2H9V,non-receptor serine/threonine protein kinase,PC00167
+1NVR,non-receptor serine/threonine protein kinase,PC00167
+4G0C,dehydratase,PC00091
+1BNW,dehydratase,PC00091
+1ALJ,phosphatase,PC00181
+4MXX,non-receptor tyrosine protein kinase,PC00168
+2JSD,metalloprotease,PC00153
+1RA3,reductase,PC00198
+2HD6,dehydratase,PC00091
+1KYV,transferase,PC00220
+2BQ6,serine protease,PC00203
+1KE0,hydrolase,PC00121
+8A9V,nucleotide kinase,PC00172
+2J34,serine protease,PC00203
+2GBI,serine protease,PC00203
+1E6A,pyrophosphatase,PC00196
+3SLH,transferase,PC00220
+1E0S,G-protein,PC00020
+1KVM,hydrolase,PC00121
+1Q3W,non-receptor serine/threonine protein kinase,PC00167
+3SI2,transferase,PC00220
+3V2M,dehydratase,PC00091
+5Z9B,DNA topoisomerase,PC00017
+1GI7,serine protease,PC00203
+6NFY,non-receptor serine/threonine protein kinase,PC00167
+1DXE,aldolase,PC00044
+1HNN,methyltransferase,PC00155
+1BFF,growth factor,PC00112
+3ML5,dehydratase,PC00091
+2AEX,oxidase,PC00175
+1B4S,kinase,PC00137
+6NPE,non-receptor tyrosine protein kinase,PC00168
+1B8N,nucleotide kinase,PC00172
+4BKJ,transmembrane signal receptor,PC00197
+1U80,decarboxylase,PC00089
+1VQV,kinase,PC00137
+3PB7,transferase,PC00220
+1WAR,phosphatase,PC00181
+6VZK,non-receptor serine/threonine protein kinase,PC00167
+1O32,serine protease,PC00203
+1FY6,aldolase,PC00044
+4N7I,immunoglobulin receptor superfamily,PC00124
+2PD3,reductase,PC00198
+3MIY,non-receptor tyrosine protein kinase,PC00168
+2FS9,serine protease,PC00203
+1U32,protein phosphatase,PC00195
+1L5W,glycosyltransferase,PC00111
+6BCC,dehydratase,PC00091
+1Q6P,protein phosphatase,PC00195
+1YDA,dehydratase,PC00091
+1ANJ,phosphatase,PC00181
+5JD7,non-receptor serine/threonine protein kinase,PC00167
+1AOP,reductase,PC00198
+1URA,phosphatase,PC00181
+2EWA,non-receptor serine/threonine protein kinase,PC00167
+5I9X,transmembrane signal receptor,PC00197
+1DNC,reductase,PC00198
+1QUI,ATP-binding cassette (ABC) transporter,PC00003
+1TBB,phosphodiesterase,PC00185
+5KNJ,non-receptor serine/threonine protein kinase,PC00167
+3ROX,epimerase/racemase,PC00096
+3R4G,chaperone,PC00072
+1WBH,aldolase,PC00044
+5DT0,non-receptor serine/threonine protein kinase,PC00167
+3NSQ,C4 zinc finger nuclear receptor,PC00169
+1S61,peroxidase,PC00180
+6GQT,small GTPase,PC00208
+3HEC,non-receptor serine/threonine protein kinase,PC00167
+1G7G,protein phosphatase,PC00195
+1O38,serine protease,PC00203
+2B07,protein phosphatase,PC00195
+1MXA,nucleotidyltransferase,PC00174
+2C6K,non-receptor serine/threonine protein kinase,PC00167
+1O3P,serine protease,PC00203
+1XWS,non-receptor serine/threonine protein kinase,PC00167
+3BZU,dehydrogenase,PC00092
+1Y91,non-receptor serine/threonine protein kinase,PC00167
+3KQS,methyltransferase,PC00155
+3OJF,reductase,PC00198
+2IUW,oxygenase,PC00177
+1WE1,oxygenase,PC00177
+6M89,kinase,PC00137
+1GJA,serine protease,PC00203
+1XOS,phosphodiesterase,PC00185
+7B61,ligase,PC00142
+2H4G,protein phosphatase,PC00195
+6TC2,growth factor,PC00112
+3KQT,methyltransferase,PC00155
+4MHZ,transferase,PC00220
+2WEJ,dehydratase,PC00091
+1CIL,dehydratase,PC00091
+1RX2,reductase,PC00198
+1CWS,protein phosphatase,PC00195
+3MS9,non-receptor tyrosine protein kinase,PC00168
+6X83,intercellular signal molecule,PC00207
+3V80,nucleotide kinase,PC00172
+1E7V,kinase,PC00137
+2BY7,serine protease,PC00203
+1Q3A,metalloprotease,PC00153
+5BVW,transmembrane signal receptor,PC00197
+4K13,dehydratase,PC00091
+3M36,serine protease,PC00203
+1T9R,phosphodiesterase,PC00185
+1GHZ,serine protease,PC00203
+6O2Y,dehydrogenase,PC00092
+3MMR,hydrolase,PC00121
+1MXO,hydrolase,PC00121
+5MNH,serine protease,PC00203
+2BYA,serine protease,PC00203
+4FFW,serine protease,PC00203
+6EOR,serine protease,PC00203
+1O35,serine protease,PC00203
+7DQL,DNA topoisomerase,PC00017
+2JAM,non-receptor serine/threonine protein kinase,PC00167
+3PYY,non-receptor tyrosine protein kinase,PC00168
+1F0U,serine protease,PC00203
+2F6Z,protein phosphatase,PC00195
+4JBQ,non-receptor serine/threonine protein kinase,PC00167
+1OUM,nucleotide kinase,PC00172
+1Y6A,transmembrane signal receptor,PC00197
+2QX4,oxidoreductase,PC00176
+7ERK,hydrolase,PC00121
+1UAM,RNA processing factor,PC00147
+1C5Z,serine protease,PC00203
+1HO5,phosphodiesterase,PC00185
+4FE3,esterase,PC00097
+4QXV,hydrolase,PC00121
+1UDT,phosphodiesterase,PC00185
+2FJN,protein phosphatase,PC00195
+1DDU,methyltransferase,PC00155
+3PJE,reductase,PC00198
+1O2M,serine protease,PC00203
+1WAW,glycosidase,PC00110
+1E20,decarboxylase,PC00089
+3BJM,serine protease,PC00203
+1YZ3,methyltransferase,PC00155
+2W4O,non-receptor serine/threonine protein kinase,PC00167
+7MOK,protein phosphatase,PC00195
+1B8O,nucleotide kinase,PC00172
+2I3Z,serine protease,PC00203
+1C5Q,serine protease,PC00203
+1HOR,isomerase,PC00135
+1O3A,serine protease,PC00203
+4AYK,metalloprotease,PC00153
+1ZS0,metalloprotease,PC00153
+3SK3,kinase,PC00137
+1IDR,peroxidase,PC00180
+1NXK,non-receptor serine/threonine protein kinase,PC00167
+1OAU,immunoglobulin,PC00123
+1I9Q,dehydratase,PC00091
+5USZ,non-receptor tyrosine protein kinase,PC00168
+5MO0,serine protease,PC00203
+4KX5,esterase,PC00097
+1BN1,dehydratase,PC00091
+1RHU,protease,PC00190
+6PAB,hydrolase,PC00121
+6FNM,transmembrane signal receptor,PC00197
+4F1T,non-receptor serine/threonine protein kinase,PC00167
+5II2,"chromatin/chromatin-binding, or -regulatory protein",PC00077
+5YJ1,ubiquitin-protein ligase,PC00234
+3UE4,non-receptor tyrosine protein kinase,PC00168
+4ZBQ,transfer/carrier protein,PC00219
+1YDD,dehydratase,PC00091
+6Q37,hydrolase,PC00121
+1NFY,serine protease,PC00203
+1U1F,nucleotide kinase,PC00172
+1TBF,phosphodiesterase,PC00185
+5JAX,non-receptor serine/threonine protein kinase,PC00167
+2BZ6,serine protease,PC00203
+3BPT,hydrolase,PC00121
+1G53,dehydratase,PC00091
+5JNC,dehydratase,PC00091
+2O64,non-receptor serine/threonine protein kinase,PC00167
+1KWR,dehydratase,PC00091
+5VC0,oxygenase,PC00177
+1EZQ,serine protease,PC00203
+1D0S,nucleotidyltransferase,PC00174
+2ITO,transmembrane signal receptor,PC00197
+5LAB,metalloprotease,PC00153
+1YDB,dehydratase,PC00091
+5VC5,non-receptor serine/threonine protein kinase,PC00167
+3DD0,dehydratase,PC00091
+6K0K,kinase,PC00137
+2VEQ,DNA-binding transcription factor,PC00218
+1FGA,growth factor,PC00112
+1C0E,protein phosphatase,PC00195
+6AU2,histone modifying enzyme,PC00261
+1S3X,Hsp70 family chaperone,PC00027
+7DPR,DNA topoisomerase,PC00017
+2OBF,methyltransferase,PC00155
+4F92,scaffold/adaptor protein,PC00226
+1O31,serine protease,PC00203
+1IXH,ATP-binding cassette (ABC) transporter,PC00003
+2QNY,acetyltransferase,PC00038
+1XBB,non-receptor tyrosine protein kinase,PC00168
+4TZC,ubiquitin-protein ligase,PC00234
+2ITZ,transmembrane signal receptor,PC00197
+5AV3,non-receptor serine/threonine protein kinase,PC00167
+5VOF,serine protease,PC00203
+2CM8,protein phosphatase,PC00195
+2FM5,phosphodiesterase,PC00185
+4FUA,aldolase,PC00044
+1OPK,non-receptor tyrosine protein kinase,PC00168
+2ESM,non-receptor serine/threonine protein kinase,PC00167
+1W83,non-receptor serine/threonine protein kinase,PC00167
+1O3M,serine protease,PC00203
+1GJB,serine protease,PC00203
+1T46,transmembrane signal receptor,PC00197
+4XEY,non-receptor tyrosine protein kinase,PC00168
+7Q2F,methyltransferase,PC00155
+2HNC,dehydratase,PC00091
+3HXV,aminoacyl-tRNA synthetase,PC00047
+2ZNT,transmembrane signal receptor,PC00197
+1QFC,phosphatase,PC00181
+6XCZ,aspartic protease,PC00053
+3G0D,serine protease,PC00203
+1OJA,oxidase,PC00175
+1F0S,serine protease,PC00203
+3OCT,non-receptor tyrosine protein kinase,PC00168
+1RX8,reductase,PC00198
+1MZS,acetyltransferase,PC00038
+1O36,serine protease,PC00203
+2ITQ,transmembrane signal receptor,PC00197
+2BY1,amylase,PC00048
+6EQ9,non-receptor serine/threonine protein kinase,PC00167
+1AS2,heterotrimeric G-protein,PC00117
+1O2P,serine protease,PC00203
+1ZGE,dehydratase,PC00091
+1LRO,aldolase,PC00044
+1O3F,serine protease,PC00203
+1QCP,serine protease,PC00203
+1WCF,pyrophosphatase,PC00196
+2ZVA,non-receptor tyrosine protein kinase,PC00168
+3V8M,nucleotide kinase,PC00172
+2C67,oxidase,PC00175
+1OKY,non-receptor serine/threonine protein kinase,PC00167
+2PL0,non-receptor tyrosine protein kinase,PC00168
+2AW1,dehydratase,PC00091
+1QIP,lyase,PC00144
+1O9T,nucleotidyltransferase,PC00174
+2BOH,serine protease,PC00203
+1KAR,dehydrogenase,PC00092
+1T8X,aldolase,PC00044
+1M7R,phosphatase,PC00181
+1W8B,serine protease,PC00203
+1XX4,hydratase,PC00120
+6OP9,transmembrane signal receptor,PC00197
+2H42,phosphodiesterase,PC00185
+7V62,transfer/carrier protein,PC00219
+4NDF,damaged DNA-binding protein,PC00086
+2GO3,deacetylase,PC00087
+1O3D,serine protease,PC00203
+1O2R,serine protease,PC00203
+1SNU,non-receptor tyrosine protein kinase,PC00168
+4MXZ,non-receptor tyrosine protein kinase,PC00168
+5NUK,transfer/carrier protein,PC00219
+4MHY,transferase,PC00220
+2NPK,transporter,PC00227
+1AOB,methyltransferase,PC00155
+5PH6,histone modifying enzyme,PC00261
+3AYK,metalloprotease,PC00153
+1O3L,serine protease,PC00203
+2HYY,non-receptor tyrosine protein kinase,PC00168
+1GJ7,serine protease,PC00203
+5NUJ,transfer/carrier protein,PC00219
+4HV4,ligase,PC00142
+1I9M,dehydratase,PC00091
+1RO6,phosphodiesterase,PC00185
+3BBT,transmembrane signal receptor,PC00197
+5Z4O,DNA topoisomerase,PC00017
+5AUU,non-receptor serine/threonine protein kinase,PC00167
+1E48,aldolase,PC00044
+1J97,phosphatase,PC00181
+1K27,nucleotide kinase,PC00172
+1Z3J,metalloprotease,PC00153
+1W6O,extracellular matrix protein,PC00102
+1E47,aldolase,PC00044
+2JNP,metalloprotease,PC00153
+4ZBR,transfer/carrier protein,PC00219
+2C75,oxidase,PC00175
+1OHL,dehydratase,PC00091
+1G54,dehydratase,PC00091
+1JCM,isomerase,PC00135
+2PFH,reductase,PC00198
+3DCW,dehydratase,PC00091
+3K96,dehydrogenase,PC00092
+1W82,non-receptor serine/threonine protein kinase,PC00167
+5DR6,non-receptor serine/threonine protein kinase,PC00167
+4X5I,reductase,PC00198
+1FXU,nucleotide kinase,PC00172
+4X5V,DNA-directed DNA polymerase,PC00018
+4M2W,dehydratase,PC00091
+1Y8Y,non-receptor serine/threonine protein kinase,PC00167
+6BRJ,transmembrane signal receptor,PC00197
+2RHR,dehydrogenase,PC00092
+2BY9,serine protease,PC00203
+4JSZ,dehydratase,PC00091
+3L5U,decarboxylase,PC00089
+4BDS,esterase,PC00097
+1BNT,dehydratase,PC00091
+3MDZ,dehydratase,PC00091
+1L5Q,glycosyltransferase,PC00111
+1FGI,transmembrane signal receptor,PC00197
+6YMA,dehydratase,PC00091
+1MY8,hydrolase,PC00121
+4DES,hydrolase,PC00121
+3D9V,non-receptor serine/threonine protein kinase,PC00167
+2F71,protein phosphatase,PC00195
+5AUX,non-receptor serine/threonine protein kinase,PC00167
+1L5N,nucleotidyltransferase,PC00174
+1U3U,dehydrogenase,PC00092
+2FZZ,serine protease,PC00203
+2BY5,serine protease,PC00203
+1F3F,kinase,PC00137
+1O4C,non-receptor tyrosine protein kinase,PC00168
+1IEM,hydrolase,PC00121
+1LQD,serine protease,PC00203
+4ZM9,protease,PC00190
+1FWN,aldolase,PC00044
+1S2Y,oxidase,PC00175
+1NOS,oxidoreductase,PC00176
+1CY4,DNA metabolism protein,PC00009
+1SON,ligase,PC00142
+4AGD,transmembrane signal receptor,PC00197
+4NX7,reductase,PC00198
+5JAD,protein modifying enzyme,PC00260
+5ESO,transferase,PC00220
+1JDW,transferase,PC00220
+1YWV,non-receptor serine/threonine protein kinase,PC00167
+1N6R,small GTPase,PC00208
+1O3N,serine protease,PC00203
+1O30,serine protease,PC00203
+2QOC,transmembrane signal receptor,PC00197
+6O50,esterase,PC00097
+4ZND,transferase,PC00220
+6Q39,hydrolase,PC00121
+1C5P,serine protease,PC00203
+3EQF,non-receptor serine/threonine protein kinase,PC00167
+3NC6,oxygenase,PC00177
+5OJI,dehydrogenase,PC00092
+2C6L,non-receptor serine/threonine protein kinase,PC00167
+5Z9E,DNA topoisomerase,PC00017
+1G6T,transferase,PC00220
+1DP9,histidine kinase receptor of two-component system,PC00265
+4UHX,oxidoreductase,PC00176
+3PY0,non-receptor serine/threonine protein kinase,PC00167
+1RKD,carbohydrate kinase,PC00065
+1AZM,dehydratase,PC00091
+3OID,oxidoreductase,PC00176
+1O5C,serine protease,PC00203
+6ZLN,non-receptor serine/threonine protein kinase,PC00167
+1R0P,transmembrane signal receptor,PC00197
+1G7N,transfer/carrier protein,PC00219
+2O63,non-receptor serine/threonine protein kinase,PC00167
+1F5K,serine protease,PC00203
+1GI2,serine protease,PC00203
+1O2N,serine protease,PC00203
+7PJN,dehydrogenase,PC00092
+3LK8,metalloprotease,PC00153
+1BN4,dehydratase,PC00091
+3PBB,transferase,PC00220
+3PY1,non-receptor serine/threonine protein kinase,PC00167
+1O39,serine protease,PC00203
+2RD8,methyltransferase,PC00155
+1M38,pyrophosphatase,PC00196
+5YX6,transferase,PC00220
+2ITY,transmembrane signal receptor,PC00197
+1O5E,serine protease,PC00203
+1A9U,non-receptor serine/threonine protein kinase,PC00167
+1TO3,aldolase,PC00044
+6RG8,nucleotide kinase,PC00172
+5FG4,zinc finger transcription factor,PC00244
+1E8W,kinase,PC00137
+1O37,serine protease,PC00203
+1G48,dehydratase,PC00091
+1W84,non-receptor serine/threonine protein kinase,PC00167
+4A3R,lyase,PC00144
+6BBS,dehydratase,PC00091
+1O4L,non-receptor tyrosine protein kinase,PC00168
+3K54,non-receptor tyrosine protein kinase,PC00168
+3LOK,non-receptor tyrosine protein kinase,PC00168
+2OHL,protease,PC00190
+1TFT,protease inhibitor,PC00191
+3V8R,nucleotide kinase,PC00172
+1O2H,serine protease,PC00203
+1BYG,non-receptor tyrosine protein kinase,PC00168
+1S5Z,kinase,PC00137
+3TEG,aminoacyl-tRNA synthetase,PC00047
+3KPW,methyltransferase,PC00155
+3LFA,non-receptor serine/threonine protein kinase,PC00167
+1N7J,methyltransferase,PC00155
+1Q6T,protein phosphatase,PC00195
+1WBW,non-receptor serine/threonine protein kinase,PC00167
+7O9Y,non-receptor serine/threonine protein kinase,PC00167
+1PBP,ATP-binding cassette (ABC) transporter,PC00003
+1LRQ,aldolase,PC00044
+2BQ7,serine protease,PC00203
+1C7Z,carbohydrate phosphatase,PC00066
+4JZD,serine protease,PC00203
+1IEP,non-receptor tyrosine protein kinase,PC00168
+1HBY,endoribonuclease,PC00094
+1G7F,protein phosphatase,PC00195
+1WYG,oxidoreductase,PC00176
+5Z9F,DNA topoisomerase,PC00017
+1GFW,protease,PC00190
+6BSD,transmembrane signal receptor,PC00197
+5MWX,extracellular matrix protein,PC00102
+2ITU,transmembrane signal receptor,PC00197
+1R3V,methyltransferase,PC00155
+3TI1,non-receptor serine/threonine protein kinase,PC00167
+2ITW,transmembrane signal receptor,PC00197
+1ED8,phosphatase,PC00181
+5XG4,serine protease,PC00203
+3EQM,oxygenase,PC00177
+1QUJ,ATP-binding cassette (ABC) transporter,PC00003
+1Q6N,protein phosphatase,PC00195
+2EZ7,dehydratase,PC00091
+1BSK,hydrolase,PC00121
+2CMB,protein phosphatase,PC00195
+1O2O,serine protease,PC00203
+3QYO,reductase,PC00198
+1BNM,dehydratase,PC00091
+1G4J,dehydratase,PC00091
+3NXU,oxygenase,PC00177
+3SXR,non-receptor tyrosine protein kinase,PC00168
+1CBQ,transfer/carrier protein,PC00219
+1O3B,serine protease,PC00203
+3V8Q,nucleotide kinase,PC00172
+2Y6O,transmembrane signal receptor,PC00197
+3Q1M,winged helix/forkhead transcription factor,PC00246
+1Q41,non-receptor serine/threonine protein kinase,PC00167
+2VWU,transmembrane signal receptor,PC00197
+2BMG,serine protease,PC00203
+1XML,hydrolase,PC00121
+3V8N,nucleotide kinase,PC00172
+4FBE,transferase,PC00220
+1LQE,serine protease,PC00203
+1NL9,protein phosphatase,PC00195
+4ZOG,non-receptor tyrosine protein kinase,PC00168
+2BQW,serine protease,PC00203
+1R3M,endoribonuclease,PC00094
+1JCY,aldolase,PC00044
+5YJ0,ubiquitin-protein ligase,PC00234
+1ONZ,protein phosphatase,PC00195
+1E9G,pyrophosphatase,PC00196
+2CNF,protein phosphatase,PC00195
+1U1C,nucleotide kinase,PC00172
+2FM0,phosphodiesterase,PC00185
+1UCN,kinase,PC00137
+1QUK,ATP-binding cassette (ABC) transporter,PC00003
+2POU,dehydratase,PC00091
+1Q11,translational protein,PC00263
+1D8A,reductase,PC00198
+4CUS,"chromatin/chromatin-binding, or -regulatory protein",PC00077
+4DEW,hydrolase,PC00121
+5NUM,transfer/carrier protein,PC00219
+4XTA,C4 zinc finger nuclear receptor,PC00169
+6JOL,transmembrane signal receptor,PC00197
+1O2I,serine protease,PC00203
+1ZSB,dehydratase,PC00091
+4IE2,hydrolase,PC00121
+3G5D,non-receptor tyrosine protein kinase,PC00168
+1WBN,non-receptor serine/threonine protein kinase,PC00167
+1URB,phosphatase,PC00181
+1KV8,decarboxylase,PC00089
+1ALK,phosphatase,PC00181
+1Q6J,protein phosphatase,PC00195
+5AJQ,non-receptor serine/threonine protein kinase,PC00167
+1WBV,non-receptor serine/threonine protein kinase,PC00167
+5FG5,zinc finger transcription factor,PC00244
+1GP6,oxygenase,PC00177
+7DQJ,DNA topoisomerase,PC00017
+2HOC,dehydratase,PC00091
+1KE3,hydrolase,PC00121
+2CHL,non-receptor serine/threonine protein kinase,PC00167
+1GS4,C4 zinc finger nuclear receptor,PC00169
+1RHR,protease,PC00190
+5M5A,non-receptor serine/threonine protein kinase,PC00167
+2WU6,non-receptor serine/threonine protein kinase,PC00167
+1GRC,transferase,PC00220
+1YXX,non-receptor serine/threonine protein kinase,PC00167
+2A4L,non-receptor serine/threonine protein kinase,PC00167
+7DQW,DNA topoisomerase,PC00017
+1RKS,carbohydrate kinase,PC00065
+7VE0,aspartic protease,PC00053
+1O2K,serine protease,PC00203
+6VXH,ATP-binding cassette (ABC) transporter,PC00003
+1RR6,nucleotide kinase,PC00172
+2F25,hydrolase,PC00121
+1WB0,glycosidase,PC00110
+1KWQ,dehydratase,PC00091
+4HKN,kinase inhibitor,PC00139
+4HZE,hydrolase,PC00121
+4FOE,kinase,PC00137
+2J5F,transmembrane signal receptor,PC00197
+1S3L,phosphatase,PC00181
+1G4O,dehydratase,PC00091
+1NQV,transferase,PC00220
+1XBO,protein phosphatase,PC00195
+1I09,non-receptor serine/threonine protein kinase,PC00167
+1RX6,reductase,PC00198
+1I1D,acetyltransferase,PC00038
+7DOR,DNA topoisomerase,PC00017
+1YXV,non-receptor serine/threonine protein kinase,PC00167
+7DQM,DNA topoisomerase,PC00017
+3FW1,oxidoreductase,PC00176
+1FSW,hydrolase,PC00121
+1XMY,phosphodiesterase,PC00185
+6GTT,non-receptor serine/threonine protein kinase,PC00167
+3OHL,metalloprotease,PC00153
+3CAJ,dehydratase,PC00091
+1N6I,small GTPase,PC00208
+1TV9,DNA-directed DNA polymerase,PC00018
+1YCM,metalloprotease,PC00153
+6UMB,ubiquitin-protein ligase,PC00234
+4NX6,reductase,PC00198
+1E04,protease inhibitor,PC00191
+2BY6,serine protease,PC00203
+1ELX,phosphatase,PC00181
+1NQX,transferase,PC00220
+3OIG,reductase,PC00198
+4E47,histone modifying enzyme,PC00261
+5HM7,immunoglobulin receptor superfamily,PC00124
+1GRB,reductase,PC00198
+1GA9,hydrolase,PC00121
+5YIZ,ubiquitin-protein ligase,PC00234
+1OIX,small GTPase,PC00208
+3PJF,reductase,PC00198
+4MMA,primary active transporter,PC00068
+1GI6,serine protease,PC00203
+6YRI,dehydratase,PC00091
+1FWT,aldolase,PC00044
+5Z9L,DNA topoisomerase,PC00017
+5NUN,transfer/carrier protein,PC00219
+1KAE,dehydrogenase,PC00092
+2HWP,non-receptor tyrosine protein kinase,PC00168
+1LPZ,serine protease,PC00203
+3LM5,non-receptor serine/threonine protein kinase,PC00167
+1I8Z,dehydratase,PC00091
+6XCY,aspartic protease,PC00053
+1IGS,isomerase,PC00135
+830C,metalloprotease,PC00153
+1MRQ,reductase,PC00198
+1C5X,serine protease,PC00203
+3G0E,transmembrane signal receptor,PC00197
+4MXY,non-receptor tyrosine protein kinase,PC00168
+6EQP,esterase,PC00097
+1S56,peroxidase,PC00180
+4IUP,homeodomain transcription factor,PC00119
+1F0T,serine protease,PC00203
+5WHX,dehydrogenase,PC00092
+5AUW,non-receptor serine/threonine protein kinase,PC00167
+1U99,DNA strand-pairing protein,PC00016
+4Q1P,extracellular matrix protein,PC00102
+7DPS,DNA topoisomerase,PC00017
+4KV0,dehydratase,PC00091
+1BZM,dehydratase,PC00091
+3HMI,non-receptor tyrosine protein kinase,PC00168
+6CVS,damaged DNA-binding protein,PC00086
+1O2L,serine protease,PC00203
+4XLI,non-receptor tyrosine protein kinase,PC00168
+1C1N,serine protease,PC00203
+1NRW,protein phosphatase,PC00195
+5FG6,zinc finger transcription factor,PC00244
+1L8O,phosphatase,PC00181
+5NYA,dehydratase,PC00091
+3DA8,transferase,PC00220
+1MQ4,non-receptor serine/threonine protein kinase,PC00167
+3DDW,glycosyltransferase,PC00111
+6ZGC,serine/threonine protein kinase receptor,PC00205
+1YXS,non-receptor serine/threonine protein kinase,PC00167
+3DBU,dehydratase,PC00091
+1NGB,Hsp70 family chaperone,PC00027
+2YWP,non-receptor serine/threonine protein kinase,PC00167
+4JLC,non-receptor serine/threonine protein kinase,PC00167
+2ANY,serine protease,PC00203
+2BY8,serine protease,PC00203
+1MXB,nucleotidyltransferase,PC00174
+2BK5,oxidase,PC00175
+1I9P,dehydratase,PC00091
+3OEZ,non-receptor tyrosine protein kinase,PC00168
+3PDB,transaminase,PC00216
+5I9Y,transmembrane signal receptor,PC00197
+1BSJ,hydrolase,PC00121
+2DDF,protease,PC00190
+2CLQ,non-receptor serine/threonine protein kinase,PC00167
+5UIH,reductase,PC00198
+4OJ4,C4 zinc finger nuclear receptor,PC00169
+1ONY,protein phosphatase,PC00195
+7PNJ,endoribonuclease,PC00094
+1NQU,transferase,PC00220
+5DR9,non-receptor serine/threonine protein kinase,PC00167
+1AQ1,non-receptor serine/threonine protein kinase,PC00167
+1NGC,Hsp70 family chaperone,PC00027
+1NFX,serine protease,PC00203
+1OYN,phosphodiesterase,PC00185
+1DMY,dehydratase,PC00091
+3G0F,transmembrane signal receptor,PC00197
+5ZJ6,non-receptor tyrosine protein kinase,PC00168
+4AXD,kinase,PC00137
+1C5T,serine protease,PC00203
+1F2F,non-receptor tyrosine protein kinase,PC00168
+1U3V,dehydrogenase,PC00092
+5MYG,zinc finger transcription factor,PC00244
+1O2W,serine protease,PC00203
+1KP3,ligase,PC00142
+2FJM,protein phosphatase,PC00195
+2F6W,protein phosphatase,PC00195
+1D2A,protein phosphatase,PC00195
+1H53,endoribonuclease,PC00094
+5OWR,non-receptor serine/threonine protein kinase,PC00167
+2HRC,lyase,PC00144
+1EW8,phosphatase,PC00181
+1XBC,non-receptor tyrosine protein kinase,PC00168
+1O3K,serine protease,PC00203
+1S3E,oxidase,PC00175
+3SZQ,damaged DNA-binding protein,PC00086
+2F70,protein phosphatase,PC00195
+1O2Z,serine protease,PC00203
+6EMH,non-receptor serine/threonine protein kinase,PC00167
+2POV,dehydratase,PC00091
+4R7I,transmembrane signal receptor,PC00197
+3HKU,dehydratase,PC00091
+1JU6,methyltransferase,PC00155
+6QWV,scaffold/adaptor protein,PC00226
+7D1D,transferase,PC00220
+1O3G,serine protease,PC00203
+5DV4,mRNA polyadenylation factor,PC00146
+1A9O,nucleotide kinase,PC00172
+3IK6,transmembrane signal receptor,PC00197
+2J38,serine protease,PC00203
+1Q9M,phosphodiesterase,PC00185
+3THS,methyltransferase,PC00155
+7T4J,transmembrane signal receptor,PC00197
+1VJ5,hydrolase,PC00121
+1JD0,dehydratase,PC00091
+4HJO,transmembrane signal receptor,PC00197
+1PI5,hydrolase,PC00121
+4F9O,kinase,PC00137
+4X5J,reductase,PC00198
+1HSZ,dehydrogenase,PC00092
+1C5R,serine protease,PC00203
+1WOJ,phosphodiesterase,PC00185
+6YT1,nucleotide kinase,PC00172
+1RXC,nucleotide kinase,PC00172
+1PXO,non-receptor serine/threonine protein kinase,PC00167
+2ZNU,transmembrane signal receptor,PC00197
+4K0S,dehydratase,PC00091
+1KVL,hydrolase,PC00121
+1X06,acyltransferase,PC00042
+1HO4,transferase,PC00220
+1RX9,reductase,PC00198
+1EW2,phosphatase,PC00181
+1KA1,phosphatase,PC00181
+1WVY,non-receptor serine/threonine protein kinase,PC00167
+4LMU,non-receptor serine/threonine protein kinase,PC00167
+1P1J,isomerase,PC00135
+1UWV,RNA methyltransferase,PC00033
+6O5Z,non-receptor serine/threonine protein kinase,PC00167
+1ZVX,metalloprotease,PC00153
+2F4J,non-receptor tyrosine protein kinase,PC00168
+117E,pyrophosphatase,PC00196
+3E8R,protease,PC00190
+6ZG1,scaffold/adaptor protein,PC00226
+1PI4,hydrolase,PC00121
+5AV2,non-receptor serine/threonine protein kinase,PC00167
+4DET,hydrolase,PC00121
+2HOG,non-receptor serine/threonine protein kinase,PC00167
+3CBM,histone modifying enzyme,PC00261
+1ELY,phosphatase,PC00181
+1HNJ,acetyltransferase,PC00038
+1GIT,heterotrimeric G-protein,PC00117
+1BN3,dehydratase,PC00091
+1IMD,phosphatase,PC00181
+7DQH,DNA topoisomerase,PC00017
+5T8U,protein modifying enzyme,PC00260
+2FGI,transmembrane signal receptor,PC00197
+1F0R,serine protease,PC00203
+1DVX,hydrolase,PC00121
+1FWS,aldolase,PC00044
+1ALI,phosphatase,PC00181
+1NFU,serine protease,PC00203
+1O2V,serine protease,PC00203
+5MUE,transfer/carrier protein,PC00219
+1PF8,non-receptor serine/threonine protein kinase,PC00167
+3HXY,aminoacyl-tRNA synthetase,PC00047
+1OQ5,dehydratase,PC00091
+4F9W,non-receptor serine/threonine protein kinase,PC00167
+1P45,reductase,PC00198
+1TSN,methyltransferase,PC00155
+5PHK,histone modifying enzyme,PC00261
+1QF4,ligase,PC00142
+1O3C,serine protease,PC00203
+3HXU,aminoacyl-tRNA synthetase,PC00047
+4BZF,epimerase/racemase,PC00096
+2F6T,protein phosphatase,PC00195
+6JOK,transmembrane signal receptor,PC00197
+3RFM,G-protein coupled receptor,PC00021
+2C74,scaffold/adaptor protein,PC00226
+3FW3,dehydratase,PC00091
+2R2I,calmodulin-related,PC00061
+5MNG,serine protease,PC00203
+2NOS,oxidoreductase,PC00176
