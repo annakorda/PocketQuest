@@ -9,6 +9,7 @@ Due to size constraints, only the code, processed features, and trained model ar
 We built a ligand binding site predictor using structural features derived from surface-accessible points of proteins (Connolly points).
 
 Our dataset includes protein-ligand complexes from BindingDB (article-curated).
+
 Workflow Summary:
 1. Connolly point generation via MSMS
 2. Feature extraction for each surface point
