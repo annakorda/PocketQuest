@@ -10,13 +10,13 @@ We built a ligand binding site predictor using structural features derived from 
 
 Our dataset includes protein-ligand complexes from BindingDB (article-curated).
 Workflow Summary:
-1.Connolly point generation via MSMS
-2.Feature extraction for each surface point
-3.Labeling of binding vs non-binding points
-4.XGBoost training with extensive Optuna hyperparameter tuning
-5.Final model used for classification of Connolly points.
-6.Connolly points predicted to belong in the binding site are clustered.
-7.Evaluation of clusters and extraction of final binding site(s).
+1. Connolly point generation via MSMS
+2. Feature extraction for each surface point
+3. Labeling of binding vs non-binding points
+4. XGBoost training with extensive Optuna hyperparameter tuning
+5. Final model used for classification of Connolly points.
+6. Connolly points predicted to belong in the binding site are clustered.
+7. Evaluation of clusters and extraction of final binding site(s).
 
 ## Repository Contents
 utils/
