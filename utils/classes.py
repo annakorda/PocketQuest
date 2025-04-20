@@ -35,6 +35,12 @@ class Atom():
         self.__in_pbs = False
         self.__element = element
     
+    def __eq__(self, other):
+        return self.get_coord() == other.get_coord()
+
+    def __hash__(self):
+        return hash(self.get_coord())    
+    
     def get_type(self):
         return self.__type
     
@@ -64,6 +70,7 @@ class Point():
         self.__coordinates = coord
         self.__protrusion = prot
         self.__atoms = []
+        self.__prob = -1
     
     def get_coord(self):
         return self.__coordinates
@@ -82,6 +89,40 @@ class Point():
     
     def get_protrusion(self):
         return self.__protrusion
+    
+    def set_probability(self, prob):
+        self.__prob = prob
+
+    def get_probability(self):
+        return self.__prob
+
+class Cluster():
+    def __init__(self):
+        self.__points = []
+        self.__atoms = set()
+        self.__score = 0
+    
+    def append_point(self, point):
+        self.__points.append(point)
+
+    def add_score(self, score):
+        self.__score += score
+    
+    def add_atoms(self, atoms):
+        self.__atoms = atoms
+
+    def get_score(self):
+        return self.__score
+    
+    def get_points(self):
+        return self.__points
+    
+    def get_atoms(self):
+        return self.__atoms
+    
+
+
+
 
 residues = {
     "ALA" : [

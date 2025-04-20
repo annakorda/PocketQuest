@@ -183,8 +183,11 @@ def generate_features(protein, ML = False, freq = 0.3):
 
 
 def generate_vector(protein, ML = False):
-    atoms_in_pbs = read_pbs(protein)
-    read_pdb(protein, atoms_in_pbs)
+    if (ML == True):
+        atoms_in_pbs = read_pbs(protein)
+        read_pdb(protein, atoms_in_pbs)
+    else:
+        read_pdb(protein)
     generate_xyzr(protein)
     generate_points(protein)
     map_points_atoms(protein)
