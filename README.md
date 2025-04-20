@@ -70,7 +70,8 @@ pdb_to_xyzr: Converter script to prepare MSMS input
 
 atmtypenumbers: Atom-type lookup table
 
-### ML.py: Main script that converts PDB batch folders into numpy arrays ready for training.
+### ML.py: 
+Main script that converts PDB batch folders into numpy arrays ready for training.
 
 ## Input & Labeling Notes
 1. Connolly points are calculated using a 1.4 Å probe and mapped to residues.
