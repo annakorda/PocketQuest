@@ -20,7 +20,7 @@ Workflow Summary:
 7. Evaluation of clusters and extraction of final binding site(s).
 
 ## Repository Contents
-utils/
+### utils/
 
 Core scripts for processing and feature extraction:
 
@@ -30,7 +30,7 @@ classes.py: Data objects for PDB parsing
 
 check_files.py: Validates input folder contents before batch runs
 
-MLTraining/
+### MLTraining/
 
 Model training, evaluation, and outputs:
 
@@ -40,7 +40,7 @@ xgboost_binding_site_model_*.pkl/json: Final trained model in two formats
 
 xgboost_binding_site_model_*.csv: Feature importance rankings
 
-Preprocess/
+### Preprocess/
 
 Preprocessing, mapping, and annotations:
 
@@ -60,7 +60,7 @@ final_panther_class_counts.csv: Breakdown of functional classes
 
 low_quality.txt: Structures removed due to preprocessing issues
 
-MSMS/
+### MSMS/
 
 Tools for Connolly surface generation:
 
@@ -70,7 +70,7 @@ pdb_to_xyzr: Converter script to prepare MSMS input
 
 atmtypenumbers: Atom-type lookup table
 
-ML.py: Main script that converts PDB batch folders into numpy arrays ready for training.
+### ML.py: Main script that converts PDB batch folders into numpy arrays ready for training.
 
 ## Input & Labeling Notes
 1. Connolly points are calculated using a 1.4 Å probe and mapped to residues.
