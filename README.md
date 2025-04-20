@@ -21,36 +21,53 @@ Workflow Summary:
 
 ## Repository Contents
 utils/
+
 Core scripts for processing and feature extraction:
 
 feature_extraction.py: Generates 32 features per Connolly point
+
 classes.py: Data objects for PDB parsing
+
 check_files.py: Validates input folder contents before batch runs
 
 MLTraining/
+
 Model training, evaluation, and outputs:
 
 Training.ipynb: Main notebook for merging batches, tuning, and training
+
 xgboost_binding_site_model_*.pkl/json: Final trained model in two formats
+
 xgboost_binding_site_model_*.csv: Feature importance rankings
 
 Preprocess/
+
 Preprocessing, mapping, and annotations:
 
 Preprocessing.ipynb: From initial PDB complex files to curated PDB files with their defined binding sites
+
 binding_sites.csv: Residue-level labels for training
+
 batch_content/: Balanced CSV files listing PDBs per batch
+
 other_files/: UniProt ↔ Panther mappings and functional annotations
+
 cmd_scripts/: PyMOL .cmd scripts for viewing previously defined binding sites
+
 screenshots/: Chimera PNG snapshots of binding sites 
+
 final_panther_class_counts.csv: Breakdown of functional classes
+
 low_quality.txt: Structures removed due to preprocessing issues
 
 MSMS/
+
 Tools for Connolly surface generation:
 
 MSMS: Compiled binary for Connolly point generation
+
 pdb_to_xyzr: Converter script to prepare MSMS input
+
 atmtypenumbers: Atom-type lookup table
 
 ML.py: Main script that converts PDB batch folders into numpy arrays ready for training.
