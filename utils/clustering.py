@@ -7,7 +7,7 @@ import warnings
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import pdist
 
-def classify_points(protein, feature_vector): 
+def classify_points(protein, feature_vector, threshold = 0.75): 
     print("Started classifying points.")
     script_dir = os.path.dirname(__file__)
     model_path = os.path.join(script_dir, "xgboost_binding_site_model_20250414_115052.pkl")
@@ -25,7 +25,7 @@ def classify_points(protein, feature_vector):
     for point, prediction in zip(protein.get_points(), predictions):
         prob = prediction[1]
         point.set_probability(prob)
-        if prob >= 0.75:
+        if prob >= threshold:
             clustering_points.append(point)
 
     print("Finished classifying points.")
@@ -91,10 +91,26 @@ def filtering(final_clusters, size = 3, residues = 30):
 
 
 
-def cluster_points(protein, feature_vector):
-    clustering_points = classify_points(protein, feature_vector)
+def cluster_points(protein, feature_vector, args):
+    if args.prob is not None:
+        clustering_points = classify_points(protein, feature_vector, args.prob)
+    else:
+        clustering_points = classify_points(protein, feature_vector)
+    
     print("Started clustering.")
-    clusters = clustering(clustering_points)
-    filtered_clusters = filtering(clusters)
+
+    if args.distance is not None:
+        clusters = clustering(clustering_points, args.distance)
+    else:
+        clusters = clustering(clustering_points)
+
+    
+    filter_arguments = {}
+    if args.size is not None:
+        filter_arguments["size"] = args.size
+    if args.max_residues is not None:
+        filter_arguments["residues"] = args.max_residues
+    filtered_clusters = filtering(clusters, **filter_arguments)
+    
     return filtered_clusters
 
