@@ -7,7 +7,7 @@ import warnings
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import pdist
 
-def classify_points(protein, feature_vector, threshold = 0.75): 
+def classify_points(protein, feature_vector, threshold = 0.9): 
     print("Started classifying points.")
     script_dir = os.path.dirname(__file__)
     model_path = os.path.join(script_dir, "xgboost_binding_site_model_20250414_115052.pkl")
@@ -97,6 +97,10 @@ def cluster_points(protein, feature_vector, args):
     else:
         clustering_points = classify_points(protein, feature_vector)
     
+    if not clustering_points:
+        print(f"{protein.get_name()} - No points passed the classification threshold.")
+        return {}
+
     print("Started clustering.")
 
     if args.distance is not None:
@@ -104,6 +108,9 @@ def cluster_points(protein, feature_vector, args):
     else:
         clusters = clustering(clustering_points)
 
+    if not clusters:
+        return {}
+    
     
     filter_arguments = {}
     if args.size is not None:
