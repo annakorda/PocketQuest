@@ -3,6 +3,7 @@ import utils.check_files as cf
 import os
 import xgboost
 import pickle
+import warnings
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import pdist
 
@@ -11,11 +12,14 @@ def classify_points(protein, feature_vector):
     script_dir = os.path.dirname(__file__)
     model_path = os.path.join(script_dir, "xgboost_binding_site_model_20250414_115052.pkl")
     
+
     with open(model_path, "rb") as file:
         model = pickle.load(file)
-    file.close()
 
-    predictions = model.predict_proba(feature_vector)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", category=UserWarning)
+        predictions = model.predict_proba(feature_vector)
+
     clustering_points = []
 
     for point, prediction in zip(protein.get_points(), predictions):

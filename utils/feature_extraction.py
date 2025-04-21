@@ -64,7 +64,7 @@ def generate_xyzr(protein):
     pdb_to_xyzr_path = os.path.join(script_dir, "..", "MSMS", "pdb_to_xyzr")
     try:
         with open(output_file, "w") as outfile:
-            subprocess.run([pdb_to_xyzr_path, pdb_file], stdout=outfile, check=True)
+            subprocess.run([pdb_to_xyzr_path, pdb_file], stdout=outfile, stderr=subprocess.DEVNULL, check=True)
         outfile.close()
         print("XYZR coordinates have been generated.")
     except subprocess.CalledProcessError:
@@ -80,7 +80,7 @@ def generate_points(protein):
     script_dir = os.path.dirname(__file__)
     msms_path = os.path.join(script_dir, "..", "MSMS", "MSMS")
     try:
-        subprocess.run([msms_path, "-if", xyzr_file, "-of", output_file, "-probe_radius", str(1.6), "-no_header", "-density", str(0.5)], check=True)
+        subprocess.run([msms_path, "-if", xyzr_file, "-of", output_file, "-probe_radius", str(1.6), "-no_header", "-density", str(0.5)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
         print("Finished generating Connolly points.")
     except subprocess.CalledProcessError as e:
         print(f"Skipping {protein.get_name()} — MSMS error: {e}")
@@ -163,10 +163,10 @@ def generate_features(protein, ML = False, freq = 0.3):
                     num_acceptors += int(acceptor != 0)
                     if ML:
                         in_pbs += int(atom_in_pbs == True)
-                else:
-                    print(f"ATOM {atom_type} is not defined for residue {residue} and will be skipped.")
-            else:
-                print(f"Residue {residue} in ATOM number {atom[0].get_number()} is not defined and will be skipped.") 
+                # else:
+                    # print(f"ATOM {atom_type} is not defined for residue {residue} and will be skipped.")
+            # else:
+                # print(f"Residue {residue} in ATOM number {atom[0].get_number()} is not defined and will be skipped.") 
 
         if total_atoms == 0:
             continue  # skip this point to avoid division by zero
