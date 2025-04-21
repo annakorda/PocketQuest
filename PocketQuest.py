@@ -28,4 +28,4 @@ if __name__ == "__main__":
     protein = Protein(pdb_dir, pdb_name)
     feature_vector = fe.generate_vector(protein)
     clusters = cl.cluster_points(protein, feature_vector)
-    pdb.make_pdb(clusters)
+    pdb.make_pdb(protein, clusters)

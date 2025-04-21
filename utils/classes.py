@@ -26,10 +26,11 @@ class Protein():
         return self.__points
            
 class Atom():
-    def __init__(self, atom_type, number, residue, coord, bfactor, element):
+    def __init__(self, atom_type, number, residue, residue_num, coord, bfactor, element):
         self.__type = atom_type
         self.__number = number
         self.__residue = residue
+        self.__residue_num = residue_num
         self.__coordinates = coord
         self.__bfactor = bfactor
         self.__in_pbs = False
@@ -49,6 +50,9 @@ class Atom():
     
     def get_residue(self):
         return self.__residue
+    
+    def get_residue_num(self):
+        return self.__residue_num
 
     def get_coord(self):
         return self.__coordinates
@@ -99,7 +103,7 @@ class Point():
 class Cluster():
     def __init__(self):
         self.__points = []
-        self.__atoms = set()
+        self.__residues = set()
         self.__score = 0
     
     def append_point(self, point):
@@ -108,8 +112,8 @@ class Cluster():
     def add_score(self, score):
         self.__score += score
     
-    def add_atoms(self, atoms):
-        self.__atoms = atoms
+    def add_residues(self, residues):
+        self.__residues = residues
 
     def get_score(self):
         return self.__score
@@ -117,8 +121,8 @@ class Cluster():
     def get_points(self):
         return self.__points
     
-    def get_atoms(self):
-        return self.__atoms
+    def get_residues(self):
+        return self.__residues
     
 
 

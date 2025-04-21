@@ -46,19 +46,25 @@ def clustering(clustering_points, distance = 3):
 
     return clusters
 
-def filtering(final_clusters, size = 3, atoms = 160):
+def filtering(final_clusters, size = 3, residues = 30):
     final_clusters = {label: cluster for label, cluster in final_clusters.items() if len(cluster.get_points()) >= size}
     labels_to_remove = []
     
+
     for label, cluster in final_clusters.items():
-        unique_atoms = set()
+        unique_residues = set()
+
         for point in cluster.get_points():
-            for atom in point.get_atoms():
-                unique_atoms.add(atom)
-        if len(unique_atoms) > atoms:
+            for atom_tuple in point.get_atoms():
+                atom = atom_tuple[0]
+                residue = atom.get_residue()
+                residue_num = atom.get_residue_num()
+                unique_residues.add((residue, residue_num))           
+        
+        if len(unique_residues) > residues:
             labels_to_remove.append(label)
         else:
-            cluster.add_atoms(unique_atoms)
+            cluster.add_residues(unique_residues)
 
     for label in labels_to_remove:
         final_clusters.pop(label)
@@ -72,7 +78,7 @@ def filtering(final_clusters, size = 3, atoms = 160):
     output_file = os.path.join(output_dir, "results.log")
 
     with open(output_file, "w") as file:
-        file.write(f"There are a total of {len(sorted_clusters)} clusters with distance {size} and maximum number of atoms {atoms}\n")
+        file.write(f"There are a total of {len(sorted_clusters)} clusters with distance {size} and maximum number of residues {residues}\n")
         for label, cluster in sorted_clusters:
             file.write(f"Cluster {label}: Score = {cluster.get_score():.4f}\n")
     file.close()
