@@ -6,6 +6,7 @@ import pickle
 import warnings
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import pdist
+import sys
 
 def classify_points(protein, feature_vector, threshold = 0.9): 
     print("Started classifying points.")
@@ -99,7 +100,7 @@ def cluster_points(protein, feature_vector, args):
     
     if not clustering_points:
         print(f"{protein.get_name()} - No points passed the classification threshold.")
-        return {}
+        sys.exit(1)
 
     print("Started clustering.")
 
@@ -109,8 +110,7 @@ def cluster_points(protein, feature_vector, args):
         clusters = clustering(clustering_points)
 
     if not clusters:
-        return {}
-    
+        sys.exit(1)
     
     filter_arguments = {}
     if args.size is not None:
