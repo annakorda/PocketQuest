@@ -1,11 +1,12 @@
-from utils.classes import *
-import utils.check_files as cf
+from pocketquest.utils.classes import *
+import pocketquest.utils.check_files as cf
 import subprocess
 import os
 import glob
 import sys
 import numpy as np
 from scipy.spatial import cKDTree
+
 
 def read_pbs(protein):
     print(f"Processing binding sites of {protein.get_name()}.pdb")

@@ -1,18 +1,18 @@
-from utils.classes import *
-import utils.check_files as cf
+from pocketquest.utils.classes import *
+import pocketquest.utils.check_files as cf
 import os
 import xgboost
 import pickle
 import warnings
+import numpy as np
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import pdist
 import sys
 
-def classify_points(protein, feature_vector, threshold = 0.9): 
+def classify_points(protein, feature_vector, threshold=0.9): 
     print("Started classifying points.")
     script_dir = os.path.dirname(__file__)
     model_path = os.path.join(script_dir, "xgboost_binding_site_model_20250414_115052.pkl")
-    
 
     with open(model_path, "rb") as file:
         model = pickle.load(file)
@@ -22,7 +22,6 @@ def classify_points(protein, feature_vector, threshold = 0.9):
         predictions = model.predict_proba(feature_vector)
 
     clustering_points = []
-
     for point, prediction in zip(protein.get_points(), predictions):
         prob = prediction[1]
         point.set_probability(prob)
@@ -30,35 +29,30 @@ def classify_points(protein, feature_vector, threshold = 0.9):
             clustering_points.append(point)
 
     print("Finished classifying points.")
-
     return clustering_points
 
-def clustering(clustering_points, distance = 3):
+def clustering(clustering_points, distance=3):
     clustering_coordinates = np.array([point.get_coord() for point in clustering_points])
     clustering_distances = pdist(clustering_coordinates)
-    clustering =  linkage(clustering_distances, method = "single")
-    cluster_labels = fcluster(clustering, t = distance, criterion = "distance")
+    clustering = linkage(clustering_distances, method="single")
+    cluster_labels = fcluster(clustering, t=distance, criterion="distance")
 
     clusters = {}
     for point, label in zip(clustering_points, cluster_labels):
         if label not in clusters:
             clusters[label] = Cluster()
-
         score = point.get_probability() ** 2
-
         clusters[label].append_point(point)
         clusters[label].add_score(score)
 
     return clusters
 
-def filtering(final_clusters, size = 3, residues = 30):
+def filtering(final_clusters, size=3, residues=30, results_dir="results"):
     final_clusters = {label: cluster for label, cluster in final_clusters.items() if len(cluster.get_points()) >= size}
     labels_to_remove = []
-    
 
     for label, cluster in final_clusters.items():
         unique_residues = set()
-
         for point in cluster.get_points():
             for atom_tuple in point.get_atoms():
                 atom = atom_tuple[0]
@@ -78,21 +72,17 @@ def filtering(final_clusters, size = 3, residues = 30):
 
     print("Finished clustering.")
 
-    output_dir = "results"
-    os.makedirs(output_dir, exist_ok=True)
-    output_file = os.path.join(output_dir, "results.log")
+    os.makedirs(results_dir, exist_ok=True)
+    output_file = os.path.join(results_dir, "results.log")
 
     with open(output_file, "w") as file:
         file.write(f"There are a total of {len(sorted_clusters)} clusters with distance {size} and maximum number of residues {residues}\n")
         for label, cluster in sorted_clusters:
             file.write(f"Cluster {label}: Score = {cluster.get_score():.4f}\n")
-    file.close()
-    
+
     return sorted_clusters
 
-
-
-def cluster_points(protein, feature_vector, args):
+def cluster_points(protein, feature_vector, args, results_dir="results"):
     if args.prob is not None:
         clustering_points = classify_points(protein, feature_vector, args.prob)
     else:
@@ -111,13 +101,12 @@ def cluster_points(protein, feature_vector, args):
 
     if not clusters:
         sys.exit(1)
-    
+
     filter_arguments = {}
     if args.size is not None:
         filter_arguments["size"] = args.size
     if args.max_residues is not None:
         filter_arguments["residues"] = args.max_residues
-    filtered_clusters = filtering(clusters, **filter_arguments)
-    
-    return filtered_clusters
 
+    filtered_clusters = filtering(clusters, **filter_arguments, results_dir=results_dir)
+    return filtered_clusters
