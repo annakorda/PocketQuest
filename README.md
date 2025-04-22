@@ -23,7 +23,7 @@ Our training dataset is based on curated protein-ligand complexes from **Binding
 To run PocketQuest, install the following Python packages:
 
 ```bash
-pip install numpy pandas xgboost scikit-learn matplotlib scipy
+pip install numpy pandas xgboost scipy
 ```
 
 For visualization, install UCSF Chimera from:  
