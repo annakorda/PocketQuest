@@ -40,11 +40,10 @@ pip install -e .
 Now you can run the prediction pipeline using:
 
 ```bash
-pocketquest -in input.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
-#this is an example
+pocketquest [-h] -i PDB [-distance DISTANCE] [-size SIZE] [-max_residues MAX_RESIDUES] [-prob PROB] [-vis VIS] [-rotate]
 ```
 Where:
-- `-in`: input PDB file
+- `-i`: input PDB file
 - `-prob`: probability threshold for Connolly point classification
 - `-distance`: clustering distance threshold (in Å)
 - `-size`: minimum number of points to form a valid cluster
@@ -53,6 +52,15 @@ Where:
 - `-rotate`: reorients the protein if the PDB by default is shown from above. (e.g. transmembrane proteins)
 
 The output files, including predicted pockets (`.pdb`) and visualization images (`.png`), will be saved in the `results/` directory.
+
+---
+
+## Example
+You can try to run the pipeline with the provided PDB file, 3lfz.pdb, with the following command:
+
+```bash
+pocketquest -i 3lfz.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
+```
 
 ---
 
@@ -137,7 +145,7 @@ Labels:
 ---
 
 ## Output Files
-If you clone the repository and run PocketQuest.py, two new directories will be created, files
+If you clone the repository and run pocketquest, two new directories will be created, files
 (contains temporary files) and **results**:
 - `results/*.pdb`: Predicted binding-site residue files.
 - `results/results.log`: Cluster scores (based on summed probabilities).
