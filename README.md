@@ -65,6 +65,8 @@ The output files, including predicted pockets (`.pdb`) and visualization images 
   pip install -e .
   ```
 
+---
+
 ### `pocketquest/__main__.py`
 Runs the full binding site prediction pipeline.
 
