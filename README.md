@@ -66,7 +66,8 @@ The output files, including predicted pockets (`.pdb`) and visualization images 
   ```
 
 ### `pocketquest/__main__.py`
- Runs the full binding site prediction pipeline.
+Runs the full binding site prediction pipeline.
+
 ---
 
 ### `pocketquest/utils/`
@@ -92,6 +93,7 @@ Processes a list of PDBs into a NumPy array of Connolly point features.
 ```bash
 python ML.py pdb_list.txt output.npy
 ```
+--- 
 
 ### `MLTraining/`
 Model training and evaluation artifacts:
