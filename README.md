@@ -157,7 +157,7 @@ If you clone the repository and run pocketquest, two new directories will be cre
 ## Dataset Availability
 
 Due to GitHub storage limits:
-- Only scripts, logs, and trained model are provided
+- All scripts, logs, and trained model are provided
 - Full datasets (raw PDBs, Connolly surfaces) can be shared upon request via Google Drive.
 
 
