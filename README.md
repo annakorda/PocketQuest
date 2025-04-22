@@ -133,6 +133,11 @@ PocketQuest evaluation:
 
 ---
 
+## PocketQuest Report
+Contains a report on the project, explaining the theoretical concepts behind it and detailing each step of the prediction pipeline. 
+
+---
+
 ## Input & Labeling
 
 - Connolly points generated with a **1.6 Å probe**.
