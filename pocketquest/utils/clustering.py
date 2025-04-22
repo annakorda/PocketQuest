@@ -9,7 +9,7 @@ from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import pdist
 import sys
 
-def classify_points(protein, feature_vector, threshold=0.9): 
+def classify_points(protein, feature_vector, threshold=0.8): 
     print("Started classifying points.")
     script_dir = os.path.dirname(__file__)
     model_path = os.path.join(script_dir, "xgboost_binding_site_model_20250414_115052.pkl")

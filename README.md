@@ -59,7 +59,7 @@ The output files, including predicted pockets (`.pdb`) and visualization images 
 You can try to run the pipeline with the provided PDB file, 3lfz.pdb, with the following command:
 
 ```bash
-pocketquest -i 3lfz.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
+pocketquest -i 3LFZ.pdb -distance 2.0 -size 10 -max_residues 40 -prob 0.8 -vis 3
 ```
 
 ---
