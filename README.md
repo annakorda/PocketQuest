@@ -18,17 +18,6 @@ We developed a tool that:
 Our training dataset is based on curated protein-ligand complexes from **BindingDB**, covering a wide diversity of functional classes.
 
 ---
-
-## 📂 Repository Contents
-
-### Core Executable
-
-- **`PocketQuest.py`**  
-  Runs the full binding site prediction pipeline.
-  ```bash
-  python PocketQuest.py -in input.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
-  ```
----
 ## How to Use PocketQuest
 
 To run PocketQuest, install the following Python packages:
@@ -63,6 +52,19 @@ Where:
 - `-rotate`: reorients the protein if the PDB by default is shown from above. (e.g. transmembrane proteins)
 
 The output files, including predicted pockets (`.pdb`) and visualization images (`.png`), will be saved in the `results/` directory.
+
+---
+
+## 📂 Repository Contents
+
+### Core Executable
+
+- **`PocketQuest.py`**  
+  Runs the full binding site prediction pipeline.
+  ```bash
+  python PocketQuest.py -in input.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
+  ```
+---
 
 ### `utils/`
 Core scripts for feature engineering and internal processing:
