@@ -29,6 +29,40 @@ Our training dataset is based on curated protein-ligand complexes from **Binding
   python PocketQuest.py -in input.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
   ```
 ---
+## How to Use PocketQuest
+
+To run PocketQuest, install the following Python packages:
+
+```bash
+pip install xgboost numpy biopython scipy
+```
+
+For visualization, install UCSF Chimera from:  
+https://www.cgl.ucsf.edu/chimera/download.html
+
+Then, clone the repository and move into the project directory:
+
+```bash
+git clone https://github.com/annakorda/PocketQuest
+cd PocketQuest/
+```
+
+Place your PDB file(s) in the project directory and run the prediction pipeline using:
+
+```bash
+python PocketQuest.py -in input.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
+#this is an example
+```
+Where:
+- `-in`: input PDB file
+- `-prob`: probability threshold for Connolly point classification
+- `-distance`: clustering distance threshold (in Å)
+- `-size`: minimum number of points to form a valid cluster
+- `-max_residues`: maximum number of residues allowed per cluster
+- `-vis`: number of top clusters to visualize
+- `-rotate`: reorients the protein if the PDB by default is shown from above. (e.g. transmembrane proteins)
+
+The output files, including predicted pockets (`.pdb`) and visualization images (`.png`), will be saved in the `results/` directory.
 
 ### `utils/`
 Core scripts for feature engineering and internal processing:
