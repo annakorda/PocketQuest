@@ -23,23 +23,24 @@ Our training dataset is based on curated protein-ligand complexes from **Binding
 To run PocketQuest, install the following Python packages:
 
 ```bash
-pip install xgboost numpy biopython scipy
+pip install numpy pandas xgboost scikit-learn matplotlib scipy
 ```
 
 For visualization, install UCSF Chimera from:  
 https://www.cgl.ucsf.edu/chimera/download.html
 
-Then, clone the repository and move into the project directory:
+Then, clone the repository, move into the project directory and install PocketQuest:
 
 ```bash
 git clone https://github.com/annakorda/PocketQuest
 cd PocketQuest/
+pip install -e .
 ```
 
-Place your PDB file(s) in the project directory and run the prediction pipeline using:
+Now you can run the prediction pipeline using:
 
 ```bash
-python PocketQuest.py -in input.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
+pocketquest -in input.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
 #this is an example
 ```
 Where:
@@ -57,16 +58,18 @@ The output files, including predicted pockets (`.pdb`) and visualization images 
 
 ## 📂 Repository Contents
 
-### Core Executable
+###  `setup.py`
+  Allows to install the package using the command:
 
-- **`PocketQuest.py`**  
-  Runs the full binding site prediction pipeline.
   ```bash
-  python PocketQuest.py -in input.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
+  pip install -e .
   ```
+
+### `pocketquest/__main__.py`
+ Runs the full binding site prediction pipeline.
 ---
 
-### `utils/`
+### `pocketquest/utils/`
 Core scripts for feature engineering and internal processing:
 - `feature_extraction.py`: Extracts 32 structural, chemical, and residue features per Connolly point.
 - `classes.py`: Defines `Protein`, `Point`, `Atom`, and `Cluster` objects used throughout the pipeline.
@@ -75,6 +78,20 @@ Core scripts for feature engineering and internal processing:
 - `visualization.py`: Prepares `.cmd` Chimera scripts to visualize clusters.
 
 ---
+
+### `pocketquest/MSMS/`
+Utilities for Connolly surface generation:
+- `MSMS`: Binary executable for Connolly point generation.
+- `pdb_to_xyzr`: Format converter for MSMS input.
+- `atmtypenumbers`: Atom type lookup table used during preprocessing.
+
+---
+
+### `pocketquest/ML.py`  
+Processes a list of PDBs into a NumPy array of Connolly point features.
+```bash
+python ML.py pdb_list.txt output.npy
+```
 
 ### `MLTraining/`
 Model training and evaluation artifacts:
@@ -95,20 +112,6 @@ Resources and scripts for dataset preparation:
 - `other_files/`: UniProt ↔ Panther functional mappings.
 
 ---
-
-### `MSMS/`
-Utilities for Connolly surface generation:
-- `MSMS`: Binary executable for Connolly point generation.
-- `pdb_to_xyzr`: Format converter for MSMS input.
-- `atmtypenumbers`: Atom type lookup table used during preprocessing.
-
----
-
-### `ML.py`  
-Processes a list of PDBs into a NumPy array of Connolly point features.
-```bash
-python ML.py pdb_list.txt output.npy
-```
 
 ### `Assessment/`
 PocketQuest evaluation:

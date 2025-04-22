@@ -30,7 +30,6 @@ def main():
     parser.add_argument("-rotate", action="store_true", help="Rotate structure for better Chimera orientation.")
 
     args = parser.parse_args()
-    print(args)
 
     #  Capture the user's working directory to save results there
     user_run_dir = os.getcwd()
