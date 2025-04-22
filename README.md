@@ -21,7 +21,7 @@ Our training dataset is based on curated protein-ligand complexes from **Binding
 
 ## 📂 Repository Contents
 
-### 🤖 Core Executable
+### Core Executable
 
 - **`PocketQuest.py`**  
   Runs the full binding site prediction pipeline.
@@ -30,7 +30,7 @@ Our training dataset is based on curated protein-ligand complexes from **Binding
   ```
 ---
 
-### 🔧 `utils/`
+### `utils/`
 Core scripts for feature engineering and internal processing:
 - `feature_extraction.py`: Extracts 32 structural, chemical, and residue features per Connolly point.
 - `classes.py`: Defines `Protein`, `Point`, `Atom`, and `Cluster` objects used throughout the pipeline.
@@ -40,7 +40,7 @@ Core scripts for feature engineering and internal processing:
 
 ---
 
-### 🧠 `MLTraining/`
+### `MLTraining/`
 Model training and evaluation artifacts:
 - `Training.ipynb`: Jupyter notebook for Optuna tuning and model training.
 - `xgboost_binding_site_model_*.pkl/json`: Final trained XGBoost model.
@@ -48,7 +48,7 @@ Model training and evaluation artifacts:
 
 ---
 
-### 📊 `Preprocess/`
+### `Preprocess/`
 Resources and scripts for dataset preparation:
 - `Preprocessing.ipynb`: Pipeline for preparing labeled binding site datasets.
 - `binding_sites.csv`: Residue-level labels used during training.
@@ -60,7 +60,7 @@ Resources and scripts for dataset preparation:
 
 ---
 
-### 🔵 `MSMS/`
+### `MSMS/`
 Utilities for Connolly surface generation:
 - `MSMS`: Binary executable for Connolly point generation.
 - `pdb_to_xyzr`: Format converter for MSMS input.
@@ -74,7 +74,7 @@ Processes a list of PDBs into a NumPy array of Connolly point features.
 python ML.py pdb_list.txt output.npy
 ```
 
-### 🧾 `Assessment/`
+### `Assessment/`
 PocketQuest evaluation:
 - `evaluation.py`: Custom metrics to evaluate predicted clusters.
 - `batch_evaluation.log`: Score logs across test batches.
@@ -82,7 +82,7 @@ PocketQuest evaluation:
 
 ---
 
-## ✅ Input & Labeling
+## Input & Labeling
 
 - Connolly points generated with a **1.6 Å probe**.
 - Points labeled as binding if within **4.0 Å of a ligand non-H atom**.
@@ -93,7 +93,7 @@ Labels:
 
 ---
 
-## 📤 Output Files
+## Output Files
 If you clone the repository and run PocketQuest.py, two new directories will be created, files
 (contains temporary files) and **results**:
 - `results/*.pdb`: Predicted binding-site residue files.
@@ -103,7 +103,7 @@ If you clone the repository and run PocketQuest.py, two new directories will be 
 
 ---
 
-## 📩 Dataset Availability
+## Dataset Availability
 
 Due to GitHub storage limits:
 - Only scripts, logs, and trained model are provided
