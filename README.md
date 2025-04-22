@@ -1,83 +1,113 @@
-# PocketQuest
-Ligand Binding Site Prediction using Machine Learning
+# PocketQuest  
+**Ligand Binding Site Prediction using Surface Geometry and Machine Learning**
 
-This repository contains the full machine learning pipeline developed for the final project of the Structural Bioinformatics & Python courses. The aim is to predict protein-ligand binding sites from structure using surface geometry and chemical descriptors around Connolly points, trained with a GPU-accelerated XGBoost model.
+PocketQuest is a Python-based machine learning pipeline developed as the final project for the Structural Bioinformatics and Python Programming courses. It predicts protein-ligand binding sites by analyzing 3D molecular surface features at Connolly points and classifies them using an optimized XGBoost model trained on tens of millions of surface points.
 
-Due to size constraints, only the code, processed features, and trained model are provided here. Full raw .pdb datasets and molecular surface outputs can be shared via a Drive folder upon request.
+---
 
-## Project Overview
-We built a ligand binding site predictor using structural features derived from surface-accessible points of proteins (Connolly points).
+##  Project Overview
 
-Our dataset includes protein-ligand complexes from BindingDB (article-curated).
+We developed a tool that:
+- Extracts **Connolly points** from protein surfaces using MSMS.
+- Computes **geometric, chemical, and residue-based features** around each point.
+- Labels surface points as **binding vs non-binding** using ligand proximity.
+- Trains an XGBoost model with **Optuna hyperparameter optimization**.
+- Classifies and **clusters high-probability binding points**.
+- Outputs **predicted binding sites as PDB files and Chimera visualizations**.
 
-Workflow Summary:
-1. Connolly point generation via MSMS
-2. Feature extraction for each surface point
-3. Labeling of binding vs non-binding points
-4. XGBoost training with extensive Optuna hyperparameter tuning
-5. Final model used for classification of Connolly points.
-6. Connolly points predicted to belong in the binding site are clustered.
-7. Evaluation of clusters and extraction of final binding site(s).
+Our training dataset is based on curated protein-ligand complexes from **BindingDB**, covering a wide diversity of functional classes.
 
-## Repository Contents
-### utils/
+---
 
-Core scripts for processing and feature extraction:
+## 📂 Repository Contents
 
-feature_extraction.py: Generates 32 features per Connolly point
+### 🤖 Core Executable
 
-classes.py: Data objects for PDB parsing
+- **`PocketQuest.py`**  
+  Runs the full binding site prediction pipeline.
+  ```bash
+  python PocketQuest.py -in input.pdb -prob 0.9 -distance 3 -size 4 -max_residues 30 -vis 3 -rotate
+  ```
+---
 
-check_files.py: Validates input folder contents before batch runs
+### 🔧 `utils/`
+Core scripts for feature engineering and internal processing:
+- `feature_extraction.py`: Extracts 32 structural, chemical, and residue features per Connolly point.
+- `classes.py`: Defines `Protein`, `Point`, `Atom`, and `Cluster` objects used throughout the pipeline.
+- `check_files.py`: Ensures command-line inputs are valid (type-safe, accessible).
+- `make_pdb.py`: Generates cluster-specific PDBs from predicted residues.
+- `visualization.py`: Prepares `.cmd` Chimera scripts to visualize clusters.
 
-### MLTraining/
+---
 
-Model training, evaluation, and outputs:
+### 🧠 `MLTraining/`
+Model training and evaluation artifacts:
+- `Training.ipynb`: Jupyter notebook for Optuna tuning and model training.
+- `xgboost_binding_site_model_*.pkl/json`: Final trained XGBoost model.
+- `xgboost_binding_site_model_*.csv`: Feature importance scores.
 
-Training.ipynb: Main notebook for merging batches, tuning, and training
+---
 
-xgboost_binding_site_model_*.pkl/json: Final trained model in two formats
+### 📊 `Preprocess/`
+Resources and scripts for dataset preparation:
+- `Preprocessing.ipynb`: Pipeline for preparing labeled binding site datasets.
+- `binding_sites.csv`: Residue-level labels used during training.
+- `batch_content/`: Balanced `.csv` files listing PDBs per batch.
+- `cmd_scripts/`: PyMOL `.cmd` files to view known binding sites.
+- `screenshots/`: Chimera images of annotated sites.
+- `final_panther_class_counts.csv`: Functional class distribution.
+- `other_files/`: UniProt ↔ Panther functional mappings.
 
-xgboost_binding_site_model_*.csv: Feature importance rankings
+---
 
-### Preprocess/
+### 🔵 `MSMS/`
+Utilities for Connolly surface generation:
+- `MSMS`: Binary executable for Connolly point generation.
+- `pdb_to_xyzr`: Format converter for MSMS input.
+- `atmtypenumbers`: Atom type lookup table used during preprocessing.
 
-Preprocessing, mapping, and annotations:
+---
 
-Preprocessing.ipynb: From initial PDB complex files to curated PDB files with their defined binding sites
+### `ML.py`  
+Processes a list of PDBs into a NumPy array of Connolly point features.
+```bash
+python ML.py pdb_list.txt output.npy
+```
 
-binding_sites.csv: Residue-level labels for training
+### 🧾 `Assessment/`
+PocketQuest evaluation:
+- `evaluation.py`: Custom metrics to evaluate predicted clusters.
+- `batch_evaluation.log`: Score logs across test batches.
+- `class_distribution_topscoring.csv`: Top-scoring cluster distribution by function class.
 
-batch_content/: Balanced CSV files listing PDBs per batch
+---
 
-other_files/: UniProt ↔ Panther mappings and functional annotations
+## ✅ Input & Labeling
 
-cmd_scripts/: PyMOL .cmd scripts for viewing previously defined binding sites
+- Connolly points generated with a **1.6 Å probe**.
+- Points labeled as binding if within **4.0 Å of a ligand non-H atom**.
+- Over **10 million points** used for training (positive class ratio: ~5.5%).
+Labels:
+- `0 = non-binding`  
+- `1 = binding-site point`
 
-screenshots/: Chimera PNG snapshots of binding sites 
+---
 
-final_panther_class_counts.csv: Breakdown of functional classes
+## 📤 Output Files
+If you clone the repository and run PocketQuest.py, two new directories will be created, files
+(contains temporary files) and **results**:
+- `results/*.pdb`: Predicted binding-site residue files.
+- `results/results.log`: Cluster scores (based on summed probabilities).
+- `results/*.cmd`: Chimera visualization scripts.
+- `results/*.png`: Snapshot images (if `-vis` option is enabled).
 
-low_quality.txt: Structures removed due to preprocessing issues
+---
 
-### MSMS/
+## 📩 Dataset Availability
 
-Tools for Connolly surface generation:
-
-MSMS: Compiled binary for Connolly point generation
-
-pdb_to_xyzr: Converter script to prepare MSMS input
-
-atmtypenumbers: Atom-type lookup table
-
-### ML.py: 
-Main script that converts PDB batch folders into numpy arrays ready for training.
-
-## Input & Labeling Notes
-1. Connolly points are calculated using a 1.4 Å probe and mapped to residues.
-2. Points within 4.0 Å of any non-H atom of a ligand are labeled as binding.
-3. Model trained on >10 million points with a 5.5% positive class ratio.
-4. Label in numpy arrays: 0=not in binding-site, 1=in binding-site.
+Due to GitHub storage limits:
+- Only scripts, logs, and trained model are provided
+- Full datasets (raw PDBs, Connolly surfaces) can be shared upon request via Google Drive.
 
 
 
