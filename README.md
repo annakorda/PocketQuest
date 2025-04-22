@@ -89,7 +89,7 @@ Resources and scripts for dataset preparation:
 - `Preprocessing.ipynb`: Pipeline for preparing labeled binding site datasets.
 - `binding_sites.csv`: Residue-level labels used during training.
 - `batch_content/`: Balanced `.csv` files listing PDBs per batch.
-- `cmd_scripts/`: PyMOL `.cmd` files to view known binding sites.
+- `cmd_scripts/`: Chimera `.cmd` files to view known binding sites.
 - `screenshots/`: Chimera images of annotated sites.
 - `final_panther_class_counts.csv`: Functional class distribution.
 - `other_files/`: UniProt ↔ Panther functional mappings.
