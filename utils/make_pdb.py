@@ -19,7 +19,7 @@ def make_pdb(protein, clusters):
                         output += line
         pdb_file.close()
 
-        filename = "cluster_" + str(label) + ".pdb"
+        filename = f"{protein.get_name()}cluster{label}.pdb"
         output_dir = "results"
         os.makedirs(output_dir, exist_ok=True)
         output_file = os.path.join(output_dir, filename)
