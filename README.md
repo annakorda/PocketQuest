@@ -138,9 +138,7 @@ PocketQuest evaluation:
 - Connolly points generated with a **1.6 Å probe**.
 - Points labeled as binding if within **4.0 Å of a ligand non-H atom**.
 - Over **10 million points** used for training (positive class ratio: ~5.5%).
-Labels:
-- `0 = non-binding`  
-- `1 = binding-site point`
+- Labels:`0 = non-binding`  , `1 = binding-site point`
 
 ---
 
